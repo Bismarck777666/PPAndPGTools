@@ -1,0 +1,1 @@
+{"Login":{"LoginFail":"ログインに失敗しました。システムが再試行しています... (%{times}回目)","WebLoginReload":"リロード","WebLoginDismiss":"閉じる","WebLoginLoading":"ロード中","WebLoginLoadPageFailed":"ロードに失敗","WebLoginLogin":"ログイン"}}

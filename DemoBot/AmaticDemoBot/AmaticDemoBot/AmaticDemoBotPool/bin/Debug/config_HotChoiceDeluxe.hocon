@@ -1,0 +1,22 @@
+﻿amaticbotpool {
+    httpProxyList	= ["83.147.12.42:50100"]
+    socks5ProxyList	= ["83.147.12.42:50101"]
+    proxyUserID     = "valiksoin"
+    proxyPassword   = "KiRnY7DQk4"
+    gameName        = "HotChoiceDeluxe"
+    gameCategory    = 1
+    gameID          = "hotchoicedeluxe"
+    gameConfig      = 14720
+    initString      = "A/u25freeplay,freeplay,,HotChoiceDeluxe,2_0_0,,USD,2|15|3|en-US|1920|1080"
+    playmini        = 1
+    playline        = [10]
+    linetype        = 0 # (0: 10)
+    realBet         = 10
+    reelCnt         = 5,
+    freeReelCnt     = 5,
+    gameURL         = "https://cdn02.cdn.amatic.com/gmsl/mpp/amarent"
+    WssURL          = "wss://sgrator.nserve.com/games"
+    minOdd          = 0.0
+    maxOdd          = 3000.0 
+    freeOpts        = [0,1,2] 
+}

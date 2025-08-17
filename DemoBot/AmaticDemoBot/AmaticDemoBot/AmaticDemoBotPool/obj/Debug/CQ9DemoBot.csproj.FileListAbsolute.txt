@@ -1,0 +1,2 @@
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\obj\Debug\PragmaticDemoBot.exe
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\obj\Debug\PragmaticDemoBot.pdb

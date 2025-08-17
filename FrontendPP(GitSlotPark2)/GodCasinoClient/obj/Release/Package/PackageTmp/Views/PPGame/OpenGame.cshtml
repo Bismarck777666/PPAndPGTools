@@ -1,0 +1,57 @@
+﻿
+@{
+    ViewBag.Title = "OpenGame";
+}
+
+<section class="content">
+    <input type="hidden" id="error"   value="@ViewBag.error" />
+    <div style="display:none">
+        <form action="/PPGame/openGame.asp" method="post" id="redirect-form" name="redirect-form">
+            <input type="hidden" name="session"         value="@ViewBag.session" />
+            <input type="hidden" name="gametitle"       value="@ViewBag.gametitle" />
+            <input type="hidden" name="apiurl"          value="@ViewBag.apiurl" />
+            <input type="hidden" name="symbol"          value="@ViewBag.symbol" />
+            <input type="hidden" name="supportreplay"   value="@ViewBag.supportreplay" />
+            <input type="hidden" name="replayurl"       value="@ViewBag.replayurl" />
+            <input type="hidden" name="sessionkey2"     value="@ViewBag.sessionkey2" />
+            <input type="hidden" name="lang"            value="@ViewBag.lang" />
+            <input type="hidden" name="currency"        value="@ViewBag.currency" />
+            <input type="hidden" name="lobbyurl"        value="@ViewBag.lobbyurl" />      
+            <input type="hidden" name="RSAPublicKey"    value="@ViewBag.RSAPublicKey" />
+            <input type="hidden" name="RSASessionKey"   value="@ViewBag.RSASessionKey" />
+        </form>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        var error = $('#error').val();
+        if (error != "")
+        {
+            alert(error);
+            return;
+        }
+
+        var symbol = "@ViewBag.symbol";
+        if (symbol == "vs20cashmachine" || symbol == "vs20forge" || symbol == "vswaysstrlght" || symbol == "vs20hstgldngt" ||
+            symbol == "vs20jewelparty" || symbol == "vs50jucier" || symbol == "vs20splmystery" || symbol == "vs20wildparty" ||
+            symbol == "vs20stickywild" || symbol == "vs15godsofwar" || symbol == "vs40rainbowr" || symbol == "vs20gravity" ||
+            symbol == "vs20maskgame" || symbol == "vswaysraghex" || symbol == "vs20starlightx" || symbol == "vs20sugarcoins" ||
+            symbol == "vs20mysteryst" || symbol == "vs40wanderw" || symbol == "vswaystimber" || symbol == "vswayswildgang" ||
+            symbol == "vs20sugrux" || symbol == "vs20cjcluster" || symbol == "vs20olympx" || symbol == "vs20bigdawgs" ||
+            symbol == "vs20loksriches" || symbol == "vs20treesot" || symbol == "vswaysalterego" || symbol == "vs10strawberry" ||
+            symbol == "vs20multiup" || symbol == "vs20clustext" || symbol == "vs20stckwldsc" || symbol == "vs20sugarrushx" ||
+            symbol == "vs20portals" || symbol == "vs20doghouse2" || symbol == "vs20caramsort" || symbol == "vs20stickypos" ||
+            symbol == "vs20bison" || symbol == "vs20candybltz2" || symbol == "vs20heartcleo" || 
+            symbol == "vswayshexhaus" || symbol == "vs20shootstars" || symbol == "vs25wildies" || symbol == "vs20medusast" ||
+            symbol == "vswaysspltsym" || symbol == "vswaysjapan" || symbol == "vs20fruitswx") {
+            $('#redirect-form').attr('action', '/PPGame/openGameNew.asp');
+        }
+        //else if (symbol == "vs10frontrun") {
+        //    $('#redirect-form').attr('action', '/PPGame/openGameNew2.asp');
+        //}
+
+        $("#redirect-form").submit();
+    })
+</script>
+
+

@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "OpenGame";
+}
+
+<section class="content">
+    <input type="hidden" id="session" value="@ViewBag.session" />
+    <input type="hidden" id="baseurl" value="@ViewBag.baseurl" />
+    <input type="hidden" id="apiurl"  value="@ViewBag.apiurl" />
+    <input type="hidden" id="symbol"  value="@ViewBag.symbol" />
+    <input type="hidden" id="error"   value="@ViewBag.error" />
+    <input type="hidden" id="redirectUrl" value="@ViewBag.redirectUrl" />
+    <div style="display:none">
+        <form action="/PPGame/openGame.asp" method="post" id="redirect-form" name="redirect-form">
+            <input type="hidden" name="session" value="@ViewBag.session" />
+            <input type="hidden" name="apiurl" value="@ViewBag.apiurl" />
+            <input type="hidden" name="gametitle" value="@ViewBag.gametitle" />
+            <input type="hidden" name="symbol" value="@ViewBag.symbol" />
+            <input type="hidden" name="supportreplay" value="@ViewBag.supportreplay" />
+            <input type="hidden" name="replayurl"   value="@ViewBag.replayurl" />
+            <input type="hidden" name="sessionkey2" value="@ViewBag.sessionkey2" />
+            <input type="hidden" name="lang"        value="@ViewBag.lang" />
+            <input type="hidden" name="currency"    value="@ViewBag.currency" />
+        </form>
+    </div>
+</section>
+@{
+<script>
+    $(document).ready(function () {
+        var error = $('#error').val();
+                if (error != "") {
+            alert(error);
+            return;
+        }
+        $("#redirect-form").submit();
+            });
+</script>
+}
+
+

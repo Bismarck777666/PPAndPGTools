@@ -1,0 +1,756 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+https://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <_PublishTargetUrl>E:\work\work_by_category\Slot\Publish\GameAmaticSeamless</_PublishTargetUrl>
+    <History>True|2024-05-11T19:50:51.0774869Z;True|2024-05-11T22:30:41.2873986+03:00;True|2024-03-27T14:48:32.6814897+03:00;True|2024-03-22T14:25:15.9801459+03:00;</History>
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="AmaticGame/amarent/fixed_5.css">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/amarent/src/proxy.js">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/amarent/src/settings.js">
+      <publishTime>01/16/2024 11:52:32</publishTime>
+    </File>
+    <File Include="AmaticGame/amarent/src/webgl-2d.js">
+      <publishTime>01/16/2024 11:52:32</publishTime>
+    </File>
+    <File Include="AmaticGame/amarent/src/wildsharkloader_00447519.js">
+      <publishTime>01/16/2024 11:52:32</publishTime>
+    </File>
+    <File Include="AmaticGame/amarent/WildShark.html">
+      <publishTime>01/16/2024 11:52:32</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/images/800_600/btn_continue.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/audio_on.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/auto_off.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/auto_on.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/btn.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/gambleprop.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/gamble_off.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/gamble_on.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/maxstep.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/panel_in.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/panel_out.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/silence.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step1.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step10.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step11.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step12.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step2.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step3.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step4.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step5.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step6.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step7.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step8.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/basic/sounds/step9.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/images/800_600/blue_orig.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/images/800_600/gamble.json">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/images/800_600/gamble.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/images/800_600/red_orig.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/sounds/deal_2.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/sounds/win1.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/sounds/win2.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/gamble/sounds/win3.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/images/800_600/firework.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/images/800_600/gui_desktop_v27.json">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/images/800_600/gui_desktop_v27.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/images/800_600/wins.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/bigwin.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/collect.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/collect1.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/countup11.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/countup12.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/countup13.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/countup14.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/freespinendmelody.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/freespinwaiting.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/megawin.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/nicewin.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/winfinal.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/slot/sounds/winline.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/freespin.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/freespin_help.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/freespin_help_top.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/freespin_info_end.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/freespin_info_start.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/freespin_winPanel.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/gamble.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/icon_out.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/load_amanet.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/main.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim1.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim10.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim11.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim12.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim13.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim2.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim3.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim4.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim5.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim6.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim7.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim8.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbanim9.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbols.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbols.json">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbols_small.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/symbol_help.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/winPanel.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/wl.png">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/wlhelp.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/wthelp.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/images/800_600/wthelptop.jpg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/addfreespin.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/bonuschance1.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/bonuschance2.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/bonuschance3.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/freespininit.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/freespinmelody.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/onstart.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/reels.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/stop_reel2.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb1.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb10.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb11.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb2.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb3.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb4.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb5.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb6.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb7.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb8.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/sounds/symb9.ogg">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="AmaticGame/wildshark/src/wildshark_00447519.js">
+      <publishTime>01/16/2024 11:52:34</publishTime>
+    </File>
+    <File Include="assets/gamelist/SlotdiamondBNGGameList.txt">
+      <publishTime>03/07/2022 14:51:10</publishTime>
+    </File>
+    <File Include="assets/gamelist/SlotDiamondCQ9GameList.txt">
+      <publishTime>03/07/2022 14:51:10</publishTime>
+    </File>
+    <File Include="assets/gamelist/SlotdiamondPPGameList.txt">
+      <publishTime>03/07/2022 14:51:10</publishTime>
+    </File>
+    <File Include="assets/img/error.PNG">
+      <publishTime>03/04/2022 18:40:16</publishTime>
+    </File>
+    <File Include="assets/img/tristesse.png">
+      <publishTime>06/25/2022 15:27:49</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.dll">
+      <publishTime>09/10/2013 17:29:20</publishTime>
+    </File>
+    <File Include="bin/Antlr3.Runtime.pdb">
+      <publishTime>09/10/2013 17:29:20</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.dll">
+      <publishTime>04/16/2020 20:38:42</publishTime>
+    </File>
+    <File Include="bin/EntityFramework.SqlServer.dll">
+      <publishTime>04/16/2020 20:38:56</publishTime>
+    </File>
+    <File Include="bin/GitGamingAmaticSeamless.dll">
+      <publishTime>05/11/2024 22:50:50</publishTime>
+    </File>
+    <File Include="bin/GitGamingAmaticSeamless.pdb">
+      <publishTime>05/11/2024 22:50:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Antiforgery.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Cryptography.Internal.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.DataProtection.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.DataProtection.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Hosting.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Hosting.Server.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Extensions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.Http.Features.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.AspNetCore.WebUtilities.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll">
+      <publishTime>09/05/2018 16:10:50</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Configuration.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.DependencyInjection.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.FileProviders.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Hosting.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Logging.Abstractions.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.ObjectPool.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Options.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Extensions.Primitives.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Net.Http.Headers.dll">
+      <publishTime>07/25/2017 00:48:04</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Web.Infrastructure.dll">
+      <publishTime>07/25/2012 12:48:56</publishTime>
+    </File>
+    <File Include="bin/Microsoft.Win32.Registry.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/Newtonsoft.Json.dll">
+      <publishTime>04/22/2019 01:06:16</publishTime>
+    </File>
+    <File Include="bin/Owin.dll">
+      <publishTime>11/13/2012 12:19:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.exe.config">
+      <publishTime>08/08/2018 12:18:12</publishTime>
+    </File>
+    <File Include="bin/roslyn/csc.rsp">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.exe.config">
+      <publishTime>08/08/2018 12:18:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/csi.rsp">
+      <publishTime>08/08/2018 12:09:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Build.Tasks.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.CSharp.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.Scripting.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CodeAnalysis.VisualBasic.dll">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.CSharp.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.amd64.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.DiaSymReader.Native.x86.dll">
+      <publishTime>12/05/2017 09:36:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Managed.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.VisualBasic.Core.targets">
+      <publishTime>08/08/2018 12:09:42</publishTime>
+    </File>
+    <File Include="bin/roslyn/Microsoft.Win32.Primitives.dll">
+      <publishTime>11/05/2016 18:55:32</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.AppContext.dll">
+      <publishTime>11/05/2016 18:55:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Collections.Immutable.dll">
+      <publishTime>05/16/2018 03:29:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Console.dll">
+      <publishTime>11/05/2016 18:55:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.DiagnosticSource.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.FileVersionInfo.dll">
+      <publishTime>11/05/2016 18:55:56</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Diagnostics.StackTrace.dll">
+      <publishTime>11/05/2016 18:55:52</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Globalization.Calendars.dll">
+      <publishTime>11/05/2016 18:56:02</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.Compression.ZipFile.dll">
+      <publishTime>11/05/2016 18:56:04</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.IO.FileSystem.Primitives.dll">
+      <publishTime>11/05/2016 18:56:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Http.dll">
+      <publishTime>11/05/2016 18:56:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Net.Sockets.dll">
+      <publishTime>11/05/2016 18:56:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Reflection.Metadata.dll">
+      <publishTime>05/16/2018 03:29:44</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Runtime.InteropServices.RuntimeInformation.dll">
+      <publishTime>11/05/2016 18:57:00</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Algorithms.dll">
+      <publishTime>11/05/2016 18:57:14</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Encoding.dll">
+      <publishTime>11/05/2016 18:57:08</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.Primitives.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Security.Cryptography.X509Certificates.dll">
+      <publishTime>11/05/2016 18:57:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Text.Encoding.CodePages.dll">
+      <publishTime>11/05/2016 18:57:20</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Threading.Tasks.Extensions.dll">
+      <publishTime>11/05/2016 18:57:24</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.ValueTuple.dll">
+      <publishTime>11/05/2016 18:57:30</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.ReaderWriter.dll">
+      <publishTime>11/05/2016 18:57:36</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XmlDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.dll">
+      <publishTime>11/05/2016 18:57:40</publishTime>
+    </File>
+    <File Include="bin/roslyn/System.Xml.XPath.XDocument.dll">
+      <publishTime>11/05/2016 18:57:34</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.exe.config">
+      <publishTime>08/08/2018 12:18:18</publishTime>
+    </File>
+    <File Include="bin/roslyn/vbc.rsp">
+      <publishTime>08/08/2018 12:09:46</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe">
+      <publishTime>08/08/2018 05:38:48</publishTime>
+    </File>
+    <File Include="bin/roslyn/VBCSCompiler.exe.config">
+      <publishTime>08/08/2018 12:18:16</publishTime>
+    </File>
+    <File Include="bin/System.Buffers.dll">
+      <publishTime>07/19/2017 10:01:28</publishTime>
+    </File>
+    <File Include="bin/System.Runtime.CompilerServices.Unsafe.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.AccessControl.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="bin/System.Security.Cryptography.Xml.dll">
+      <publishTime>07/19/2017 10:01:32</publishTime>
+    </File>
+    <File Include="bin/System.Security.Principal.Windows.dll">
+      <publishTime>07/19/2017 10:01:34</publishTime>
+    </File>
+    <File Include="bin/System.Text.Encodings.Web.dll">
+      <publishTime>07/19/2017 10:01:30</publishTime>
+    </File>
+    <File Include="bin/System.Web.Helpers.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.Mvc.dll">
+      <publishTime>11/28/2018 12:59:46</publishTime>
+    </File>
+    <File Include="bin/System.Web.Optimization.dll">
+      <publishTime>02/11/2014 16:26:04</publishTime>
+    </File>
+    <File Include="bin/System.Web.Razor.dll">
+      <publishTime>11/28/2018 13:00:12</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Deployment.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/System.Web.WebPages.Razor.dll">
+      <publishTime>11/28/2018 13:04:24</publishTime>
+    </File>
+    <File Include="bin/WebGrease.dll">
+      <publishTime>01/23/2014 14:57:34</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.css.map">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap-theme.min.css.map">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.css.map">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Content/bootstrap.min.css.map">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Content/Site.css">
+      <publishTime>03/30/2021 17:19:18</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>03/30/2021 17:19:18</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.eot">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.svg">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.ttf">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="fonts/glyphicons-halflings-regular.woff2">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Global.asax">
+      <publishTime>03/30/2021 17:19:18</publishTime>
+    </File>
+    <File Include="js/bootstrap.js">
+      <publishTime>11/27/2018 16:38:20</publishTime>
+    </File>
+    <File Include="js/bootstrap.min.js">
+      <publishTime>11/27/2018 16:38:20</publishTime>
+    </File>
+    <File Include="js/jquery.min.js">
+      <publishTime>11/27/2018 16:38:20</publishTime>
+    </File>
+    <File Include="js/owl.carousel.js">
+      <publishTime>11/27/2018 16:38:20</publishTime>
+    </File>
+    <File Include="js/wow.min.js">
+      <publishTime>11/27/2018 16:38:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.js">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Scripts/bootstrap.min.js">
+      <publishTime>03/30/2021 17:19:20</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.js">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.js">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.min.map">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.js">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.js">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery-3.4.1.slim.min.map">
+      <publishTime>03/30/2021 17:19:22</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.js">
+      <publishTime>03/30/2021 17:19:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.min.js">
+      <publishTime>03/30/2021 17:19:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.js">
+      <publishTime>03/30/2021 17:19:24</publishTime>
+    </File>
+    <File Include="Scripts/jquery.validate.unobtrusive.min.js">
+      <publishTime>03/30/2021 17:19:24</publishTime>
+    </File>
+    <File Include="Scripts/modernizr-2.8.3.js">
+      <publishTime>03/30/2021 17:19:24</publishTime>
+    </File>
+    <File Include="Views/AmaticGame/NotReadyPage.cshtml">
+      <publishTime>03/21/2024 05:46:28</publishTime>
+    </File>
+    <File Include="Views/AmaticGame/OpenGame.cshtml">
+      <publishTime>05/11/2024 22:28:53</publishTime>
+    </File>
+    <File Include="Views/Shared/Error.cshtml">
+      <publishTime>03/30/2021 17:19:18</publishTime>
+    </File>
+    <File Include="Views/Shared/_BlankLayout.cshtml">
+      <publishTime>04/13/2023 09:54:23</publishTime>
+    </File>
+    <File Include="Views/Shared/_Layout.cshtml">
+      <publishTime>06/25/2022 13:50:13</publishTime>
+    </File>
+    <File Include="Views/Web.config">
+      <publishTime>03/30/2021 23:40:08</publishTime>
+    </File>
+    <File Include="Views/_ViewStart.cshtml">
+      <publishTime>03/30/2021 17:19:18</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>05/11/2024 22:30:41</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

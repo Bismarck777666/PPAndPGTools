@@ -1,0 +1,10 @@
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\bin\Debug\PragmaticPlayAutomationTool.exe.config
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\bin\Debug\PragmaticPlayAutomationTool.exe
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\bin\Debug\PragmaticPlayAutomationTool.pdb
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\bin\Debug\Newtonsoft.Json.dll
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\bin\Debug\Newtonsoft.Json.xml
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\obj\Debug\PragmaticPlayAutomationTool.csproj.AssemblyReference.cache
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\obj\Debug\PragmaticPlayAutomationTool.csproj.CoreCompileInputs.cache
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\obj\Debug\PragmaticPlayAutomationTool.csproj.CopyComplete
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\obj\Debug\PragmaticPlayAutomationTool.exe
+F:\Jobs\GodCasino\GodCasinoServer\PragmaticPlayAutomationTool\obj\Debug\PragmaticPlayAutomationTool.pdb

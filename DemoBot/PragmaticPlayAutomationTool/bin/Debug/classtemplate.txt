@@ -1,0 +1,151 @@
+using GITProtocol;
+using PCGSharp;
+using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace SlotGamesNode.GameLogics
+{
+    class ***ClassName*** : BasePPSlotGame
+    {
+        #region 게임고유속성값
+        protected override string SymbolName
+        {
+            get
+            {
+                return "***SymbolName***";
+            }
+        }
+        protected override bool SupportReplay
+        {
+            get
+            {
+                return ***SupportReplay***;
+            }
+        }
+        protected override int ClientReqLineCount
+        {
+            get { return ***ClientLineCount***; }
+        }
+        protected override int ServerResLineCount
+        {
+            get { return ***ServerLineCount***; }
+        }
+        protected override int ROWS
+        {
+            get
+            {
+                return ***ROWS***;
+            }
+        }
+        protected override string InitDataString
+        {
+            get
+            {
+                return "***InitString***";
+            }
+        }
+	***PurchaseStart***
+        protected override double PurchaseFreeMultiple
+        {
+            get { return ***PurchaseMultiple***; }
+        }
+        protected override bool SupportPurchaseFree
+        {
+            get { return true; }
+        }
+        protected override bool HasPurEnableOption
+        {
+            get { return true; }
+        }
+	***PurchaseEnd***
+	***AnteStart***
+        protected override double MoreBetMultiple
+        {
+            get { return ***AnteMultiple***; }
+        }
+        protected override bool SupportMoreBet
+        {
+            get { return true; }
+        }
+	***AnteEnd***
+        #endregion
+        public ***ClassName***()
+        {
+            _gameID = GAMEID.***GameID***;
+            GameName = "***GameID***";
+        }
+        protected override void setupDefaultResultParams(Dictionary<string, string> dicParams, double userBalance, int index, int counter)
+        {
+            base.setupDefaultResultParams(dicParams, userBalance, index, counter);
+	    ***DefaultParams***
+        }
+        protected override void convertWinsByBet(Dictionary<string, string> dicParams, float currentBet)
+        {
+            base.convertWinsByBet(dicParams, currentBet);
+        }
+	***ReadBetInfoStart***
+        protected override void readBetInfoFromMessage(GITMessage message, string strUserID)
+        {
+            try
+            {
+                BasePPSlotBetInfo betInfo = new BasePPSlotBetInfo();
+                betInfo.BetPerLine = (float)message.Pop();
+                betInfo.LineCount = (int)message.Pop();
+		***ReadAnteInfoStart***
+                int bl = (int)message.Pop();
+                if (bl == 0)
+                    betInfo.MoreBet = false;
+                else
+                    betInfo.MoreBet = true;
+		***ReadAnteInfoEnd***
+		***ReadPurchaseStart***
+                if (message.DataNum >= 3)
+                    betInfo.PurchaseFree = true;
+                else
+                    betInfo.PurchaseFree = false;
+		***ReadPurchaseEnd***
+                if (betInfo.BetPerLine <= 0.0f)
+                {
+                    _logger.Error("{0} betInfo.BetPerLine <= 0 in ***ClassName***::readBetInfoFromMessage {1}", strUserID, betInfo.BetPerLine);
+                    return;
+                }
+		***ReadAntePurchaseStart***
+                if (betInfo.MoreBet && betInfo.PurchaseFree)
+                {
+                    _logger.Error("{0} betInfo.MoreBet and  PurchasedFreeSpin is same time true in ***ClassName***::readBetInfoFromMessage", strUserID);
+                    return;
+                }
+		***ReadAntePurchaseEnd***
+                if (betInfo.LineCount != this.ClientReqLineCount)
+                {
+                    _logger.Error("{0} betInfo.LineCount is not matched {1}", strUserID, betInfo.LineCount);
+                    return;
+                }
+
+                BasePPSlotBetInfo oldBetInfo = null;
+                if (_dicUserBetInfos.TryGetValue(strUserID, out oldBetInfo))
+                {
+                    if (oldBetInfo.HasRemainResponse)
+                        return;
+
+                    oldBetInfo.BetPerLine   = betInfo.BetPerLine;
+                    oldBetInfo.LineCount    = betInfo.LineCount;
+                    oldBetInfo.MoreBet      = betInfo.MoreBet;
+                    oldBetInfo.PurchaseFree = betInfo.PurchaseFree;
+                }
+                else
+                {
+                    _dicUserBetInfos.Add(strUserID, betInfo);
+                }
+            }
+            catch (Exception ex)
+            {
+                _logger.Error("Exception has been occurred in ***ClassName***::readBetInfoFromMessage {0}", ex);
+            }
+        }
+	***ReadBetInfoEnd***
+    }
+}

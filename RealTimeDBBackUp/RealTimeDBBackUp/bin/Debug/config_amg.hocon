@@ -1,0 +1,45 @@
+﻿dbbackup{
+	actorsystem: "gitgamingback" #POPULATE NAME OF YOUR ACTOR SYSTEM HERE
+	database {
+		ip			= "127.0.0.1"
+		port		= 1433
+		user		= "sa"
+		pass		= "akduifwkro1988$$$"
+		dbname		= "gitslotpark_amg"
+	}
+	sourcedatabase {
+			dbtype		= 2	# 0: PP, 1: PG, 2: AM
+			ip			= "136.243.6.94"
+			port		= 1433
+			user		= "sa"
+			pass		= "akduifwkro1988$$$"
+			dbname		= "gitslotamatic_seamless"
+		}
+	}
+}
+
+akka {
+	loggers = ["Akka.Logger.NLog.NLogLogger, Akka.Logger.NLog"]
+	actor {
+		provider = cluster
+		deployment {            								
+			/dbWriter {
+				router 			= consistent-hashing-pool
+				nr-of-instances = 5
+			}
+		}
+	}
+						
+	remote {
+		dot-netty.tcp {
+				hostname = "127.0.0.1"
+				port     = 8291
+				maximum-frame-size = 2048000b
+			}
+	}			
+
+	cluster {
+		seed-nodes = ["akka.tcp://gitgamingback@127.0.0.1:8291"]
+		roles = ["dbbackup"]
+	}
+}

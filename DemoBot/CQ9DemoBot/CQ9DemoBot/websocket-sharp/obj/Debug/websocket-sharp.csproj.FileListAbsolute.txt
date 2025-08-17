@@ -1,0 +1,5 @@
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\CQ9DemoBot\websocket-sharp\bin\Debug\websocket-sharp.dll
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\CQ9DemoBot\websocket-sharp\bin\Debug\websocket-sharp.pdb
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\CQ9DemoBot\websocket-sharp\obj\Debug\websocket-sharp.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\CQ9DemoBot\websocket-sharp\obj\Debug\websocket-sharp.dll
+E:\work\work_by_category\Slot\PPServer\CQ9DemoBot\CQ9DemoBot\websocket-sharp\obj\Debug\websocket-sharp.pdb

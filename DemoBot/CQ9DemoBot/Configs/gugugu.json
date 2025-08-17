@@ -1,0 +1,683 @@
+  {
+    "Type": 1,
+    "ID": 111,
+    "Version": 0,
+    "ErrorCode": 0,
+    "DenomDefine": [
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100,
+      100
+    ],
+    "BetButton": [
+      30,
+      50,
+      100,
+      300,
+      600,
+      1250,
+      5,
+      8,
+      10,
+      20
+    ],
+    "DefaultDenomIdx": 4,
+    "MaxBet": 1250,
+    "MaxLine": 15,
+    "WinLimitLock": 150000000,
+    "DollarSignId": 1,
+    "EmulatorType": 3,
+    "GameExtraDataCount": 0,
+    "ExtraData": null,
+    "ExtendFeatureByGame": null,
+    "ExtendFeatureByGame2": null,
+    "IsReelPayType": true,
+    "Cobrand": null,
+    "PlayerOrderURL": null,
+    "PromotionData": null,
+    "IsShowFreehand": false,
+    "IsAllowFreehand": false,
+    "FeedbackURL": null,
+    "UserAccount": "guest123",
+    "DenomMultiple": 10000,
+    "FreeTicketList": null,
+    "FreeSpinLeftTimesInfoList": null,
+    "RecommendList": null,
+    "Currency": "CNY",
+    "MemberSystemInfo": null
+  }
+
+  {
+    "Type": 1,
+    "ID": 112,
+    "Version": 0,
+    "ErrorCode": 0,
+    "BGStripStartID": 0,
+    "FGStripStartID": 50,
+    "BGStripCount": 3,
+    "BGContext": [
+        [
+        "iDzLHvlDZPu8V2wLRFbDa608VGKaUAQ2eKsm3SvyQeHTFu7usJ0LIxfSeT2xUWh3svdJCxtBBZmi6x4WDMRG1XgOMDCNUoMWq5IRR1ATK5ecQa45EIRT38oKPeKjDMavzrb/Wa3W676F/OeHFGsHNOpdfcyoTJlh5j4luQ==",
+        "wlQhVOUgUIaM2xuTAJ1iqkVdARZrIcn6CK9i+1FIovmomxe1AI8nD8arcRrMf6du0VFUOZnRsu0FaoHmNUgIMTir1UOMAR3SkMOGx7Q7kkmkRgHIE2WzfxZj73py9jYN/bhOEdd2BMH9pPPw+71run96Ns3OkbdAkaSFjQ==",
+        "jmQYiSUmxABFnRpyTglOfCgd6Wbs75fRQhO3+m/cdXDVognVEhCFkSZhvyscY1lVJ8JRYbN4U4lWvJerYRtp+ssi4DVX6FWgDPOcayU969F8XB72EPvdDNcHSauCrWHHObki4kZwZ9YttIPz50J8RN82sgaXozdYpAO8nFv7sQwQpMRkVfOVbSJfsnc=",
+        "eXKjjSp6sJEfbH6EQrrR2K0A+cLv8Z7RuQTGRYgo5ZbpJh14u9Cjt8um8+Fq75TXqo4Jnjy76NBkWWdMwVNScdVpFsBAoMPypOkOj+rd7A53jU0ZeelUXM79l6zL/jj7fBOYeHV288Dct6/Mw7LOe5PPIGk/s+OmJulM4YuQbeL/DHRvxyPJBKTFeyd2FFgO0OO+dgToSCo5qlfKqqr8/YU30D4N3ENlPUidopLr8oDzcxgAGegIkGm++JaMTGslzivOqUwNfAxdoFrn",
+        "SjunBUgYL3ahxuOIIhZJgtUdUZs1YDlY7n7mhBtYrSKi6pO93cDeHU4zgpvdsA9A0MJQIHnnI1XwHxFx4Zf8lr/ruifERG5JpRZekTQWDf7y4ThBeb/FYJtrQLUJZXdEWSFV5YQlw9IQdFQ6yQmonJbveAJ9ul9V0t/hW/4XNsTtnpMUsCpUnKC9zP6oe2SqZndNTp7fGvVnLBlwnCCFL4dcfKh9ykvG6/xLf8whJMiZX535c3J2Zw5MOsg7YV3wMCntxFDEILW0D3oC6Ai8PxSuBnGO37LlmGMrcA=="
+        ],
+        [
+        "HFCBMIq34t0XCCccXoaoh0nKjUyzys3HsvS4pzW+z/a64vvp1W0Xlx366XapvdQabZKUhy+qmSoLZSRloM7IqKXPYMkHobSd8oIqfzu2tynCMn+vHvsOJosMXXP5j8oNxRBNKlTSqdcug7xeGXQ3n8ZovXwiVAO5kGCGaA==",
+        "jpe7SDKPmXyiFAkbzofkbhdG1bNEjjCPn2lYOB4t14SnFhhJHfMigvLzd1wD6XhWcNeZlqe61+ssRw0tGm+Z/fPfc/BT15zs4GOur6KbYsC6s8Q7ZYXc8Ka53B2llEw1PsQLv7LfzthkV7CJn2YxymRiFi8mPgaM0V++eA==",
+        "QdQhdV399f1vmbmiZgF9IODv4W36F3vv4UOkbs2SNCdYXHHttmgodn5IeCMtrQHNGispiGk4x3p/wU8d36lCYdbND3DNqh+UOtQXcbRzz9KJ7Z4bPwb/lm/NbEc991gvNDdySisgGa6CnX+zL6nIrNmrXDFDfVcws84sgQ==",
+        "Cm10CGoZ7jcFXKBlqSLxDtvd1Nlmy80orOOFeNDB9B4ZYbjhq6gP1BVb3f9VazBjRjtaU7ZPQxGS+aMt6EIi1DYpEfF32JQa5znNOEtAxgS03P6HrLNGxCkTytpcR2SV8zIthVpGejOquCmDWxf+yRPP0q7ZTeIBlX+DZW5kECAiNThn5TqYMPm/oSskMijNZ85YzYr3NtZqIGa9mf+E5x9GBqEh2yEPaxv/f5spQwjyl/dM1upVXsGheF6gJ4yhaaunyZoG82iKDi4b",
+        "rd24TznqDQsJLMLzi87BIizxhDP61PvFO4YWfnlzl7SxG2ANbn3vinfG22WLqwyJ29BTIBXDtt1KpAr10OVDnrXyYLQJcvl/trMaCsNDYNaQ4FWq7/GxAR6rJ4xA6Am0mXQM2kI1r4LEwh77CBZJs15MLzXAl7rvGrlvdA1i4XVsLMozbciu9MzwI1k5ws0fRaB3N2yrAoMyiokdOTCTpnMBh/tvItWcAA5aLdg1UksWjW+zLOUiG0te2aNFuYbKZKtzNIAkazBuEa5ESEnrhkaEj9oCuN2pOOckVg=="
+        ],
+        [
+        "sxFJKJG4beB3u9GaCq9oujOQ5MVuGc8ZnnyZfPAu8SJhGfOc0BwzsTH6ORo1qsAasVD/+umKVdmJLVapQNRL9SrpKejPWLfbcBEUZJao3/V2zuuC80FGYvwS9dZTHfm43OPZDX1uhPDa9RbXztfms2W/Tk9iCl6ef8ad9g==",
+        "yRQ3M5p3g0q6lFJWVT/I+3tDLZYFg0oD/4CL8TuY1xvdYeUX3A7GqXtZTQzToaLhaRYbLvyi4c1g68+SRjQfBQnl7/kUYejb+FxQ6kEvDBK2A2Gtv54HPGFn8stP93tQpQoEP0B2E8bJ0XV4bTBzW0fFs7IyJ/dpR9idig==",
+        "WmEDFMB5sIRYuJDyast0BQB1GtVuDNTeX1tT9/vAm7wGpgUQ/50Komypi2lHsZ1vz05n6Bx0EOq6rOqVrmX7cXI7txsiMSqnlM/2d4d4hKl3Cx/Ve4zX6qarWsodB/BVrv7MT8fl301kcDj3",
+        "lF7IyTyEF9XKYz2NdNtLIwVrFFQmbwxL5nROiXsli27qgPJoX98aevXGnTO0yuQatsLSWLzS/KTVMRUmbZ7lT7gVk/Mk3+jzbdizjCNbcu3/In7MOoByAaBRuwIEaYTjNCPVQOpTzhbaGa8xaSv6OM5y+Mk/3ZclhFGQEVn51i6VIK/BjAxt0PCgemPl5xDOJh0xJXKi0CPDpF2OVUK2xqSs0KYJ0QyJuX2LY3yIkIS1i39fP/RHZT6HAaWpwtMA/5XaR7zNd41g30Ay",
+        "TneSxCgOXKLT2mEy4riVLQh9U4iX6NgKmUFVDB9YaUSwt4z2edNsRdVo3SnEnOlx80nVBoxAPDnaHrDGOWdLZ+J9XMqGLypVZ1YJMIR4XnzO81KaE3uJ/yh/xt4jAuxf7PyXmzBxvhBt8O6FwwTb34+jWsbVvJrGENDBab06crrFOFDvJ9yFTO6eLQnhYPUu1SmqvZ3HTDUlsy7/cF2QNvobz4djwtQU3Fg8TeJsLIWHp3N7Q8uReAnrf7A9rVQ3evNyBMlQRdjrumzIYuQnNqDZnbmJYgsMmYdhwg=="
+        ]
+    ],
+    "FGStripCount": 3,
+    "FGContext": [
+        [
+        "HxDVnxufiNsdJGt7EhDhqWOsRlHRsuG1djvoKNtTAnt7NIl2lguNDzdi4oEevfcZoAeh9KSpHHh+P4gtXfc9HW81dfP9J0J6kSAqzFxbk+qa4hI+48Z3LQ3y8Fn2xmJ3fSxadJxfCSRDFbrB+JjMF7+3nDiDLoBxMA4RFOG8ypMyEGRRCnbxpN80heo76oSF/hFt6cSxHcIqSJ6CqR5k76q59znGpTIt2uSOxQ==",
+        "oTBm8KkkBmMb6EY4zNfj+QKS3dy5D16WJIBLxXhi13+4X5vtfG6AoWQNjQMA+FrXPETl/Avun3Yzm3P9Wt9WIfXbeK7y55/uNiQ8hC9AOL08hhSMOBGLKZ66o1BqcDfF7QgELTOkwh5Sr62y56GhMsUZ0+niB/gFECmrEG1xvl1xzQ1nS6BN7h3M8cIsx0qhljJD4iUNyqqxvrPpMo5OSXrfpmTz3Fdee2xecA==",
+        "bvGsp7Fs56OYXavCleFnreq75CAn6fquDzlmDPDNw6JRkO38NwagV3wO8hnlBsWMKsazT1OWtVHev1d2x1QAE9Ab0/kOF8Ag2DMzisbSlYD/GZZTWvo+k+0TimSPEAGckI893qVo0hpyMnG23RIKZc0XvSpDzvPF47muBTM+SCLoxPPejjuI/tGX4YxLmw8mn7rWVUmhSwzKf+7iA6IJitRYlkUxWK8bvq9ZaoFVUex1pZrkvWuJmeAvXa8=",
+        "N1fzNrlmNneVwWwIP2Mom7b3UHKZv0p3tvoogQGCstqogfGJZHU/vpaXFnDGOECocipAWDuUQr6ae6QJyEiNtaISLZ6qYAstpj7MxK7+8jwSOtZEjK0aVw+B/1ZmfVgWrdX/fF12I+dObeCpLc2qUtebH2qIgun07D8FN7+lZGrYafJ2+AAsPWK65llP/WLojPxrvs1z/n6lI29+eSRbREmOuD2URmP3xRzp1LsOV0e1QCwp/A3id0LMLkw=",
+        "D4bxwFwd18sjmQ1eEu0zhorx/NuIy+BHMPSslq2/PY6ndgW2nSGKrGUv6HohEt1w+dStKX9dv8OoQJ9+sJu+fm7gmi1w1VjCGQFfEVM+haG6Iu9lkGiywom4owu6zH1M4Bmqqt8O+yxeDquLQu+zyNHma9rZzaeMOQddt5T14of2XxxoFQY1Gugt7klzdDvMt1l15MlFv3Ln0+0MAUvENqpqLxhHnylBciBLy69qj710fUX/nk0Pqj86Yb0="
+        ],
+        [
+        "jZXwPCdO4LM6ozDm/Fk+72GZc+oEz2hezkGK5JpwPmy7Vdeu0frq80n5m0cJpAGtDX4Vz2VDgP1zG/KY54uWqJpIAlHFtpTaKMwzmLETzxgiwkFifSpCfXUE/eYWkwJ1kOaDfVYuDA/yMF00qYRf2LIvgfCqr+JCfqQ9AXRMqMCHCNhfduRrdusYwcb1lUfw0bXUjz59QF3x5BN0",
+        "NO8hFRvl1KZS3qlzVneZ4+MJK0SmQa1aSftoUlTCVD7Wmc1y2dPaWaLRYdA9RMXL86RYhVxGRWsk2iFgb9kxQFyub42qI3BbjFQGvneq6yjUwUqXQU3EoAieFpwAzsBGi3Uvwa7J+z8g5lTuIou64lIaHnuos+Gd+xTdSisdih5AaUGeQEbwKCrGLgPtJ5bLy0SOkSrxiG4mxAjRLWJ9cN3j0JGtHzgUildtjg==",
+        "14oEMVIT1HqNi3leNlQIrxhjRKm1NeLRAz11Uf9n0HjMZukSITw4NGtPhiZzAZiUGYZpUfdlKaE4TzNHUlMK8cA/kmsOUOgaae0lpxj2Li9OV+fDsVVhxOwPlTZACyaiwWxjfEO6ciUagptVFKC08QT88MfmXJgoDcwAvlcArm48Hv4bboImRvyc6taVjD/G13q3et/Ev3cDaPejdCQwNfGswm5xwnJyGX6adQ==",
+        "JDrOprOKN4esRFiHl9D/8MnKgDGUZp/xNd5lsswfvGEF84TH9c88F2MkMoLs9K1moempuye14lJiBZ65OBfND32ThXsAWRo6Dwl0KJZ7GKVUVDn3q3bxKcNyHGxteywxYpkmLiLNw7p+LNrkyABkefxo97CbS/odwop/rlCpcVCnUykKAhPSn4L8kmQSOXKhQdANO2H3vtecFPSpYsOOnaupCGFTdW1UyjZ/PA==",
+        "bhHcgvdkol8YafaorbCaTQGLIL0UqRTWsxsU38B4mPHn2OWvwRK96tFab8mOuztuanDK7h+MPV0EJy6wpAf1bC8lkAMNTh8LYe3+tU74Zycccm6fC7+sjb956RgIzs3E7VEzFjpw8l5J/MVlKtulxlbvo4tYg8hQZmu/Ns6bW6J/DjLHV7Be2NYQx8wRnuWHLXJxBzKsVyiRvFBwB3fizK+NemMhoxC4ng2Fwet0R34TXszmV6YjLJBBLfM="
+        ],
+        [
+        "1j5qSVu7FeWUByzcUl/pJGKxnBKDT3rMAxH7azPYmZj3GZU03oEqWgWlxtfqbbRjlqgjjt04/vIQWILBB3BQ5Mm9GuYCZ38w6sXgRaU1qwzvVbKWc1MjIZxagxgt5NZhJ3n9+a9w4+63vUideKOUI1n3GTvvZPbH09gBGsY3X8CHX3yL/h6gWjvRkrTPK5L05bIMC5Z+fM3RUuDc",
+        "xJPQo9Hs7m9AEcMJ5PsTXBByz6LxeYIJi3ykzLlApyGGTJUyJl7NaPBZ27b42M7rAVnJxEOdEZGBhw9VPFJuD/DFPvIJWG2QTHTn5V4zv+1tBd7pVDfk7rzHwsq+hlRCNMhaV6xptUbvzuXagyZc0lyv7zDAxMEWrRR+NuZ499WCd0fvWvR+kAIptsQl6NLMwqYj0icYkwNew+4VV1fHmpI7s+l02kHIG4YeIQ==",
+        "ITTBKwGpItqkOrHrCXLbz5VvBiUvEW+OAAg8Qxrl5rnmdUxiuoKVELqD36Rl0OoJsrzMjvgLPvvmmOz78gFFqe9bwA11zSzns3V99HdbIW8341XL99UGt3YGCZ0jtKLtXMaUlA/QT1e9UCn09pT2oDpTDE7g+Nd4W5loBkoFNVnlm8A99wvVfa0UrocH30Qk4kDeWd9VQWFLT/k9eF2GoAGvqqb7m/KSx9EHpw==",
+        "4sYDm9ngeHTLBnxr7I8r6HzUICnHWFHEhw44qQAIxyHYKPTmWn367HNfPJi8LYCqRxQUYSxa0fjd5fVyDIEniWxDE3LT2RYQ8qfxwTZVwv/hAnmskV7RJfiB8c9dDvigJPlRO6AyyaVx6pdQwskObiskxBNnK+zmAFvd2yafw/DufvIhLZrbi4Uq9MjArpPOs1hySmNpOxgKwKuJHj2VjA8DCr5ungUcOKSCxQ==",
+        "wz7N3c98j2tPni2KowkMN3i8yHGp/OIMW9wPQgjZKYq8FliQTgDLoMcjdAfgiy72E9eVQbkpMu77JZkMe6OWS4sqg607qeCQtF5RMhN+eikxbjNNyJrGy49z9iFMbUA7q7kFyUPWMrr09JlbUYpKROpNu0cMN8dxRR2hv7AonDTLysxhJKJd8l50UD8dbAQkJRHvUdjLHa2Ba1FRsrBd9hJuMTzDUCs0EVEarpKev6GTwdvzZwmG/CjgCFU="
+        ]
+    ]
+  }
+
+  {
+    [11,15,2,12,15,4,14,11,3,13,15,5,14,1,F,12,2,15,12,4,15,11,3,13,14,1,F,12,14,5,15,2,14,4,15,1,14,11,3,14,12,W],
+    [12,14,4,12,11,1,15,14,3,12,15,5,14,11,2,15,3,13,4,F,15,11,4,12,14,1,12,14,3,12,15,2,14,11,5,F,15,13,14,1,15,W],
+    [12,14,1,12,13,4,15,14,5,12,15,2,12,11,3,14,2,15,F,13,12,1,11,F,14,4,F,15,12,5,15,14,2,12,11,3,14,1,F,15,4,F,15,11,14,3,W],
+    [13,12,2,14,15,3,12,5,13,1,14,4,15,12,5,13,1,12,14,4,11,13,3,15,4,14,2,11,5,12,14,11,3,12,11,1,14,15,4,12,5,13,12,5,11,15,12,11,4,15,14,3,11,12,15,14,4,15,13,5,14,13,3,15,12,14,5,11,14,15,W],
+    [14,13,5,11,12,1,13,15,2,11,12,4,13,15,3,11,13,1,12,14,4,13,15,5,14,11,2,14,5,11,12,1,13,14,2,11,4,14,15,3,11,13,3,12,14,1,13,15,5,14,15,2,14,15,11,2,14,15,2,13,12,5,13,1,12,11,4,15,3,11,4,15,3,12,13,5,W],
+  }
+
+  F,14,1,12,2
+  F,13,4,15,11,5666
+
+  {
+    [11,15,2,12,15,4,14,11,3,13,15,5,14,1,F,12,2,15,12,4,15,11,3,13,14,1,F,12,14,5,15,2,14,4,15,1,14,11,3,14,12,W],
+    [12,14,4,12,11,1,15,14,3,12,15,5,14,11,2,15,3,13,4,F,15,11,4,12,14,1,12,14,3,12,15,2,14,11,5,F,15,13,14,1,15,W],
+    [12,14,1,12,13,4,15,14,5,12,15,2,12,11,3,14,2,15,F,13,12,1,14,4,F,15,12,5,11,3,14,1,F,15,4,F,15,11,14,3,W],
+  }
+
+  {
+    [11,15,2,12,15,4,14,11,3,13,15,5,14,1,F,12,2,15,12,4,15,11,3,13,14,1,F,12,14,5,15,2,14,4,15,1,14,11,3,14,12,W],
+    [12,14,4,12,11,1,15,14,3,12,15,5,14,11,2,15,3,13,4,F,15,11,4,12,14,1,12,14,3,12,15,2,14,11,5,F,15,13,14,1,15,W],
+    [12,14,1,12,13,4,15,14,5,12,15,2,12,11,3,14,2,15,F,13,12,1,14,4,F,15,12,5,11,3,14,1,F,15,4,F,15,11,14,3,W],
+  }
+
+
+
+
+
+
+  {"Type":3,"ID":31,"PlayLine":15,"PlayBet":5,"IsExtraBet":0,"PlayDenom":100,"MiniBet":15,"ReelPay":0}
+
+  {
+    "Type": 3,
+    "ID": 131,
+    "Version": 0,
+    "ErrorCode": 0,
+    "GamePlaySerialNumber": 4459669078,
+    "RngData": [
+      21,
+      38,
+      30,
+      33,
+      50
+    ],
+    "SymbolResult": [
+      "4,15,12,11,5",
+      "15,13,5,3,14",
+      "11,14,15,12,15"
+    ],
+    "EmulatorType": 3,
+    "WinType": 0,
+    "BaseWin": 0,
+    "TotalWin": 0,
+    "IsTriggerFG": false,
+    "NextModule": 0,
+    "WinLineCount": 0,
+    "ExtraDataCount": 1,
+    "ExtraData": [
+      0
+    ],
+    "ReellPosChg": [
+      0
+    ],
+    "BonusType": 0,
+    "SpecialAward": 0,
+    "SpecialSymbol": 0,
+    "ReelLenChange": [],
+    "ReelPay": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "IsRespin": false,
+    "RespinReels": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "Multiple": "1",
+    "NextSTable": 0,
+    "FreeSpin": [
+      0
+    ],
+    "IsHitJackPot": false,
+    "udsOutputWinLine": []
+  }
+
+  {"Type":3,"ID":31,"PlayLine":15,"PlayBet":5,"IsExtraBet":0,"PlayDenom":100,"MiniBet":15,"ReelPay":0}
+
+  {
+    "Type": 3,
+    "ID": 131,
+    "Version": 0,
+    "ErrorCode": 0,
+    "GamePlaySerialNumber": 4461266694,
+    "RngData": [
+      14,
+      21,
+      15,
+      1,
+      1
+    ],
+    "SymbolResult": [
+      "14,F,11,W,W",
+      "1,15,3,13,14",
+      "F,11,14,12,13"
+    ],
+    "EmulatorType": 1,
+    "WinType": 0,
+    "BaseWin": 0,
+    "TotalWin": 0,
+    "IsTriggerFG": false,
+    "NextModule": 0,
+    "WinLineCount": 0,
+    "ExtraDataCount": 1,
+    "ExtraData": [
+      0
+    ],
+    "ReellPosChg": [
+      0
+    ],
+    "BonusType": 0,
+    "SpecialAward": 0,
+    "SpecialSymbol": 0,
+    "ReelLenChange": [],
+    "ReelPay": [
+      0,
+      0,
+      1155,
+      0,
+      0
+    ],
+    "IsRespin": true,
+    "RespinReels": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Multiple": "1",
+    "NextSTable": 1,
+    "FreeSpin": [
+      0
+    ],
+    "IsHitJackPot": false,
+    "udsOutputWinLine": []
+  }
+
+  {"Type":3,"ID":32}
+
+  {"Type":3,"ID":132,"Version":0,"ErrorCode":0,"IsAllowFreeHand":false}
+
+  {"Type":3,"ID":31,"PlayLine":15,"PlayBet":5,"IsExtraBet":0,"PlayDenom":100,"MiniBet":15,"ReelPay":1155}
+
+  {
+    "Type": 3,
+    "ID": 131,
+    "Version": 0,
+    "ErrorCode": 0,
+    "GamePlaySerialNumber": 4461266706,
+    "RngData": [
+      14,
+      21,
+      15,
+      1,
+      1
+    ],
+    "SymbolResult": [
+      "14,F,11,W,W",
+      "1,15,3,13,14",
+      "F,11,14,12,13"
+    ],
+    "EmulatorType": 1,
+    "WinType": 0,
+    "BaseWin": 0,
+    "TotalWin": 0,
+    "IsTriggerFG": false,
+    "NextModule": 0,
+    "WinLineCount": 0,
+    "ExtraDataCount": 1,
+    "ExtraData": [
+      0
+    ],
+    "ReellPosChg": [
+      0
+    ],
+    "BonusType": 0,
+    "SpecialAward": 0,
+    "SpecialSymbol": 0,
+    "ReelLenChange": [],
+    "ReelPay": [
+      0,
+      0,
+      1920,
+      0,
+      0
+    ],
+    "IsRespin": true,
+    "RespinReels": [
+      0,
+      0,
+      1,
+      0,
+      0
+    ],
+    "Multiple": "1",
+    "NextSTable": 2,
+    "FreeSpin": [
+      0
+    ],
+    "IsHitJackPot": false,
+    "udsOutputWinLine": []
+  }
+
+
+
+  {"Type":3,"ID":44}
+
+  {
+    "Type": 3,
+    "ID": 144,
+    "Version": 0,
+    "ErrorCode": 0,
+    "PlayerBet": 5,
+    "AccumlateWinAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "MaxRound": 1,
+    "CurrentRound": 1,
+    "udcDataSet": {
+      "SelExtraData": [],
+      "SelMultiplier": [],
+      "SelSpinTimes": [],
+      "SelWin": [],
+      "PlayerSelected": [
+        0
+      ]
+    }
+  }
+
+  {"Type":3,"ID":45,"PlayerSelectState":4,"PlayerSelectIndex":0}
+  
+  {
+    "Type": 3,
+    "ID": 145,
+    "Version": 0,
+    "ErrorCode": 0,
+    "PlayerBet": 5,
+    "AccumlateWinAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "GameComplete": true,
+    "udcDataSet": {
+      "SelExtraData": [],
+      "SelMultiplier": [],
+      "SelSpinTimes": [
+        10,
+        15,
+        25
+      ],
+      "SelWin": [],
+      "PlayerSelected": [
+        0
+      ]
+    }
+  }
+
+  {"Type":3,"ID":46}
+
+  {
+    "Type": 3,
+    "ID": 146,
+    "Version": 0,
+    "ErrorCode": 0,
+    "PlayerBet": 5,
+    "TotalWinAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "NextModule": 20
+  }
+
+  {"Type":3,"ID":41}
+  
+  {
+    "Type": 3,
+    "ID": 141,
+    "Version": 0,
+    "ErrorCode": 0,
+    "PlayerBet": 5,
+    "AccumlateWinAmt": 0,
+    "AccumlateJPAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "MaxRound": 1,
+    "AwardRound": 1,
+    "CurrentRound": 1,
+    "MaxSpin": 100,
+    "AwardSpinTimes": 10,
+    "Multiple": "1",
+    "GameExtraData": ""
+  }
+
+  {"Type":3,"ID":42}
+
+  {
+    "Type": 3,
+    "ID": 142,
+    "Version": 0,
+    "ErrorCode": 0,
+    "AccumlateWinAmt": 0,
+    "AccumlateJPAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "AwardRound": 1,
+    "CurrentRound": 1,
+    "RetriggerAddRound": 0,
+    "AwardSpinTimes": 10,
+    "CurrentSpinTimes": 1,
+    "RetriggerAddSpins": 0,
+    "RngData": [
+      14,
+      21,
+      15,
+      1,
+      1
+    ],
+    "SymbolResult": [
+      "14,12,12,W,W",
+      "11,13,5,12,13",
+      "2,4,15,13,2"
+    ],
+    "EmulatorType": 1,
+    "WinType": 0,
+    "Multiple": "8",
+    "TotalWin": 0,
+    "WinLineCount": 0,
+    "ExtraDataCount": 1,
+    "ExtraData": [
+      0
+    ],
+    "ReellPosChg": [
+      0
+    ],
+    "BonusType": 0,
+    "SpecialAward": 0,
+    "SpecialSymbol": 0,
+    "ReelLenChange": [],
+    "IsRespin": false,
+    "RespinReels": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "LockPos": [],
+    "NextSTable": 0,
+    "FreeSpin": [
+      0
+    ],
+    "udsOutputWinLine": []
+  }
+
+  {
+    "Type": 3,
+    "ID": 142,
+    "Version": 0,
+    "ErrorCode": 0,
+    "AccumlateWinAmt": 0,
+    "AccumlateJPAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "AwardRound": 1,
+    "CurrentRound": 1,
+    "RetriggerAddRound": 0,
+    "AwardSpinTimes": 11,
+    "CurrentSpinTimes": 3,
+    "RetriggerAddSpins": 1,
+    "RngData": [
+      45,
+      26,
+      57,
+      33,
+      4
+    ],
+    "SymbolResult": [
+      "1,F1,13,13,11",
+      "13,11,4,11,4",
+      "15,13,15,4,12"
+    ],
+    "EmulatorType": 2,
+    "WinType": 2,
+    "Multiple": "8",
+    "TotalWin": 0,
+    "WinLineCount": 1,
+    "ExtraDataCount": 1,
+    "ExtraData": [
+      0
+    ],
+    "ReellPosChg": [
+      0
+    ],
+    "BonusType": 0,
+    "SpecialAward": 0,
+    "SpecialSymbol": 0,
+    "ReelLenChange": [],
+    "IsRespin": false,
+    "RespinReels": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "LockPos": [],
+    "NextSTable": 0,
+    "FreeSpin": [
+      1
+    ],
+    "udsOutputWinLine": [
+      {
+        "SymbolId": "F1",
+        "LinePrize": 0,
+        "NumOfKind": 1,
+        "SymbolCount": 1,
+        "WinLineNo": 999,
+        "LineMultiplier": 8,
+        "WinPosition": [
+          [
+            0,
+            1,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ],
+          [
+            0,
+            0,
+            0,
+            0,
+            0
+          ]
+        ],
+        "LineExtraData": [
+          0
+        ],
+        "LineType": 0
+      }
+    ]
+  }
+  
+  {
+    "Type": 3,
+    "ID": 142,
+    "Version": 0,
+    "ErrorCode": 0,
+    "AccumlateWinAmt": 560,
+    "AccumlateJPAmt": 0,
+    "ScatterPayFromBaseGame": 0,
+    "AwardRound": 1,
+    "CurrentRound": 1,
+    "RetriggerAddRound": 0,
+    "AwardSpinTimes": 12,
+    "CurrentSpinTimes": 12,
+    "RetriggerAddSpins": 0,
+    "RngData": [
+      25,
+      56,
+      59,
+      50,
+      20
+    ],
+    "SymbolResult": [
+      "1,11,15,1,11",
+      "14,13,14,12,4",
+      "12,2,W,14,12"
+    ],
+    "EmulatorType": 2,
+    "WinType": 0,
+    "Multiple": "8",
+    "TotalWin": 0,
+    "WinLineCount": 0,
+    "ExtraDataCount": 1,
+    "ExtraData": [
+      0
+    ],
+    "ReellPosChg": [
+      0
+    ],
+    "BonusType": 0,
+    "SpecialAward": 0,
+    "SpecialSymbol": 0,
+    "ReelLenChange": [],
+    "IsRespin": false,
+    "RespinReels": [
+      0,
+      0,
+      0,
+      0,
+      0
+    ],
+    "LockPos": [],
+    "NextSTable": 0,
+    "FreeSpin": [
+      0
+    ],
+    "udsOutputWinLine": []
+  }
+
+  {"Type":3,"ID":43}
+
+  {
+    "Type": 3,
+    "ID": 143,
+    "Version": 0,
+    "ErrorCode": 0,
+    "TotalWinAmt": 560,
+    "ScatterPayFromBaseGame": 0,
+    "NextModule": 0,
+    "GameExtraData": ""
+  }
+
+  {"Type":3,"ID":131,"Version":0,"ErrorCode":0,"GamePlaySerialNumber":4503973610,"RngData":[14,21,15,1,1],"SymbolResult":["14,F,15,W,W","1,15,F,13,14","F,11,13,12,13"],"EmulatorType":1,"WinType":2,"BaseWin":0,"TotalWin":0,"IsTriggerFG":true,"NextModule":40,"WinLineCount":1,"ExtraDataCount":1,"ExtraData":[0],"ReellPosChg":[0],"BonusType":0,"SpecialAward":0,"SpecialSymbol":0,"ReelLenChange":[],"ReelPay":[0,0,0,0,0],"IsRespin":false,"RespinReels":[0,0,0,0,0],"Multiple":"1","NextSTable":0,"FreeSpin":[0],"IsHitJackPot":false,"udsOutputWinLine":[{"SymbolId":"F","LinePrize":0,"NumOfKind":3,"SymbolCount":3,"WinLineNo":999,"LineMultiplier":1,"WinPosition":[[0,1,0,0,0],[0,0,1,0,0],[1,0,0,0,0]],"LineExtraData":[0],"LineType":0}]}
+
+
+  "12", "14", "1", "12", "13", "4", "15", "14", "5", "12", 
+  "15", "2", "12", "11", "3", "14", "2", "15", "F", "13", 
+  "12", "1", "11", "F", "14", "4", "F", "15", "12", "5", 
+  "15", "14", "2", "12", "11", "3", "14", "1", "F", "15", 
+  "4", "F", "15", "11", "14", "3", "W"
+
+
+  "12", "14", "1", "12", "13", "4", "15", "14", "5", "12",
+  "15", "2", "12", "11", "3", "14", "2", "15", "F", "13",
+  "12", "1",            "14", "4", "F", "15", "12", "5",
+                         "11", "3", "14", "1", "F", "15",
+  "4", "F", "15", "11", "14", "3", "W"
+
+
+  "12", "14", "1", "12", "13", "4", "15",
+  "F", "14", "11", "F","14","2","15","F","13","12","1","14","4","F","15","12","5","11","3","14","1","F","15","4","F","15","11","14","3","W"
+ 
+    "RngData": [
+      14,
+      37,
+      34,
+      25,
+      41
+    ],
+    "SymbolResult": [
+      "14,F,2,15,3",
+      "1,15,12,4,11",
+      "F,13,11,14,13"
+    ],
+    "RngData": [
+      14,
+      37,
+      37,
+      25,
+      41
+    ],
+    "SymbolResult": [
+      "14,F,3,15,3",
+      "1,15,14,4,11",
+      "F,13,1,14,13"
+    ],

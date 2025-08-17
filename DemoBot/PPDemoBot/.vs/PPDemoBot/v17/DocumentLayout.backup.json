@@ -1,0 +1,149 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|e:\\work\\slot\\ppserver\\demobot\\ppdemobot\\pragmaticdemobot\\newfetchers\\greatrhinomegafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\newfetchers\\greatrhinomegafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\newfetchers\\fivelionsmegafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\newfetchers\\fivelionsmegafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\newfetchers\\fivefrozencharmsmegawaysfetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\newfetchers\\fivefrozencharmsmegawaysfetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\newfetchers\\fiverabbitsmegafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\newfetchers\\fiverabbitsmegafetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\newfetchers\\euronowinrespinfetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\newfetchers\\euronowinrespinfetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\newfetchers\\sinfofetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\newfetchers\\sinfofetcher.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\pragmaticdemobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PragmaticDemoBot\\PragmaticSpinFetcher.csproj|solutionrelative:pragmaticdemobot\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GreatRhinoMegaFetcher.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\GreatRhinoMegaFetcher.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\NewFetchers\\GreatRhinoMegaFetcher.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\GreatRhinoMegaFetcher.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\NewFetchers\\GreatRhinoMegaFetcher.cs",
+              "ViewState": "AgIAAE0AAAAAAAAAAAAWwFYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T06:19:45.1Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FiveLionsMegaFetcher.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\FiveLionsMegaFetcher.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\NewFetchers\\FiveLionsMegaFetcher.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\FiveLionsMegaFetcher.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\NewFetchers\\FiveLionsMegaFetcher.cs",
+              "ViewState": "AgIAACQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T06:17:44.873Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "FiveFrozenCharmsMegawaysFetcher.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\FiveFrozenCharmsMegawaysFetcher.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\NewFetchers\\FiveFrozenCharmsMegawaysFetcher.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\FiveFrozenCharmsMegawaysFetcher.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\NewFetchers\\FiveFrozenCharmsMegawaysFetcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T06:16:53.78Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "FiveRabbitsMegaFetcher.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\FiveRabbitsMegaFetcher.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\NewFetchers\\FiveRabbitsMegaFetcher.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\FiveRabbitsMegaFetcher.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\NewFetchers\\FiveRabbitsMegaFetcher.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-17T06:15:05.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EuroNoWinRespinFetcher.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\EuroNoWinRespinFetcher.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\NewFetchers\\EuroNoWinRespinFetcher.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\EuroNoWinRespinFetcher.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\NewFetchers\\EuroNoWinRespinFetcher.cs",
+              "ViewState": "AgIAABQAAAAAAAAAAAAywFYAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:55:29.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "SInfoFetcher.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\SInfoFetcher.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\NewFetchers\\SInfoFetcher.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\NewFetchers\\SInfoFetcher.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\NewFetchers\\SInfoFetcher.cs",
+              "ViewState": "AgIAAAwAAAAAAAAAAAAAAEMAAABCAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:55:17.925Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\Program.cs",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\Program.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\Program.cs",
+              "RelativeToolTip": "PragmaticDemoBot\\Program.cs",
+              "ViewState": "AgIAAJ0DAAAAAAAAAAAAwLUDAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-07-12T15:55:12.993Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "config.hocon",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\config.hocon",
+              "RelativeDocumentMoniker": "PragmaticDemoBot\\config.hocon",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\DemoBot\\PPDemoBot\\PragmaticDemoBot\\config.hocon",
+              "RelativeToolTip": "PragmaticDemoBot\\config.hocon",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-07-12T08:39:26.809Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

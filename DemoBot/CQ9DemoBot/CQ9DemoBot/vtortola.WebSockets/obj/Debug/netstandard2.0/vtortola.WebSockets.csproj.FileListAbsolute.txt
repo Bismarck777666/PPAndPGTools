@@ -1,0 +1,9 @@
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Debug\netstandard2.0\vtortola.WebSockets.deps.json
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Debug\netstandard2.0\vtortola.WebSockets.dll
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Debug\netstandard2.0\vtortola.WebSockets.pdb
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Debug\netstandard2.0\vtortola.WebSockets.AssemblyInfoInputs.cache
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Debug\netstandard2.0\vtortola.WebSockets.AssemblyInfo.cs
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Debug\netstandard2.0\vtortola.WebSockets.csproj.CoreCompileInputs.cache
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Debug\netstandard2.0\vtortola.WebSockets.dll
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Debug\netstandard2.0\vtortola.WebSockets.pdb
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Debug\netstandard2.0\vtortola.WebSockets.csprojAssemblyReference.cache

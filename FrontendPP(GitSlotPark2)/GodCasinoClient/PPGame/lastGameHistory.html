@@ -1,0 +1,148 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <base href="/PPGame/common/game-history-client/">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width,initial-scale=0.6">
+    <meta name="google" content="notranslate">
+    <!-- meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />-->
+    <title>Game history</title>
+</head>
+<body>
+    <div id="root"></div>
+    <div id="modal-root"></div>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const paramSession = urlParams.get('session');
+        const paramAPIURL  = urlParams.get('apiurl');
+        const paramSymbol  = urlParams.get('symbol');
+        const language     = urlParams.get("lang");
+        window.token       = paramSession;
+        window.language    = language;
+        var scriptSrc = 'main.0d9f7eec.min.js';
+        var cssSrc = 'main.0d9f7eec.min.css';
+        var newSymbols = ['vs20swordofares', 'vs12bbbxmas', 'vs20drgbless', 'vs10fisheye', 'vswaysrabbits', 'vswaysfuryodin', 'vs20aztecgates',
+            'vs20gatotgates', 'vs20lcount', 'vs20dugems', 'vs20asgard', 'vswaysluckyfish', 'vs20mammoth', 'vs20superlanche', 'vswayspizza', 'vs25rlbank', 'vs20porbs',
+            'vs25spgldways', 'vs20sparta', 'vs20schristmas', 'vs20clspwrndg', 'vs20theights', 'vswayswwhex', 'vs20ltng', 'vs20gatotfury',
+            'vs20mochimon', 'vs20chickdrop', 'vs12tropicana', 'vs25archer', 'vs10snakeeyes', 'vs10powerlines', 'vs20goldclust', 'vswayswwriches', 'vswaysmorient', 'vs20pistols', 'vs25journey',
+            'vs10bbhas', 'vs20framazon', 'vs20kraken2', 'vs20doghousemh', 'vs20sknights'];
+        var newSymbols2 = ['vs50northgard', 'vs13g'];
+        var newSymbols3 = ['vs25tigerwar', 'cs5triple8gold', 'cs5moneyroll', 'cs3w', 'cs3irishcharms', 'vs1fufufu', 'vs10threestar', 'vs1ball', 'vs5spjoker', 'vs7776secrets'];
+        var newSymbols4 = ['vs25davinci', 'vs25samurai', 'vs20bl'];
+        var newSymbols5 = ['vswaysmonkey'];
+        var newSymbols6 = ['vswaysredqueen', 'vs1024moonsh', 'vs20hotzone', 'vs10gizagods', 'vs10jnmntzma', 'vswaysrsm', 'vs20excalibur', 'vs10kingofdth', 'vs20lampinf', 'vs25spotz', 'vs20stickywild', 'vs20jewelparty',
+            'vs15godsofwar', 'vswayseternity', 'vs20clustwild', 'vs9outlaw', 'vs10fdrasbf'];
+        var newSymbols7 = ['vs10bbextreme', 'vs20beefed', 'vs20procount', 'vs20splmystery', 'vs20hstgldngt', 'vs20mvwild', 'vswaysultrcoin',
+            'vswaysfrbugs', 'vs4096robber', 'vs20cashmachine', 'vs243nudge4gold', 'vs20lobcrab', 'vs50dmdcascade', 'vs50jucier',
+            'vs20piggybank', 'vs20lvlup', 'vs20forge', 'vs10trail', 'vs20candyblitz', 'vswaysbbhas', 'vs20earthquake', 'vswaysftropics',
+            'vswaystut', 'vswaysstrlght', 'vs10gdchalleng', 'vswaysincwnd', 'vswayspowzeus', 'vs20wildparty', 'vswaysrockblst', 'vs40rainbowr', 'vs20gravity', 'vs20dhcluster', 'vs40demonpots', 'vs20maskgame', 'vswaysraghex',
+            'vs40infwild', 'vs10bhallbnza', 'vswaysmoneyman', 'vs20starlightx', 'vs20sugarcoins', 'vs30catz', 'vs25romeoandjuliet', 'vs9hockey',
+            'vs20hockey', 'vs5jokerdice', 'vs20bnnzdice', 'vs20egypt', 'vs20dhdice', 'vs20rome', 'vs20mysteryst', 'vs20sugarnudge', 'vswaystimber', 'vswayshammthor'];
+        var newSymbols8 = ['vs9catz', 'vswayscfglory', 'vs20nilefort', 'vswayswildgang', 'vs10bbsplxmas', 'vswayscharms', 'vs20sugrux', 'vs10ddcbells', 'vs20cjcluster', 'vswaysfltdrgny', 'vswaysstampede', 'vs50jfmulthold', 'vs20olympx'];
+		var newSymbols9 = ['vs20mergedwndw', 'vs20bigdawgs', 'vswaysexpandng', 'vs20yotdk', 'vswaysfirewmw', 'vs10luckfort', 'vs20loksriches', 'vs20powerpays', 'vs20treesot', 'vswaysalterego', 'vs10bbfloats', 'vswaysmegareel', 'vs10strawberry'];
+		var newSymbols10 = ['vs20mmmelon', 'vs20multiup', 'vs20clustext', 'vs10bbbnz', 'vs20stckwldsc', 'vs20sugarrushx', 'vs20portals', 'vs10bburger', 'vs20doghouse2', 'vs40stckwldlvl', 'vs20caramsort', 'vs20sbpnudge', 'vs10bblotgl','vs20stickypos', 'vswaysmegahays', 'vs20bison', 'vs20lobseafd', 'vs20candybltz2', 'vs20fortbon'];
+        var newSymbols11 = ['vs20heartcleo'];
+        var newSymbols12 = ['vs10frontrun', 'vswaysspltsym', 'vswayshexhaus', 'vs20shootstars', 'vswaysjapan', 'vs10bbbrlact', 'vs20fruitswx', 'vs25wildies', 'vs20devilic', 'vs20medusast', 'vs10bbfmission', 'vswaysbkingasc'];
+        var newSymbols13 = ['vs20dede', 'vs20sulcon', 'vswayscashconv', 'vs10dgold88', 'vs20gembondx', 'vs20jhunter', 'vs10dyndigd', 'vs5jjwild', 'vs12scode', 'vs20crankit', 'vs20clustcol', 'vs20midas2','vs5hotbmult'];
+        var newSymbols14 = ['vs20mesmult', 'vs20sweetarg', 'vswaysmegwghts', 'vs20powerwild', 'vs10hottb7fs', 'vs20elevclust', 'vs20forgewilds', 'vs10bbdoubled', 'vs20trswild3', 'vs15fghtmultlv'];
+        var newSymbols15 = ['vs5luckytig', 'vswayskrakenmw', 'vs20dhcluster2', 'vswayssevenc', 'vs20procountx', 'vs10bhallbnza2', 'vs10fangfree', 'vs25ultwolgol', 'vs40wildrun', 'vs10noodles', 'vs10jokerhot', 'vs5himalaw', 'vs20clreacts', 'vs20fourmc','vs25badge'];
+        var newSymbols16 = ["vs5magicdoor","vswaysmfreya","vs25xmasparty","vs50fatfrogs","vs10dkinghp","vs20minerush","vs5bb3reeler","vswaysfreezet","vs10bbxext","vs20olympxmas","vs20rainbowrsh"];
+        var newSymbols17 = ["vs20plsmcannon","vs20irishcrown","vs10fdsnake","vswaysaztec","vswayspearls","vswaysbrickhos","vswaysbufstamp","vs10fireice","vs12bgrbspl","vs1024mahjwins","vswaysmahwblck","vswaysmahwgong","vswayssavlgnd","vswaysmodfr","vs10fortnpig","vs10fonzofff"];
+        var newSymbols18 = ["vswaysasiatrzn", "vs25luckwildpb", "vswaysmltchmgw", "vs10bbrttr", "vs10booklight", "vswaystonypzz", "vs10fortnhs", "vs10swbass", "vswayswwjoker", "vs20lightblitz", "vs10forwildly", "vs5luckytigly", "vs20dhsuper", "vswaysbandit"];
+        var newSymbols19 = ["vswayswildbrst", "vs5wfrog", "vs5tucanito", "vs20scbparty", "vs20swdicex", "vs25sleepdrag", "vs20rizkbnz", "vs9ridelightng", "vswaysresurich", "vs1dragon888", "vs20perusw", "vswaysmwss", "vs20mmuertx", "vs5luckyt1kly", "vs5luckyphnly", "vs5luckymly", "vs5luckydogly", "vs5jokerjc", "vs5jellyc", "vs20hotsake", "vs20hadex", "vs25goldrexp", "vs20olympgold", "vs20olgamesx", "vs20fpartydice", "vs10gbseries", "vs10emotiwins", "vs10cndstbnnz", "vs20fatbook", "vs4096bufkingh", "vs10bbbnz1000", "vs20jjjack", "vs15eyeofspart", "vs20wwgcluster"];
+        var newSymbols20 = ["vs10bbbbrnd", "vs10diamondrgh", "vs10fingerlfs", "vs25pfarmfp", "vs25goldpartya", "vs20gemfirefor", "vs20bigmass", "vs20gtsofhades", "vs12trpcnhour", "vswaysaztecgm", "vs20alieninv", "vswaysolwfp", "vswaysmjwl", "vs20swbonsup", "vs10chillihmr", "vs1mjokfp", "vs10piggybank", "vs9gemtrio", "vswayspompmr2", "vswaysargonts", "vs10bbrrp",];
+
+        if (newSymbols.includes(paramSymbol)) {
+            scriptSrc = 'main.08baf593.min.js';
+            cssSrc = 'main.08baf593.min.css';
+        }
+        else if (newSymbols2.includes(paramSymbol)) {
+            scriptSrc = 'main.e757c8f8.min.js';
+            cssSrc = 'main.e757c8f8.min.css';
+
+        }
+        else if (newSymbols3.includes(paramSymbol)) {
+            scriptSrc = 'main.57686396.min.js';
+            cssSrc = 'main.57686396.min.css';
+        }
+        else if (newSymbols4.includes(paramSymbol)) {
+            scriptSrc = 'main.1786abb7.min.js';
+            cssSrc = 'main.1786abb7.min.css';
+        }
+        else if (newSymbols5.includes(paramSymbol)) {
+            scriptSrc = 'main.173e42aa.min.js';
+            cssSrc = 'main.173e42aa.min.css';
+        }
+        else if (newSymbols6.includes(paramSymbol)) {
+            scriptSrc = 'main.4a88c5f8.min.js';
+            cssSrc = 'main.4a88c5f8.min.css';
+        }
+        else if (newSymbols7.includes(paramSymbol)) {
+            scriptSrc = 'main.cf152f13.min.js';
+            cssSrc = 'main.cf152f13.min.css';
+        }
+        else if (newSymbols8.includes(paramSymbol)) {
+            scriptSrc = 'main.8aacb40c.min.js';
+            cssSrc = 'main.8aacb40c.min.css';
+        }
+        else if (newSymbols9.includes(paramSymbol)) {
+            scriptSrc = 'main.29cc8fa8.min.js';
+            cssSrc = 'main.29cc8fa8.min.css';
+        }
+        else if (newSymbols10.includes(paramSymbol)) {
+            scriptSrc = 'main.568bd653.min.js';
+            cssSrc = 'main.568bd653.min.css';
+        }
+        else if (newSymbols11.includes(paramSymbol)) {
+            scriptSrc = 'main.1df22b2d.min.js';
+            cssSrc = 'main.1df22b2d.min.css';
+        }
+        else if (newSymbols12.includes(paramSymbol)) {
+            scriptSrc = 'main.2fca1803.min.js';
+            cssSrc = 'main.2fca1803.min.css';
+        }
+        else if (newSymbols13.includes(paramSymbol)) {
+            scriptSrc = 'main.3e2837ee.min.js';
+            cssSrc = 'main.3e2837ee.min.css';
+        }
+        else if (newSymbols14.includes(paramSymbol)) {
+            scriptSrc = 'main.f1c54d48.min.js';
+            cssSrc = 'main.f1c54d48.min.css';
+        }
+        else if (newSymbols15.includes(paramSymbol)) {
+            scriptSrc = 'main.f90a2ff6.min.js';
+            cssSrc = 'main.f90a2ff6.min.css';
+        }
+        else if (newSymbols16.includes(paramSymbol)) {
+            scriptSrc = 'main.e3ca408f.min.js';
+            cssSrc = 'main.e3ca408f.min.css';
+        }
+        else if (newSymbols17.includes(paramSymbol)) {
+            scriptSrc = 'main.499e86da.min.js';
+            cssSrc = 'main.499e86da.min.css';
+        }
+        else if (newSymbols18.includes(paramSymbol)) {
+            scriptSrc = 'main.9425f971.min.js';
+            cssSrc = 'main.9425f971.min.css';
+        }
+        else if (newSymbols19.includes(paramSymbol)) {
+            scriptSrc = 'main.03898afb.min.js';
+            cssSrc = 'main.03898afb.min.css';
+        }
+        else if (newSymbols20.includes(paramSymbol)) {
+            scriptSrc = 'main.07bb2331.min.js';
+            cssSrc = 'main.07bb2331.min.css';
+        }
+
+        const newCSS = document.createElement('link')
+        newCSS.href = cssSrc
+        newCSS.rel  = 'stylesheet'
+        document.head.appendChild(newCSS)
+
+        const newScript = document.createElement('script')
+        newScript.src = scriptSrc
+        document.body.appendChild(newScript)
+
+    </script>
+</body>
+</html>

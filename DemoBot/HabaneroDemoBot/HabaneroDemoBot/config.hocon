@@ -1,0 +1,20 @@
+﻿habanerobotpool {
+    httpProxyList   = []
+    socks5ProxyList = []
+    proxyUserID     = "Selvaliksoin"
+    proxyPassword   = "Z7c5JeW"
+    gameName        = "BuggyBonus"
+    gameCategory    = 0
+    gameSymbol      = "SGBuggyBonus"
+    brandgameid     = "5327ed81-8453-44d6-bdfd-455fc5866c55"
+    brandid         = "a9d542ac-c9bb-e311-93f6-80c16e0883f4"
+    playbet         = 1
+    playdenom       = 100
+    playmini        = 55
+    playline        = 1
+    realBet         = 0.55
+    gameURL         = "https://h5c.cqgame.games"
+    WssURL          = "wss://h5s.cqgame.games"
+    minOdd          = 0.0
+    freeOpts        = [] 
+}

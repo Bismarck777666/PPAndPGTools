@@ -1,0 +1,671 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    text-align: center;
+    overflow: hidden;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: #fff;
+    background-color: #000;
+}
+
+html, body, table.body, td.body {
+    width: 100%;
+    height: 100%;
+}
+
+table.body {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+td.body {
+    vertical-align: middle;
+    text-align: center;
+}
+
+div.body {
+    position: relative;
+    overflow: hidden;
+    margin: 0 auto;
+    text-align: left;
+}
+
+img {
+    border: none;
+}
+
+.background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    background: 50% 50% no-repeat;
+}
+
+.msie .background {
+    filter: alpha(opacity = 0);
+}
+
+/* Containers */
+.container {
+    position: relative;
+    z-index: 50;
+    overflow: hidden;
+}
+
+/* Message */
+.message-container {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    z-index: 1;
+}
+
+.message-container.visible {
+    z-index: 100;
+}
+
+.WebClient .hiddenWebClient {
+    display: none !important;
+}
+
+/* Tabs */
+.tabs-container {
+    top: 0 !important;
+}
+
+/* Frames */
+/*.frames-container {*/
+    /*background: url("../images/loading.gif") 50% 50% no-repeat;*/
+/*}*/
+
+.frames-container iframe {
+    position: absolute;
+    top: 0;
+    left: 0;
+    border: none;
+    z-index: 50;
+}
+
+.frames-container iframe.visible {
+    z-index: 100;
+}
+
+.frames-container iframe.invisible {
+    visibility: hidden;
+}
+
+.opera .frames-container iframe.invisible {
+    width: 1px;
+    height: 1px;
+}
+
+.chrome .frames-container iframe.invisible {
+    top: 100%;
+    left: 100%;
+}
+
+.safari .frames-container iframe.invisible {
+    width: 1px;
+    height: 1px;
+    left: 100%;
+    margin: 0 0 0 -1px;
+}
+
+.frames-container iframe.invisible.Html {
+    display: none;
+}
+
+.v11 .frames-container iframe.invisible,
+.msie .frames-container iframe.invisible {
+    visibility: visible;
+    filter: alpha(opacity = 0);
+}
+
+/* Chat */
+.chat-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+}
+
+.chat-container.invisible * {
+    width: 1px;
+    height: 1px;
+}
+
+/* Bugfixing */
+#depositArea form.advanced label {
+    padding-top: 0;
+}
+
+.msie #depositArea form.advanced label {
+    padding-top: 3px;
+}
+
+#memberProfileForm .radio,
+#withdrawalArea form.advanced .radio {
+    vertical-align: top;
+}
+
+.msie #memberProfileForm .radio,
+.msie #withdrawalArea form.advanced .radio {
+    vertical-align: middle;
+}
+
+.chrome .radio {
+    -webkit-appearance: none;
+    width: 12px;
+    height: 12px;
+    background: url("../images/backgrounds/radio-button.png") 0 0 no-repeat;
+    display: inline-block;
+    outline: none;
+    border-radius: 6px;
+}
+
+.chrome .radio:focus {
+    box-shadow: 0 0 3px #fc3;
+}
+
+.chrome .radio:checked {
+    background-position: 0 -12px;
+}
+
+.chrome .radio:disabled {
+    background-position: 0 -24px;
+}
+
+.chrome .radio:checked:disabled {
+    background-position: 0 -36px;
+}
+
+.chrome .radio:focus:disabled {
+    box-shadow: none;
+}
+
+html.frame .opera.innerBody table.with-border,
+html.frame .opera.innerBody table.with-border td {
+    border: 0 !important;
+}
+
+html.frame .opera.innerBody table.with-border {
+    border-collapse: separate;
+    border-spacing: 1px;
+    background-color: #fff;
+}
+
+html.frame .opera.innerBody table.with-border td.with-background {
+    background: #000;
+}
+
+/* Resize */
+body.minimal.inner .pageContent {
+    width: 656px;
+    height: 544px;
+    margin-left: -328px;
+    margin-top: -272px !important;
+    background-size: 100% !important;
+}
+body.minimal.outer .pageContent {
+    margin-left: -445px;
+    margin-top: -295px !important;
+}
+
+.pageContent {
+    height: 680px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -340px !important;
+}
+
+.inner .pageContent {
+    width: 820px;
+    margin-left: -410px;
+}
+
+.outer .pageContent {
+    width: 1010px;
+    margin-left: -505px;
+}
+
+body.minimal.outer #flash {
+    height: 544px !important;
+    width: 808px !important;
+}
+.outer #flash {
+    height: 680px !important;
+    width: 1010px !important;
+    margin: 0 auto;
+}
+
+/* Containers sizes */
+body.minimal div.body {
+    width: 808px;
+    height: 568px;
+    background-position: left 24px !important;
+}
+div.body {
+    width: 1010px;
+    height: 710px;
+}
+
+body.minimal .tabs-container {
+    height: 24px;
+}
+.tabs-container {
+    height: 30px;
+}
+
+
+body.minimal .message-container,
+body.minimal .frames-container,
+body.minimal .frames-container iframe,
+body.minimal .frames-container .progress-bar,
+body.minimal .chat-container {
+    height: 544px;
+    width: 656px;
+}
+body.minimal .chat-container {
+    width: 152px;
+}
+
+.message-container,
+.frames-container,
+.frames-container iframe,
+.frames-container .progress-bar,
+.chat-container {
+    height: 680px;
+    width: 820px;
+}
+
+.chat-container {
+    width: 190px;
+}
+
+/* Bug 12696 */
+#recoverArea input.input {
+    height: auto !important;
+    padding: 2px !important;
+}
+
+/* Reduced styles */
+
+/* Resize */
+body.reduced.outer #flash {
+    height: 612px !important;
+    width: 909px !important;
+    margin-top: 34px;
+}
+
+/* Containers sizes */
+body.reduced div.body {
+    width: 909px;
+    height: 639px;
+}
+
+body.reduced .tabs-container {
+    height: 27px;
+}
+
+body.reduced .message-container,
+body.reduced .frames-container,
+body.reduced .frames-container iframe,
+body.reduced .frames-container .progress-bar,
+body.reduced .chat-container {
+    height: 612px;
+}
+
+body.reduced .message-container,
+body.reduced .frames-container,
+body.reduced .frames-container iframe,
+body.reduced .frames-container .progress-bar {
+    width: 738px;
+}
+
+body.reduced .chat-container {
+    width: 171px;
+}
+
+/* 80% styles */
+
+
+body.minimal .signup #depositLobbyArea,
+body.minimal .signup #loginArea,
+body.minimal .signup #registrationArea,
+body.minimal .signup #depositArea {
+    height: 402px !important;
+    background-size: 80%;
+    zoom: 0.8; /* IE */
+    -moz-transform: scale(1); /* Firefox */
+    -moz-transform-origin: 0 0;
+    -o-transform: scale(1); /* Opera */
+    -o-transform-origin: 0 0;
+    -webkit-transform: scale(1); /* Safari And Chrome */
+    -webkit-transform-origin: 0 0;
+    transform: scale(1); /* Standard Property */
+    transform-origin: 0 0;  /* Standard Property */
+}
+
+body.minimal #statisticArea {
+    top: 32px !important;
+    width: 606px !important;
+    height: 448px !important;
+}
+
+body.minimal #statisticArea table#optionsForm,
+#statisticArea #container {
+    width: 579px !important;
+}
+
+body.GameHistory #statisticArea #gameHistoryForm #container, body.GameHistory #statisticArea #gameHistoryDetailForm #container {
+    width: 724px !important;
+}
+
+body.minimal.mozilla.outer.inner .standardArea, body.minimal.mozilla.inner .standardArea {
+    -moz-transform: scale(0.8); /* Firefox */
+    -moz-transform-origin: 0 0;
+}
+body.minimal.chrome.outer.inner .standardArea, body.minimal.chrome.inner .standardArea,
+body.minimal.safari.outer.inner .standardArea, body.minimal.safari.inner .standardArea {
+	-webkit-transform: scale(0.8);
+	-webkit-transform-origin: 0 0;
+}
+body.minimal.opera.outer.inner .standardArea, body.minimal.opera.inner .standardArea {
+	-o-transform: scale(0.8); /* Opera */
+    -o-transform-origin: 0 0;
+}
+body.minimal.msie.outer.inner .standardArea, body.minimal.msie.inner .standardArea {
+	zoom: 0.8; /* IE */
+    transform-origin: 0 0;  /* Standard Property */
+}
+
+body.minimal.inner .standardArea {
+	left: 57px;
+	top: 30px;
+}
+
+
+/*body.minimal .popupHolder {
+	height: 598px;
+}*/
+body.minimal .popupHolder .content td {
+	padding: 1px 0;
+}
+body.minimal .signup #recoverArea,
+body.minimal .signup #moreInformationArea,
+body.minimal .signup #depositLobbyArea {
+	top: 10px;
+}
+body.minimal .liveGameMessage .smallArea#depositSmallFormArea {
+	top: 187px;
+}
+
+.minimal #statisticArea .scrollBox {
+	width: 579px;
+}
+.minimal #statisticArea .scrollBox .list {
+	width: 564px;
+}
+.minimal #statisticArea .gameHistoryList,
+.minimal #statisticArea .reportList {
+	height: 190px;
+}
+.minimal #statisticArea .display {    
+    height: 140px;
+    width: 579px;
+    margin: 0 auto;
+    left: 14px;
+    margin-left: 0;
+    bottom: 0;
+}
+.minimal #statisticArea table#optionsForm .day {
+	width: 39px;
+}
+.minimal #statisticArea table#optionsForm .month {
+	width: 79px;
+}
+.minimal #statisticArea table#optionsForm .year {
+	width: 52px;
+}
+.minimal #statisticArea table#optionsForm select {
+	margin-right: 0;
+}
+.minimal #statisticArea table#optionsForm input {
+	margin-left: 3px;
+}
+.minimal #statisticArea table#optionsForm label#paymentMethodLabel {
+	margin-left: 3px;
+}
+.minimal #statisticArea table#optionsForm select#transactionPaymentMethod {
+	margin-left: 3px;
+}
+.minimal #statisticArea .display iframe,.minimal.innerBody {
+	height: 140px !important;
+}
+.minimal #statisticArea #container {
+	height: 355px;
+}
+.minimal #statisticArea .center {
+	position:relative;
+}
+.minimal.inner .wideArea div.pageTitle {
+	margin-bottom: 1px;
+}
+body.minimal #searchPanel .game {
+    width: 113px;
+}
+body.minimal #searchPanel table.findButton .button {
+    padding: 0 2px;
+}
+body.minimal #searchPanel table td {
+	padding-left: 0;
+	padding-right: 1px;
+}
+body.minimal #searchPanel .menu a,
+body.minimal #searchPanel .menu span {
+    padding-left: 2px;
+    padding-right: 2px;
+}
+/* 80% styles end */
+.outer div.pageContent,
+.inner div.pageContent {
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    user-select: none;
+}
+
+#depositBigFormArea .amount.echeckAmount {
+    margin-top: 15px !important;
+}
+
+#withdrawInfoForm .INSTADEBIT.standardArea.dialogArea .hint.userID {
+    margin-left: -95px;
+    margin-top: -90px;
+}
+#withdrawInfoForm .INSTADEBIT.standardArea.dialogArea .hint.userID div {
+    height:55px;
+}
+body.outer.lobby.chrome.mac.WebClient,
+body.outer.lobby.safari.mac.WebClient,
+body.outer.lobby.mozilla.mac.WebClient,
+body.outer.lobby.opera.mac.WebClient,
+body.outer.lobby.chrome.win.WebClient,
+body.outer.lobby.safari.win.WebClient,
+body.outer.lobby.mozilla.win.WebClient,
+body.outer.lobby.opera.win.WebClient,
+body.outer.lobby.msie.win.WebClient {
+   position: relative;
+   /*min-height: 710px;*/
+   overflow: auto;
+}
+
+.outer.reduced .pageContent {
+    margin-top: -350px !important;
+}
+.minimal.signup #depositArea .col-right .status-icon,
+.minimal.signup #profileArea .col-right .status-icon{right: 7px;}
+body.minimal.outer #flash
+{
+    width: 100% !important;
+    height: 100% !important;
+}
+
+body.minimal.mozilla.outer #mainAlignCell>.pageContent {
+    -moz-transform: scale(0.8); /* Firefox */
+    -moz-transform-origin: 0 0;
+}
+body.minimal.chrome.outer #mainAlignCell>.pageContent,
+body.minimal.safari.outer #mainAlignCell>.pageContent {
+    -webkit-transform: scale(0.8);
+    -webkit-transform-origin: 0 0;
+}
+body.minimal.opera.outer #mainAlignCell>.pageContent {
+    -o-transform: scale(0.8); /* Opera */
+    -o-transform-origin: 0 0;
+}
+body.minimal.msie.outer #mainAlignCell>.pageContent {
+    zoom: 0.8; /* IE */
+    transform-origin: 0 0;  /* Standard Property */
+}
+.unityNotSupported {
+    width: 100%;
+    height: 100%;
+    background: #fff url(../images/backgrounds/unity_unsupported.jpg) no-repeat top left;
+    position: absolute;
+    z-index: 100;
+}
+.reduced .unityNotSupported {
+    background-size: 100%;
+}
+.unsupportedText {
+    position: absolute;
+    top: 280px;
+    left: 395px;
+    width: 350px;
+    color: #443e60;
+    font-size: 18px;
+    text-align: left;
+}
+.reduced .unsupportedText {
+    width: 315px;
+    top: 250px;
+    left: 375px;
+}
+/*
+.UnityGame.WebClient .unityNotSupported .launchDesktop {
+    width: 350px !important;
+    height: 57px !important;
+    background: #fff url(../images/buttons/unity_unsupported_button.jpg) no-repeat top left;
+    display: block !important;
+    position: absolute;
+    top: 455px;
+    left: 395px;
+    cursor: pointer;
+}
+.UnityGame.WebClient.reduced .unityNotSupported .launchDesktop {
+    background-size: 100%;
+    width: 315px !important;
+    height: 51px !important;
+    left: 355px;
+}
+.UnityGame.WebClient .launchDesktop:hover {
+    background: #fff url(../images/buttons/unity_unsupported_button.jpg) no-repeat 0 -57px;
+}
+.UnityGame.WebClient.reduced .unityNotSupported .launchDesktop:hover {
+    background: #fff url(../images/buttons/unity_unsupported_button.jpg) no-repeat 0 -52px;
+    background-size: 100%;
+}
+.unityBlocker {
+    width: 100%;
+    height: 100%;
+    background: #000;
+    opacity: 0.8;
+    z-index: 60;
+    position: absolute;
+}
+.unityBlockTooltip {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    width: 375px;
+    background: #f3f3f3;
+    min-height: 60px;
+    z-index: 61;
+    padding: 16px 11px 16px 7px;
+}
+.unityBlockTooltipStep2 {
+    position: absolute;
+    top: 190px;
+    left: 15px;
+    width: 375px;
+    background: #f3f3f3;
+    min-height: 60px;
+    z-index: 61;
+    padding: 16px 11px 16px 7px;
+}
+.unityTooltipArrow,
+.unityTooltipArrowStep1{
+    width: 81px;
+    height: 84px;
+    background: url("../images/icons/arrow_animation.gif") 0 0 no-repeat;
+    margin-right: 8px;
+}
+.unityTooltipArrow {
+    float:left;
+}
+.unityTooltipArrowStep1{
+    float: right;
+}
+.closeUnityTooltip,
+.closeUnityTooltipStep1{
+    width: 12px;
+    height: 11px;
+    background: url("../images/icons/unity_tooltip.png") 0px 0px no-repeat;
+    float: right;
+    cursor: pointer;
+    opacity: 1;
+}
+.closeUnityTooltipStep1 {
+    margin-right: -90px;
+}
+.chromeUnityIcon,
+.firefoxUnityIcon {
+     width: 16px;
+     display: inline-block;
+ }
+.chromeUnityIcon {
+    height: 17px;
+    background: url("../images/icons/unity_tooltip.png") -12px 0px no-repeat;
+}
+.firefoxUnityIcon {
+    height: 14px;
+    background: url("../images/icons/firefox_unity_tooltip.png") no-repeat;
+}
+.unityTooltipText {
+    float: left;
+    width: 270px;
+    text-align: left;
+    color: #000;
+}
+.unityTooltipText h3 {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 6px;
+}
+.unityTooltipText p {
+    font-size: 14px;
+}
+.closeUnityTooltip: hover {
+   opacity: 0.9;
+}
+*/
+.closeFloat {
+   clear: both;
+}

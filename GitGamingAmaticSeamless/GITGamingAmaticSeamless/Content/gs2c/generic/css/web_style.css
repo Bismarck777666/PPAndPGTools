@@ -1,0 +1,21 @@
+@CHARSET "UTF-8";
+
+div.body {
+	background: url("../images/backgrounds/lobby.png") 0 0 no-repeat;
+}
+
+body.outer .pageContent {background-image: url("../images/backgrounds/web-outer.jpg");}
+body.outer.standard .pageContent {background-image: url("../images/backgrounds/web-outer-standard.jpg");}
+body.inner .pageContent {background-image: url("../images/backgrounds/web-inner-standard.jpg");}
+body.inner.small .pageContent {background-image: url("../images/backgrounds/web-inner-small.jpg");}
+body.inner.wide .pageContent {background-image: url("../images/backgrounds/web-inner-wide.jpg");}
+body.outer.inner .pageContent {background-image: url("../images/backgrounds/web-outer-inner.jpg");}
+
+#loginArea {
+    background-image: url("../images/backgrounds/web_login.png");
+}
+
+#loginArea .flash-message .message {
+	width: 300px;
+	padding: 110px 0 10px;
+}

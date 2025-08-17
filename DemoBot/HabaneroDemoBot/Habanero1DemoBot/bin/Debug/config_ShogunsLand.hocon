@@ -1,0 +1,19 @@
+﻿{
+    proxyList       = ["188.214.235.8:50100","188.214.235.9:50100"]
+    proxyUserID     = "valiksoin"
+    proxyPassword   = "KiRnY7DQk4"
+    gameName        = "ShogunsLand"
+    gameSymbol      = "SGShogunsLand"
+    brandgameid     = "c9da5325-9061-410b-af42-1e65de535acc"
+    clientVersion   = "1.1.15119.516"
+    lineCount       = 20
+    betLevel        = 1
+    stake           = 0.01
+    coin            = 20
+    realBet         = 0.2
+    gameURL         = "https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&mode=fun&locale=en&ifrm=1&lobbyurl=pm-closeGame"
+    minOdd          = 0.0
+    freeOpts        = []
+    gameType        = 0,#0일반,1옵션
+    purType         = 0,#0일반,1구매
+}

@@ -1,0 +1,239 @@
+﻿using PragmaticDemoBot;
+using System;
+using System.Collections.Generic;
+using System.Data.Entity.Infrastructure;
+using System.Linq;
+using System.Net.Http;
+using System.Text;
+using System.Threading.Tasks;
+
+namespace PragmaticDemoBot
+{
+    class MoneyStacksFetcher : EuroNoWinRespinFetcher
+    {
+        private int[] _freeSpinTypeCounts = new int[] { 0, 0, 0, 0, 0, 0, 0, 0 };
+
+        public MoneyStacksFetcher(string strProxyInfo, string strProxyUserID, string strProxyPassword, string strClientVersion, double realBet, bool hasAnteBet, bool isV4) :
+                base(strProxyInfo, strProxyUserID, strProxyPassword, strClientVersion, realBet, hasAnteBet, isV4)
+        {
+            _isV4 = isV4;
+        }
+        protected override bool isFreeOrBonus(SortedDictionary<string, string> dicParams)
+        {
+            bool isFreeBonus = base.isFreeOrBonus(dicParams);
+            if (isFreeBonus)
+                return true;
+
+            if (dicParams.ContainsKey("rs_p"))
+                return true;
+            return false;
+        }
+
+        private int selectMinFreeSpinType(int freespintype)
+        {
+            if (_freeSpinTypeCounts[freespintype * 2] <= _freeSpinTypeCounts[freespintype * 2 + 1])
+                return 0;
+
+            return 1;
+        }
+
+        protected override int findFreeSpinType(SortedDictionary<string, string> dicParams)
+        {
+            string psym = dicParams["psym"];
+            if (psym == null)
+                return -1;
+
+            string[] scatterArr = psym.Split('~');
+            int scaterCnt       = scatterArr[2].Split(',').Length;
+
+            if (scaterCnt == 3)
+                return 0;
+            else if (scaterCnt == 4)
+                return 1;
+            else if (scaterCnt == 5)
+                return 2;
+            else
+                return 3;
+        }
+
+        protected override async Task<string> doBonus(HttpClient httpClient, string strToken, int doBonusID)
+        {
+            KeyValuePair<string, string>[] postValues = new KeyValuePair<string, string>[]
+            {
+                            new KeyValuePair<string, string>("action", "doBonus"),
+                            new KeyValuePair<string, string>("symbol", _strGameSymbol),
+                            new KeyValuePair<string, string>("index",  _index.ToString()),
+                            new KeyValuePair<string, string>("counter",_counter.ToString()),
+                            new KeyValuePair<string, string>("repeat", "0"),
+                            new KeyValuePair<string, string>("ind", doBonusID.ToString()),
+                            new KeyValuePair<string, string>("mgckey", strToken),
+            };
+            if(doBonusID < 0)
+            {
+                postValues = new KeyValuePair<string, string>[]
+                {
+                    new KeyValuePair<string, string>("action", "doBonus"),
+                    new KeyValuePair<string, string>("symbol", _strGameSymbol),
+                    new KeyValuePair<string, string>("index",  _index.ToString()),
+                    new KeyValuePair<string, string>("counter",_counter.ToString()),
+                    new KeyValuePair<string, string>("repeat", "0"),
+                    new KeyValuePair<string, string>("mgckey", strToken),
+                };
+            }
+            FormUrlEncodedContent postContent = new FormUrlEncodedContent(postValues);
+            HttpResponseMessage message = null;
+
+            if (_isV4)
+                message = await httpClient.PostAsync(string.Format("https://{0}/gs2c/ge/v4/gameService", _strHostName), postContent);
+            else if (_isV3)
+                message = await httpClient.PostAsync(string.Format("https://{0}/gs2c/v3/gameService", _strHostName), postContent);
+            else
+                message = await httpClient.PostAsync(string.Format("https://{0}/gs2c/gameService", _strHostName), postContent);
+
+            message.EnsureSuccessStatusCode();
+
+            _index++;
+            _counter += 2;
+            return await message.Content.ReadAsStringAsync();
+        }
+
+        protected override async Task<DoSpinsResults> doSpins(HttpClient httpClient, string strToken)
+        {
+            int count = 0;
+            do
+            {
+                List<SpinResponse> responses = await doSpin(httpClient, strToken);
+                if (responses == null)
+                    return DoSpinsResults.NEEDRESTARTSESSION;
+
+                SpinDataQueue.Instance.addSpinDataToQueue(responses);
+                count++;
+
+                if(responses.Count == 1 && responses[0].SpinType == 100)
+                    return DoSpinsResults.NEEDRESTARTSESSION;
+
+                await Task.Delay(500);
+                if (count >= 500)
+                    return DoSpinsResults.NEEDRESTARTSESSION;
+
+                if (_mustStop)
+                    break;
+
+            } while (true);
+            return DoSpinsResults.USERSTOPPED;
+        }
+        protected override async Task<List<SpinResponse>> doSpin(HttpClient httpClient, string strToken)
+        {
+            List<string> strResponseHistory = new List<string>();
+            List<SpinResponse> responseList = new List<SpinResponse>();
+            string strResponse = "";
+
+            try
+            {
+                //strResponse = await sendPurSpinRequest(httpClient, strToken);
+                strResponse = await sendSpinRequest(httpClient, strToken);
+                SortedDictionary<string, string> dicParamValues = splitAndRemoveCommonResponse(strResponse);
+                string strNextAction = dicParamValues["na"];
+
+                strResponseHistory.Add(combineResponse(dicParamValues));
+                if (strNextAction == "c")
+                {
+                    await doCollect(httpClient, strToken);
+
+                    SpinResponse response = new SpinResponse();
+                    response.SpinType = 0;
+                    response.TotalWin = double.Parse(dicParamValues["tw"]);
+                    response.Response = string.Join("\n", strResponseHistory);
+                    responseList.Add(response);
+                    return responseList;
+                }
+                else if (strNextAction == "s" && !isFreeOrBonus(dicParamValues))
+                {
+                    //윈값이 0인 경우
+                    SpinResponse response = new SpinResponse();
+                    response.SpinType = 0;
+                    response.TotalWin = double.Parse(dicParamValues["tw"]);
+                    response.Response = string.Join("\n", strResponseHistory);
+                    responseList.Add(response);
+                    return responseList;
+                }
+
+                //프리스핀이나 보너스로 이행한다.
+                int     doBonusID               = -1;
+                double  beforeFreeTotalWin      = 0.0;
+                int     selectFreeSpinType      = -1;
+                int     selectedMinFreeSpinType = -1;
+                do
+                {
+                    if (strNextAction == "s")
+                    {
+                        double totalWin = 0.0;
+                        if (dicParamValues.ContainsKey("tw"))
+                            totalWin = double.Parse(dicParamValues["tw"]);
+
+                        strResponse = await sendSpinRequest(httpClient, strToken);
+                        dicParamValues = splitAndRemoveCommonResponse(strResponse);
+                        strNextAction = dicParamValues["na"];
+                        strResponseHistory.Add(combineResponse(dicParamValues, beforeFreeTotalWin));
+                    }
+                    else if (strNextAction == "b")
+                    {
+                        if (selectedMinFreeSpinType == -1)
+                        {
+                            int freeSpinType    = findFreeSpinType(dicParamValues);
+                            double totalWin     = double.Parse(dicParamValues["tw"]);
+                            SpinResponse response = new SpinResponse();
+                            response.SpinType       = 100;
+                            response.Response       = string.Join("\n", strResponseHistory.ToArray());
+                            response.TotalWin       = totalWin;
+                            response.RealWin        = totalWin;
+                            response.FreeSpinType   = freeSpinType;
+                            strResponseHistory.Clear();
+                            responseList.Add(response);
+                            beforeFreeTotalWin  = totalWin;
+                            selectedMinFreeSpinType  = selectMinFreeSpinType(freeSpinType);
+                            selectFreeSpinType  = selectedMinFreeSpinType + freeSpinType * 2;
+                            doBonusID           = selectedMinFreeSpinType;
+                            continue;
+                        }
+
+                        strResponse     = await doBonus(httpClient, strToken, doBonusID);
+                        dicParamValues  = splitAndRemoveCommonResponse(strResponse);
+                        strResponseHistory.Add(combineResponse(dicParamValues, beforeFreeTotalWin));
+                        strNextAction   = dicParamValues["na"];
+                    }
+                    else if (strNextAction == "c")
+                    {
+                        await doCollect(httpClient, strToken);
+
+                        if (selectFreeSpinType == -1)
+                        {
+                            SpinResponse response = new SpinResponse();
+                            response.SpinType = findSpinType(dicParamValues);
+                            response.TotalWin = double.Parse(dicParamValues["tw"]);
+                            response.Response = string.Join("\n", strResponseHistory.ToArray());
+                            responseList.Add(response);
+                        }
+                        else
+                        {
+                            SpinResponse response = new SpinResponse();
+                            response.SpinType = 200 + selectFreeSpinType;
+                            response.TotalWin = double.Parse(dicParamValues["tw"]) - beforeFreeTotalWin;
+                            response.Response = string.Join("\n", strResponseHistory.ToArray());
+                            responseList.Add(response);
+                            responseList[0].TotalWin = double.Parse(dicParamValues["tw"]);
+                            _freeSpinTypeCounts[selectFreeSpinType]++;
+                        }
+                        return responseList;
+                    }
+                } while (true);
+            }
+            catch (Exception ex)
+            {
+                Console.WriteLine(ex.ToString());
+                Console.WriteLine(string.Join("\n", strResponseHistory.ToArray()));
+                return null;
+            }
+        }
+    }
+}

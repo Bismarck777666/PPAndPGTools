@@ -1,0 +1,54 @@
+/* Titles */
+.FunMode div.pageTitle.login {background-image: url("../images/titles/fun_login_en.png");}
+div.pageTitle.login {background-image: url("../images/titles/real_login_en.png");}
+.FunMode div.pageTitle.registration {background-image: url("../images/titles/fun_registration_en.png");}
+.RealMode div.pageTitle.registration {background-image: url("../images/titles/real_registration_en.png");}
+div.pageTitle.registration {background-image: url("../images/titles/registration_en.png");}
+div.pageTitle.password_recovery {background-image: url("../images/titles/password_recovery_en.png");}
+div.pageTitle.cashier {background-image: url("../images/titles/cashier_en.png");}
+div.pageTitle.withdrawal_request {background-image: url("../images/titles/withdrawal_request_en.png");}
+div.pageTitle.member_profile {background-image: url("../images/titles/member_profile_en.png");}
+div.pageTitle.game_history {background-image: url("../images/titles/game_history_en.png");}
+div.pageTitle.game_activity {background-image: url("../images/titles/game_activity_en.png");}
+div.pageTitle.reconcile {background-image: url("../images/titles/reconcile_en.png");}
+div.pageTitle.withdrawal_history {background-image: url("../images/titles/withdrawal_history_en.png");}
+div.pageTitle.deposit_history {background-image: url("../images/titles/deposit_history_en.png");}
+div.pageTitle.antispam_policy {background-image: url("../images/titles/antispam_policy_en.png");}
+div.pageTitle.contact_us {background-image: url("../images/titles/contact_us_en.png");}
+div.pageTitle.terms_and_conditions {background-image: url("../images/titles/terms_and_conditions_en.png");}
+div.pageTitle.withdrawal_terms_and_conditions {background-image: url("../images/titles/withdrawal_terms_and_conditions_en.png");}
+
+/* Buttons */
+
+a.btnAgree {background-image: url("../images/buttons/agree_en.jpg");}
+
+a.btnBack {background-image: url("../images/buttons/back_en.jpg");}
+
+a.btnBackToLogin {background-image: url("../images/buttons/back_to_login_en.jpg");}
+
+a.btnCancel {background-image: url("../images/buttons/cancel_en.jpg");}
+
+a.btnChangePassword {background-image: url("../images/buttons/change_password_en.jpg");}
+
+a.btnClose {background-image: url("../images/buttons/close_en.jpg");}
+
+a.btnFunMoney {background-image: url("../images/buttons/fun_money_en.jpg");}
+
+a.btnLogin {background-image: url("../images/buttons/login_en.jpg");}
+
+a.btnNext {background-image: url("../images/buttons/next_en.jpg");}
+
+a.btnRealMoney {background-image: url("../images/buttons/real_money_en.jpg");}
+
+a.btnSubmit {background-image: url("../images/buttons/submit_en.jpg");}
+
+a.btnRegistration {background-image: url(../images/buttons/registration_en.jpg);}
+
+a.btnDepositNow {background-image: url(../images/buttons/deposit_now_en.jpg);}
+
+a.btnApprove {background-image: url("../images/buttons/approve_en.jpg");}
+
+a.btnReject {background-image: url("../images/buttons/reject_en.jpg");}
+
+a.btnDelete {background-image: url("../images/buttons/delete_en.jpg");}
+a.btnUpdate {background-image: url("../images/buttons/update_en.jpg");}

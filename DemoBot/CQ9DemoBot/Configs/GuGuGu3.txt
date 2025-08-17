@@ -1,0 +1,17 @@
+cq9botpool {
+    httpProxyList   = ["37.44.252.18:8085"]
+    socks5ProxyList = ["37.44.252.18:1085"]
+    proxyUserID     = "EURGSC3US1"
+    proxyPassword   = "UD7Xuiqe"
+    gameName        = "GuGuGu3"
+    gameCategory    = 2
+    gameID          = "180"
+    token           = "guest123"
+    playbet         = 2
+    playdenom       = 100
+    playmini        = 30
+    realBet         = 0.60
+    gameURL         = "https://h5c.cqgame.games"
+    WssURL          = "wss://h5s.cqgame.games"
+    minOdd          = 0.0
+}

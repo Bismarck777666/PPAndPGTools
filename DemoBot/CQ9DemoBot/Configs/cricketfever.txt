@@ -1,0 +1,836 @@
+{"Type":3,"ID":31,"PlayLine":1,"PlayBet":2,"IsExtraBet":0,"PlayDenom":100,"MiniBet":30,"ReelPay":0}
+{"Type":3,"ID":31,"PlayLine":1,"PlayBet":2,"IsExtraBet":0,"PlayDenom":100,"MiniBet":30,"ReelPay":0}
+{"Type":3,"ID":31,"PlayLine":1,"PlayBet":2,"IsExtraBet":0,"PlayDenom":100,"MiniBet":30,"ReelPay":0}
+
+
+{
+  "Type": 1,
+  "ID": 111,
+  "Version": 0,
+  "ErrorCode": 0,
+  "DenomDefine": [
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000
+  ],
+  "BetButton": [
+    80,
+    125,
+    250,
+    500,
+    750,
+    1250,
+    2500,
+    10,
+    30,
+    50
+  ],
+  "DefaultDenomIdx": 3,
+  "MaxBet": 2500,
+  "MaxLine": 1,
+  "WinLimitLock": 3000000000,
+  "DollarSignId": 4,
+  "EmulatorType": 0,
+  "GameExtraDataCount": 0,
+  "ExtraData": null,
+  "ExtendFeatureByGame": null,
+  "ExtendFeatureByGame2": null,
+  "IsReelPayType": false,
+  "Cobrand": null,
+  "PlayerOrderURL": "https://detail.myzsj.com/platform/?gametoken=e7126eb2dea6cf7dda2c7c0596340ceb",
+  "PromotionData": [
+    {
+      "name": "2022단오절 용호방(6/2-6/30) - 용방",
+      "promoid": "6281a4e5a1c42e00013bc19b",
+      "promourl": "https://betking.cq9web.com/zongzi_ko?utm_source=game&utm_medium=game&utm_campaign=game",
+      "imageurl": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/韓國端午_152x152.png",
+      "icon": {
+        "png": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/clip_activity_16.png",
+        "json": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/clip_activity_16.json"
+      },
+      "haslink": false
+    }
+  ],
+  "IsShowFreehand": false,
+  "IsAllowFreehand": false,
+  "FeedbackURL": "https://feedback.cq9web.com/?token=bca9ccf43386034a803e250855db72cb",
+  "UserAccount": "2917873460",
+  "DenomMultiple": 10000,
+  "FreeTicketList": null,
+  "FreeSpinLeftTimesInfoList": null,
+  "RecommendList": {
+    "recommendGameList": [
+      {
+        "type": 1,
+        "gameCode": "184",
+        "maxScore": "523032",
+        "maxMultiplier": 681,
+        "iconURL": "https://images.cq9web.com/cherry/icon/8zz928W9.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/TGabac0s.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "153",
+        "maxScore": "1775674",
+        "maxMultiplier": 578,
+        "iconURL": "https://images.cq9web.com/cherry/icon/h58qXy8j.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/OeT9w0uP.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "27",
+        "maxScore": "2510953",
+        "maxMultiplier": 454,
+        "iconURL": "https://images.cq9web.com/cherry/icon/oRmX2erV.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/g3cXfdBV.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "130",
+        "maxScore": "804472",
+        "maxMultiplier": 686,
+        "iconURL": "https://images.cq9web.com/cherry/icon/2LfJumfY.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/K9hp2Kqo.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "183",
+        "maxScore": "2446762",
+        "maxMultiplier": 659,
+        "iconURL": "https://images.cq9web.com/cherry/icon/0gSkYuoB.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/r3tXqed6.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "92",
+        "maxScore": "82698",
+        "maxMultiplier": 578,
+        "iconURL": "https://images.cq9web.com/cherry/icon/yQV8hHsM.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/pzJY9I70.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "218",
+        "maxScore": "303782",
+        "maxMultiplier": 578,
+        "iconURL": "https://images.cq9web.com/cherry/icon/tl9tGpmv.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/MUzxzkQa.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "222",
+        "maxScore": "2651007",
+        "maxMultiplier": 481,
+        "iconURL": "https://images.cq9web.com/cherry/icon/LRuR2t7j.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/yWqYvYdu.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "220",
+        "maxScore": "6506638",
+        "maxMultiplier": 1038,
+        "iconURL": "https://images.cq9web.com/cherry/icon/zaGqaVxt.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/enZOqksZ.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "212",
+        "maxScore": "790300",
+        "maxMultiplier": 406,
+        "iconURL": "https://images.cq9web.com/cherry/icon/ACqGmHvE.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/W1K1Onbb.jpg"
+      }
+    ],
+    "hotRankingGameList": [
+      {
+        "type": 2,
+        "gameCode": "54",
+        "maxScore": "2917775",
+        "maxMultiplier": 2100,
+        "iconURL": "https://images.cq9web.com/cherry/icon/CCUV6GQb.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/Seq2xci1.jpg",
+        "difficulty": 4
+      },
+      {
+        "type": 2,
+        "gameCode": "64",
+        "maxScore": "8723313",
+        "maxMultiplier": 1104,
+        "iconURL": "https://images.cq9web.com/cherry/icon/GnXe0qaD.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/GkFAfMmm.jpg",
+        "difficulty": 3
+      },
+      {
+        "type": 2,
+        "gameCode": "129",
+        "maxScore": "788466",
+        "maxMultiplier": 811,
+        "iconURL": "https://images.cq9web.com/cherry/icon/hXsF4prq.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/NOYiyKv8.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "211",
+        "maxScore": "1303495",
+        "maxMultiplier": 932,
+        "iconURL": "https://images.cq9web.com/cherry/icon/AK9ebmsy.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/cdYQlKaE.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "206",
+        "maxScore": "681425",
+        "maxMultiplier": 579,
+        "iconURL": "https://images.cq9web.com/cherry/icon/ghppFsDy.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/qy1DQK2l.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "66",
+        "maxScore": "331792",
+        "maxMultiplier": 536,
+        "iconURL": "https://images.cq9web.com/cherry/icon/6KyGSa7t.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/R3XT1APq.jpg",
+        "difficulty": 3
+      },
+      {
+        "type": 2,
+        "gameCode": "72",
+        "maxScore": "787799",
+        "maxMultiplier": 437,
+        "iconURL": "https://images.cq9web.com/cherry/icon/GIrO0snQ.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/ETNkVGQl.jpg",
+        "difficulty": 3
+      },
+      {
+        "type": 2,
+        "gameCode": "130",
+        "maxScore": "804472",
+        "maxMultiplier": 686,
+        "iconURL": "https://images.cq9web.com/cherry/icon/2LfJumfY.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/K9hp2Kqo.jpg",
+        "difficulty": 3
+      },
+      {
+        "type": 2,
+        "gameCode": "160",
+        "maxScore": "3236729",
+        "maxMultiplier": 1316,
+        "iconURL": "https://images.cq9web.com/cherry/icon/hFlPadSN.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/6Qz2B4Pb.jpg",
+        "difficulty": 4
+      },
+      {
+        "type": 2,
+        "gameCode": "10",
+        "maxScore": "18923855",
+        "maxMultiplier": 575,
+        "iconURL": "https://images.cq9web.com/cherry/icon/0s2JAojt.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/S4auUPEU.jpg",
+        "difficulty": 2
+      }
+    ]
+  },
+  "Currency": "KRW"
+}
+
+
+{
+  "Type": 1,
+  "ID": 111,
+  "Version": 0,
+  "ErrorCode": 0,
+  "DenomDefine": [
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000
+  ],
+  "BetButton": [
+    80,
+    125,
+    250,
+    500,
+    750,
+    1250,
+    2500,
+    10,
+    30,
+    50
+  ],
+  "DefaultDenomIdx": 3,
+  "MaxBet": 2500,
+  "MaxLine": 1,
+  "WinLimitLock": 3000000000,
+  "DollarSignId": 4,
+  "EmulatorType": 0,
+  "GameExtraDataCount": 0,
+  "ExtraData": null,
+  "ExtendFeatureByGame": null,
+  "ExtendFeatureByGame2": null,
+  "IsReelPayType": false,
+  "Cobrand": null,
+  "PlayerOrderURL": "https://detail.myzsj.com/platform/?gametoken=7f711ad8b50554ee6d69b239a1118910",
+  "PromotionData": [
+    {
+      "name": "2022단오절 용호방(6/2-6/30) - 용방",
+      "promoid": "6281a4e5a1c42e00013bc19b",
+      "promourl": "https://betking.cq9web.com/zongzi_ko?utm_source=game&utm_medium=game&utm_campaign=game",
+      "imageurl": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/韓國端午_152x152.png",
+      "icon": {
+        "png": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/clip_activity_16.png",
+        "json": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/clip_activity_16.json"
+      },
+      "haslink": false
+    }
+  ],
+  "IsShowFreehand": false,
+  "IsAllowFreehand": false,
+  "FeedbackURL": "https://feedback.cq9web.com/?token=787c74208a16eba36d7e10f306d7ecf2",
+  "UserAccount": "2917873460",
+  "DenomMultiple": 10000,
+  "FreeTicketList": null,
+  "FreeSpinLeftTimesInfoList": null,
+  "RecommendList": {
+    "recommendGameList": [
+      {
+        "type": 1,
+        "gameCode": "98",
+        "maxScore": "723608",
+        "maxMultiplier": 435,
+        "iconURL": "https://images.cq9web.com/cherry/icon/Okh58PC3.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/FHq1qiM5.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "32",
+        "maxScore": "500189",
+        "maxMultiplier": 812,
+        "iconURL": "https://images.cq9web.com/cherry/icon/7SVoxQzw.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/56PVjQqa.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "204",
+        "maxScore": "2733038",
+        "maxMultiplier": 207,
+        "iconURL": "https://images.cq9web.com/cherry/icon/58EgLK90.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/fu8K4DAc.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "130",
+        "maxScore": "5812374",
+        "maxMultiplier": 686,
+        "iconURL": "https://images.cq9web.com/cherry/icon/2LfJumfY.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/K9hp2Kqo.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "86",
+        "maxScore": "2704360",
+        "maxMultiplier": 748,
+        "iconURL": "https://images.cq9web.com/cherry/icon/w73Y4I5Z.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/xKFH0hBY.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "92",
+        "maxScore": "181402",
+        "maxMultiplier": 578,
+        "iconURL": "https://images.cq9web.com/cherry/icon/yQV8hHsM.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/pzJY9I70.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "49",
+        "maxScore": "508693",
+        "maxMultiplier": 206,
+        "iconURL": "https://images.cq9web.com/cherry/icon/nIbfa1mZ.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/zF2rXV9l.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "4",
+        "maxScore": "1203457",
+        "maxMultiplier": 576,
+        "iconURL": "https://images.cq9web.com/cherry/icon/0IT0ytjx.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/XMZwnmrQ.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "68",
+        "maxScore": "9291029",
+        "maxMultiplier": 952,
+        "iconURL": "https://images.cq9web.com/cherry/icon/G72CaDlv.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/FXYcOAAT.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "212",
+        "maxScore": "1157106",
+        "maxMultiplier": 406,
+        "iconURL": "https://images.cq9web.com/cherry/icon/ACqGmHvE.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/W1K1Onbb.jpg"
+      }
+    ],
+    "hotRankingGameList": [
+      {
+        "type": 2,
+        "gameCode": "150",
+        "maxScore": "1081910",
+        "maxMultiplier": 1443,
+        "iconURL": "https://images.cq9web.com/cherry/icon/scwq2K9q.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/T3TJDfMI.jpg",
+        "difficulty": 4
+      },
+      {
+        "type": 2,
+        "gameCode": "225",
+        "maxScore": "1672635",
+        "maxMultiplier": 603,
+        "iconURL": "https://images.cq9web.com/cherry/icon/ouxlCOaf.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/7hDjaiyn.jpg",
+        "difficulty": 4
+      },
+      {
+        "type": 2,
+        "gameCode": "215",
+        "maxScore": "675256",
+        "maxMultiplier": 178,
+        "iconURL": "https://images.cq9web.com/cherry/icon/Lwmt4yqc.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/i4DD0v34.jpg",
+        "difficulty": 1
+      },
+      {
+        "type": 2,
+        "gameCode": "102",
+        "maxScore": "532702",
+        "maxMultiplier": 616,
+        "iconURL": "https://images.cq9web.com/cherry/icon/xaFUUr6v.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/WWtn9Ml7.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "173",
+        "maxScore": "2077789",
+        "maxMultiplier": 625,
+        "iconURL": "https://images.cq9web.com/cherry/icon/R52AT7g9.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/W83Ldtqf.jpg",
+        "difficulty": 3
+      },
+      {
+        "type": 2,
+        "gameCode": "10",
+        "maxScore": "18923855",
+        "maxMultiplier": 1178,
+        "iconURL": "https://images.cq9web.com/cherry/icon/0s2JAojt.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/S4auUPEU.jpg",
+        "difficulty": 2
+      },
+      {
+        "type": 2,
+        "gameCode": "226",
+        "maxScore": "1656629",
+        "maxMultiplier": 994,
+        "iconURL": "https://images.cq9web.com/cherry/icon/x6xPvilP.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/Ef3tXsvb.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "184",
+        "maxScore": "523032",
+        "maxMultiplier": 681,
+        "iconURL": "https://images.cq9web.com/cherry/icon/8zz928W9.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/TGabac0s.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "104",
+        "maxScore": "664419",
+        "maxMultiplier": 600,
+        "iconURL": "https://images.cq9web.com/cherry/icon/JGXUTqP2.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/50jmT24f.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "211",
+        "maxScore": "1303495",
+        "maxMultiplier": 972,
+        "iconURL": "https://images.cq9web.com/cherry/icon/AK9ebmsy.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/cdYQlKaE.jpg",
+        "difficulty": 5
+      }
+    ]
+  },
+  "Currency": "KRW"
+}
+
+
+{
+  "Type": 1,
+  "ID": 111,
+  "Version": 0,
+  "ErrorCode": 0,
+  "DenomDefine": [
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000,
+    10000
+  ],
+  "BetButton": [
+    80,
+    125,
+    250,
+    500,
+    750,
+    1250,
+    10,
+    30,
+    50
+  ],
+  "DefaultDenomIdx": 3,
+  "MaxBet": 1250,
+  "MaxLine": 1,
+  "WinLimitLock": 300000000,
+  "DollarSignId": 4,
+  "EmulatorType": 0,
+  "GameExtraDataCount": 0,
+  "ExtraData": null,
+  "ExtendFeatureByGame": null,
+  "ExtendFeatureByGame2": [
+    {
+      "name": "FeatureMinBet",
+      "value": "2344"
+    }
+  ],
+  "IsReelPayType": true,
+  "Cobrand": null,
+  "PlayerOrderURL": "https://detail.myzsj.com/platform/?gametoken=fc96bf40adc5c43b0814aff161d7c4ee",
+  "PromotionData": [
+    {
+      "name": "2022단오절 용호방(6/2-6/30) - 용방",
+      "promoid": "6281a4e5a1c42e00013bc19b",
+      "promourl": "https://betking.cq9web.com/zongzi_ko?utm_source=game&utm_medium=game&utm_campaign=game",
+      "imageurl": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/韓國端午_152x152.png",
+      "icon": {
+        "png": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/clip_activity_16.png",
+        "json": "https://cq9-imgur-dev.s3.ap-east-1.amazonaws.com/prd/promotion/clip_activity_16.json"
+      },
+      "haslink": false
+    }
+  ],
+  "IsShowFreehand": false,
+  "IsAllowFreehand": false,
+  "FeedbackURL": "https://feedback.cq9web.com/?token=2233dc009e0c4b725b5013e4fcdbbdcd",
+  "UserAccount": "2917873460",
+  "DenomMultiple": 10000,
+  "FreeTicketList": null,
+  "FreeSpinLeftTimesInfoList": null,
+  "RecommendList": {
+    "recommendGameList": [
+      {
+        "type": 1,
+        "gameCode": "92",
+        "maxScore": "181402",
+        "maxMultiplier": 578,
+        "iconURL": "https://images.cq9web.com/cherry/icon/yQV8hHsM.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/pzJY9I70.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "27",
+        "maxScore": "2510953",
+        "maxMultiplier": 454,
+        "iconURL": "https://images.cq9web.com/cherry/icon/oRmX2erV.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/g3cXfdBV.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "51",
+        "maxScore": "1622116",
+        "maxMultiplier": 973,
+        "iconURL": "https://images.cq9web.com/cherry/icon/l6yhx0hx.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/uwBykQsD.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "130",
+        "maxScore": "5812374",
+        "maxMultiplier": 686,
+        "iconURL": "https://images.cq9web.com/cherry/icon/2LfJumfY.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/K9hp2Kqo.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "187",
+        "maxScore": "5969934",
+        "maxMultiplier": 835,
+        "iconURL": "https://images.cq9web.com/cherry/icon/SRoNUPP6.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/EOYTlZGf.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "95",
+        "maxScore": "1225465",
+        "maxMultiplier": 133,
+        "iconURL": "https://images.cq9web.com/cherry/icon/U9epZh4q.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/jYKAydH0.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "86",
+        "maxScore": "2704360",
+        "maxMultiplier": 748,
+        "iconURL": "https://images.cq9web.com/cherry/icon/w73Y4I5Z.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/xKFH0hBY.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "203",
+        "maxScore": "2223511",
+        "maxMultiplier": 1087,
+        "iconURL": "https://images.cq9web.com/cherry/icon/o7IXNkqO.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/BCD3OFg1.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "89",
+        "maxScore": "2475940",
+        "maxMultiplier": 804,
+        "iconURL": "https://images.cq9web.com/cherry/icon/xd4z0bYW.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/xrmFeJ8U.jpg"
+      },
+      {
+        "type": 1,
+        "gameCode": "GB2",
+        "maxScore": "175066",
+        "maxMultiplier": 400,
+        "iconURL": "https://images.cq9web.com/cherry/icon/Eg2S3rBT.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/CThiZgNI.jpg"
+      }
+    ],
+    "hotRankingGameList": [
+      {
+        "type": 2,
+        "gameCode": "150",
+        "maxScore": "1081910",
+        "maxMultiplier": 1443,
+        "iconURL": "https://images.cq9web.com/cherry/icon/scwq2K9q.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/T3TJDfMI.jpg",
+        "difficulty": 4
+      },
+      {
+        "type": 2,
+        "gameCode": "225",
+        "maxScore": "1718319",
+        "maxMultiplier": 603,
+        "iconURL": "https://images.cq9web.com/cherry/icon/ouxlCOaf.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/7hDjaiyn.jpg",
+        "difficulty": 4
+      },
+      {
+        "type": 2,
+        "gameCode": "215",
+        "maxScore": "675256",
+        "maxMultiplier": 178,
+        "iconURL": "https://images.cq9web.com/cherry/icon/Lwmt4yqc.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/i4DD0v34.jpg",
+        "difficulty": 1
+      },
+      {
+        "type": 2,
+        "gameCode": "102",
+        "maxScore": "532702",
+        "maxMultiplier": 616,
+        "iconURL": "https://images.cq9web.com/cherry/icon/xaFUUr6v.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/WWtn9Ml7.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "173",
+        "maxScore": "2077789",
+        "maxMultiplier": 625,
+        "iconURL": "https://images.cq9web.com/cherry/icon/R52AT7g9.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/W83Ldtqf.jpg",
+        "difficulty": 3
+      },
+      {
+        "type": 2,
+        "gameCode": "10",
+        "maxScore": "18923855",
+        "maxMultiplier": 1178,
+        "iconURL": "https://images.cq9web.com/cherry/icon/0s2JAojt.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/S4auUPEU.jpg",
+        "difficulty": 2
+      },
+      {
+        "type": 2,
+        "gameCode": "226",
+        "maxScore": "1656629",
+        "maxMultiplier": 994,
+        "iconURL": "https://images.cq9web.com/cherry/icon/x6xPvilP.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/Ef3tXsvb.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "184",
+        "maxScore": "523032",
+        "maxMultiplier": 681,
+        "iconURL": "https://images.cq9web.com/cherry/icon/8zz928W9.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/TGabac0s.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "104",
+        "maxScore": "664419",
+        "maxMultiplier": 600,
+        "iconURL": "https://images.cq9web.com/cherry/icon/JGXUTqP2.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/50jmT24f.jpg",
+        "difficulty": 5
+      },
+      {
+        "type": 2,
+        "gameCode": "211",
+        "maxScore": "1303495",
+        "maxMultiplier": 972,
+        "iconURL": "https://images.cq9web.com/cherry/icon/AK9ebmsy.png",
+        "backgroundURL": "https://images.cq9web.com/cherry/background/cdYQlKaE.jpg",
+        "difficulty": 5
+      }
+    ]
+  },
+  "Currency": "KRW"
+}
+
+
+"BGContext":[[
+    "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"
+]],
+"FGContext":[[
+    "1wAy0pCE9WALbzzm6lbbHjC4ykfbVPD/8UcDhDJKW3G78Quy1AOV/plSsVnPfWAzZi6so2t5TfUR/k57DB73hbUjbpFWchCZw2NbvGtlr73aHC9lGMB8urk+WaCZYDWIyK+PT9eAaA+cFFDblF/cS5j0qdmuQut5idPeI/G1sHSnBMYlujFEZPrIoW2nZUd175qafXYvEmEOL8mxmH+MAicF4yzYRaMwp9juAqTvAFRJ88tW6GREj7CWr5q8UUdiOpAQVlyXdnv6+6zj+gQFB6D4jGIfim+KkxCfI4pLL9E45PcGvBkgwzXaNWHGO+jB+b2FiFOqL/P8QUTwERUigtGC/Gi5lb8npadI0Zk5+yVb9FQclVKAUm7SZFqKXHssDMoN7gUw8Ar5Kc1gir+myof5gVCNcv4oRdd9tA==","O8x98GuQ1JCMH9w6CNb90ff0VoDB59XFvmliaN7oM81joNMdlPy3zNTmX2QbzmeyraEZwRe25L3epyQttUH4m/YJl+MyIlLV2t7OiAtBmp2KVIlDP7DP6/bBMbFG/fjXG2H32jp+rB273aJ/CrGxdTHYcKylRrpdJSCwaj7+XKQAq5GNhjAdYag5COCNeEn3/SuqkaC3r7Dh6N1O+l6QPwJ6T87L71xP9fYSfuKLTpFLzincCLIlGR/ENMN3H1a3HXoW49j3ZQLqxtr1y34eTwMALP3E8PyrWK3YshHR22Ba7lj3MTV22WoU589JOMg5CpN4hEmO7LQXkXEK0C71F1USKW5eNclJCFjvyJykZ8w0NpQQ8s/YNjpivMu6uzlkSbBzJr2oX56O94ML0wrvzWZcZf6KClMxCk5lLmJOIpE8uoJ3iHc3YaxCaKs=","CMGstYyI21rmaz7z7mPv260A5MqzyZjiwd6nDSf7PdxBwq6BLOWcycsKVk6ai7IQ/X4EUlc5ILMr486/aHX2sKDDQBoy5tsyfMP7+UoIMs/MB0EXdt7d8nDHapQ6nT3fc4Co/rYSafE0IhrogGBWqaCU14yx+AVeQUNPy2J8eXdYlYXkicK/L7PCm/+625CIvYLCkbRRCvJC0OP9p66cLtSB2YsM1cnFNwI0TW3URb296ums6xTxXOTD4rRZy/DCs4JJap1x+fwtIW/6EgiA474isdZ+QI9JQy4b1LDAIffRp2CdFXwlUWXnlP27WPaggfRlirid1dih21FsIKjpC67/mjdkg/CEuDhmOJVNlnOrZmi12uLNq6dsnCqO+MyAHhaGeZgiK05vBeTjGLeGWwrYuF/UXOul6eb197+YTFT+QkI/w6Kpz7KhHR81hXcjDlLXutLnhbtGX9Rh","AW9xY35SHZWtTVzoFPT/ChnP/O7YDMG1y5Cjk6TdHiOXwMlxJoRR9CNDCm99i40TlYliKXwJVV0AzcDTdYOSHZE1Hf58NLAnqeRIBpEHVkMzUuQj4eb1Oei/Edso6fqaMmeJddqQxfq3aChB4szSurGENTOu1KtxUn4PQ6A7exFhxQ54ZmZJRT2ax82uMHhxeDs4u2SOzCoihcrcBKUGgZDMY1ILcHWH5LMN8zZdouGKg6b7h41DktjXT8txENxM8VSvLbDSRPn9+/83Z6xA4zY8A9tnBqFVBPxLyMAbwyw85XEWZC0YCsTJUJbckLw5Q7QbT1dqXTfQ4mNoVyhmBPoFG8qW/dfqrCtfUBey6p2b9f8g6xrFLxIPtVxW88vPkJ6cNtZQoLAr8b2eboBQTaXvy7PrHKFDcwsgZ/BNVLqpiBd6uzPthw4KuUQ=","riPg4ehiLxh1w2L7wk15s6o9y7sUBmQEZdACyUcVCPJdx+wHCROzErSDHHG4r281LvSrw+SZBUD798hqGoo+70okKHFxsTPzEiKVqC4regpxMsMzXesmwIcRx+LIgdyNrWp4pac+2AtrZ50kzUOW3AAuPyFhsDYE1QoX9yRvPItX4zvLN/OY1wv+x4ChWd4syYxqt/szcpHdF7Bf39EdhaxFjCFVq0geT5pQbWeJCnK/RGNDhG6JYe/j7YzgxQW+1p9fNTAcKR125LkWN4MaWsyi+5fc2DzD+2rZ0+alae51RbOif7fe2ezuK08zR179eVJyfm/YoyG59UiWEtnqR6kv8l9AIbMhB+XUmMS5zz8x2mT3Z9K0nLhged0chAh/8FG8hmDPxcPvyQAQs+GUB1jxBB7G85coTBQIuA=="]]}
+
+
+"BGContext":[[
+    "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"
+]],
+"FGContext":[[
+    "pXigZJNFxUdwASWx9QnCwPSlSfI0Q74CPQnQvPDMvt8X5s5/0tBpiCwHYDKFTZP4BiA+Rkb1GNEmd6BjZTKRNaVNcoGuQtwB8uCyaXKtiJZZ4X2YTWX1KxupxATGIa82mPxN21yaORwYKYU9K9DTkVFSLKT+WPPk6hGi6ClKhE0KOmbqWJUbUuwFtc1bbWYyfN2t00Sja9RnqwpTmhceaAy+ckNdPaV17ASQw/5H3Vvnj9ECtxG8Eg8bo7UVi6dkZmmRijKi3cOlHl1cr4mo7T2tfinW8PeGQJ9uGK5KjTgAsTzdvQkz4SZfX1tSVa/IUA5ZY+PvrLSEXgN2UtfH2lYcYKHi4Z6laRNkRuka8GagfyhHYzE582qyz/Kh3XhPGjrjaVMvvdA8PX9nrfOV/40P4UVXCGgC07ITOQ==","JrIUowjqw1JiUAzbtlphgNKR8FSfgbT7zs8Y/3d++x8HPVovrYi6XB8Huh3BZVPZ3J87U7OQLtSx6zKwpW9wb7wJ6UULE7H7C4th3KedRKOTsJV9tPpNM6RztthP9Ed8Z//CmzHjRgMCjqxoJnDvv1gWjZnUg5DRIA1Y0yr3ZQeZFMDSiIE1A9kaBDmACO1cCmnc7CUfOBzk2lYO9Rqz4QQKPn3iK5ntmPTdo7So2MgPxKqGGl7g93jJhhyH0sK8yxlQw34OB+sywPsWF9+l850uMiTr/fueOnYQnxkH2ZDevlgPXNOIwh9wdbe9n/CxeI0HJa9Csvb7OgJJR0bVr5qXQ+SvkYm8bo9f8JHTj3wyJCq3h8Yof1C+26AQN1lBkVD3ls9MoHAS+MhKkyagATDdRwEIofn4upzg9Ep0Q/pDLMMDx6Gex9jP+co=","vQUqcuIlDmtY0Irc3qU+f1Bw3VTzFYQlB/zSsldtCMemVrn+XCCPzoYZ63NyBEWFPtsYU0q+F7oHiPbnd0htSSDrDgp5Ft0k428XK43oGvRfgLGzLKTjZzjz0pAMBzoNGsIkyCCaQcDNVsWHNbX11qPvXKHKBmiyJfxVf9+tsqqp1gxHRp7xBdE071LftA60KHiVqr5a8ylJmZi1PEmelZrXMHEkRb6TWG0DnsTKVX6R6fZ1y6GePdpg3Lf+Tpgjw60wm5I3vtpttGNC/R02iAhNcuSuxPF+tPz+Ji1tEq7V9Tmqx4Ugclw/BAuH3jszyORZ1zZH8b42bZjIfpECdLhszy0qQQyP7x3qT2sl3C4M2XQGvJo8+YLkq5gj6p7Q9roEX3ZiS52nuqFom6PkDJ63hKeScyDd2Eu7Doid7or8J+7QjQBk3FwNUYPXdpOM2byATsIXac5LmQXl","GRIQcNdyqXu37xSF6TSZtJF65pQ7S0GwxN/CwPR/RvP3sHf6lidD6yWeaUU9UKWlbL8Dl7TJ5GN04ksQ6HyWmu3U2OU9tnl2TJLid8G6jkFwtuc7aJ6b77HxkDGTvecCHxrXQP031mmpK+yR6D0hiqh8GaZYjq+WllTj0I3G/52jupKSCm9GUMwmVOdr3CB+bMd0+Pr04BToyMLNsw2SCh6rXxhSQoBbWEaLA27+yC5Y/sN/QcrIJhQlfiDr8SBilK9xl92Dp8P6tqwORHHV+aFGLPlYrqcmHlEb9VKuz1dmYN6IIdgnj6uORbMx/m511OzY8rf42+ZKiRzTjkT+awkRwRh6VDCnmvgxRmQ69w2VT3JfUR1Lm+u+okYoFXVDkJplw6SDCMLp6+m4TyuAMW8qCYDr1EDUG5PPGkTwIGQqmn2yKLKuJZHhlR8=","djLmXRimn6ceUaGfFRnVJize2KvgN+0T+3GFP6/zwZ8qKNbo0E9PpeVxdpWjVR5fM9+hkT2lp62kjpkZfuGgGzxbtV0/0mj+H3eErFhyCbowK1mk8JSHMhX/SEyzymVu/MzKKe2RaLaPJVq2XDvGNQJrHAqNntq/YPLoX2YFaQ3UGUqYXX/8nq0n41peHvwbwvwXa2NB+fSmx791Sz4HRbjtN6B4s8r0X4kk3G3Cll2LULuYhSXGLi8vwsCzlj3xW3+qHDXro/V15TTJWIyJPvJX9utJiT1nq9byS5sMpnNP1aStRjt16ZCs9sUCX/4FblrP37wy0YsVkgZR8EG4BEy/GMl7NlPpspQuuLBe20g7CPBHDH0Hc9WJzZ6zK7oTvoZS0VoCLLeb6yEnqOAOvHjnaOd7q5ADd+tXyQ=="]]}
+
+
+15,12,4,14,15,15,2,13,11,3,3,3,15,13,SC,11,11,4,13,14,1,1,11,2,15,15,4,13,12,3,13,11,4,4,14,15,3,3,13,12,1,11,11,SC,15,13,4,12,12,2,2,2,11,15,1,14,14,4,12,15,2,14,3,12,12,2,13,15,4,14,14,1,1,1,13,15,14,14,3,3,11,12,1,13,15,2,12,14,4,4,4,13,11,11,3,14,SC,12,4,13,13,1,11,13,12,2,2,14,14
+3,13,14,15,11,4,4,4,14,14,1,15,3,SC,14,13,2,2,15,11,1,1,15,13,4,11,11,12,2,2,2,14,12,1,13,13,3,3,14,11,11,4,15,15,14,2,15,11,4,4,12,12,SC,14,2,2,11,15,3,3,3,14,13,12,1,1,14,11,11,4,12,13,13,3,12,11,2,15,11,12,1,15,SC,12,12,4,4,12,2,14,11,3,12,1,1,1,11,13,4,4,15,14,2,13,15,15,3,3,15,12,SC,13,14,3,15,15,11
+15,13,1,14,3,15,15,W,12,13,4,4,4,14,11,15,W,13,12,3,15,4,11,11,15,W,13,14,SC,13,4,14,2,11,12,1,1,1,14,13,3,3,12,12,15,11,SC,14,13,4,11,12,W,15,15,1,1,14,11,2,13,3,14,12,SC,13,4,15,12,13,11,W,14,15,2,2,2,13,14,4,4,12,12,2,14,13,W,14,11,3,3,14,SC,12,12,2,13,14,3,11,12,4,13,11,1,1,14,4,4,15,11,W,14,12,3,3,3,11,13,15,2,2
+11,11,2,2,13,12,4,4,14,13,3,12,15,W,14,12,1,1,1,11,11,4,12,14,W,15,11,3,3,14,11,2,13,15,4,4,4,15,12,3,11,SC,13,14,11,4,12,12,W,13,13,1,15,12,11,11,4,4,13,14,2,13,14,W,11,15,3,3,3,13,15,15,4,4,12,14,15,2,2,15,11,W,13,14,SC,15,1,13,14,2,2,2,15,15,3,14,12,W,15,12,SC,2,13,4,12,12,3,3,15,14,SC,12,14,W,11,15,1,1
+13,1,14,14,SC,15,2,2,2,12,15,3,13,13,2,12,15,W,11,14,3,3,12,12,14,1,1,1,11,12,4,4,12,13,W,15,12,14,3,3,11,11,2,13,14,W,15,12,3,13,13,SC,12,14,4,4,12,13,W,14,14,2,13,1,11,12,3,3,3,11,14,1,13,15,15,4,4,14,11,W,13,12,SC,13,2,2,14,4,13,3,11,12,W,15,11,4,4,4,12,14,11,15,1,1,11,13,SC,13,11,3,3,14,4
+
+15,12,4,14,15,15,2,13,11,3,3,3,15,13,SC,11,11,4,13,14,1,1,11,2,15,15,4,13,12,3,13,11,4,4,14,15,3,3,13,12,1,11,11,SC,15,13,4,12,12,2,2,2,11,15,1,14,14,4,12,15,2,14,3,12,12,2,13,15,4,14,14,1,1,1,13,15,14,14,3,3,11,12,1,13,15,2,12,14,4,4,4,13,11,11,3,14,SC,12,4,13,13,1,11,13,12,2,2,14,14
+3,13,14,15,11,4,4,4,14,14,1,15,3,SC,14,13,2,2,15,11,1,1,15,13,4,11,11,12,2,2,2,14,12,1,13,13,3,3,14,11,11,4,15,15,14,2,15,11,4,4,12,12,SC,14,2,2,11,15,3,3,3,14,13,12,1,1,14,11,11,4,12,13,13,3,12,11,2,15,11,12,1,15,SC,12,12,4,4,12,2,14,11,3,12,1,1,1,11,13,4,4,15,14,2,13,15,15,3,3,15,12,SC,13,14,3,15,15,11
+15,13,1,14,3,15,15,W,12,13,4,4,4,14,11,15,W,13,12,3,15,4,11,11,15,W,13,14,SC,13,4,14,2,11,12,1,1,1,14,13,3,3,12,12,15,11,SC,14,13,4,11,12,W,15,15,1,1,14,11,2,13,3,14,12,SC,13,4,15,12,13,11,W,14,15,2,2,2,13,14,4,4,12,12,2,14,13,W,14,11,3,3,14,SC,12,12,2,13,14,3,11,12,4,13,11,1,1,14,4,4,15,11,W,14,12,3,3,3,11,13,15,2,2
+11,11,2,2,13,12,4,4,14,13,3,12,15,W,14,12,1,1,1,11,11,4,12,14,W,15,11,3,3,14,11,2,13,15,4,4,4,15,12,3,11,SC,13,14,11,4,12,12,W,13,13,1,15,12,11,11,4,4,13,14,2,13,14,W,11,15,3,3,3,13,15,15,4,4,12,14,15,2,2,15,11,W,13,14,SC,15,1,13,14,2,2,2,15,15,3,14,12,W,15,12,SC,2,13,4,12,12,3,3,15,14,SC,12,14,W,11,15,1,1
+13,1,14,14,SC,15,2,2,2,12,15,3,13,13,2,12,15,W,11,14,3,3,12,12,14,1,1,1,11,12,4,4,12,13,W,15,12,14,3,3,11,11,2,13,14,W,15,12,3,13,13,SC,12,14,4,4,12,13,W,14,14,2,13,1,11,12,3,3,3,11,14,1,13,15,15,4,4,14,11,W,13,12,SC,13,2,2,14,4,13,3,11,12,W,15,11,4,4,4,12,14,11,15,1,1,11,13,SC,13,11,3,3,14,4
+
+
+{
+  "Type": 1,
+  "ID": 112,
+  "Version": 0,
+  "ErrorCode": 0,
+  "BGStripStartID": 0,
+  "FGStripStartID": 50,
+  "BGStripCount": 2,
+  "BGContext": [
+    [
+      "15,12,4,14,15,15,2,13,11,3,3,3,15,13,SC,11,11,4,13,14,1,1,11,2,15,15,4,13,12,3,13,11,2,2,14,15,3,3,13,12,1,11,11,SC,15,13,4,12,12,1,1,1,11,15,1,14,14,4,12,15,2,14,3,12,12,2,13,15,4,14,14,2,2,2,13,14,14,3,3,11,12,1,13,15,2,12,14,4,4,4,15,11,11,3,12,14,SC,12,15,4,13,13,1,11,13,4,4,14,14"
+      "11,3,13,14,15,1,1,1,14,14,3,15,1,11,14,SC,13,2,2,15,11,1,1,15,13,4,11,11,12,2,2,2,14,12,1,13,13,3,3,14,11,11,4,15,15,14,2,15,11,4,4,12,12,SC,14,12,4,4,11,15,3,3,3,14,15,12,1,1,14,11,11,4,13,13,3,12,11,2,15,12,1,11,15,SC,12,12,4,4,12,2,14,11,3,12,4,4,4,11,13,2,2,15,14,2,13,15,15,3,3,15,12,SC,13,14,3,13,13"
+      "15,13,1,14,3,15,15,W,12,13,4,4,4,14,11,15,W,13,12,3,15,4,11,11,15,W,13,14,SC,13,11,4,14,2,12,14,1,1,1,13,12,12,3,3,15,11,SC,14,13,4,11,12,W,15,15,1,1,14,11,2,13,3,14,12,SC,13,15,4,12,13,11,W,14,15,2,2,2,13,14,3,3,12,12,2,14,13,W,14,11,4,4,14,11,SC,12,12,2,13,14,3,11,12,4,13,11,1,1,14,4,4,15,11,W,14,12,3,3,3,13,15,2,2"
+      "11,2,2,13,12,4,4,14,13,3,12,15,W,14,12,1,1,1,11,11,4,12,14,W,15,11,3,3,14,11,1,13,15,4,4,4,15,12,3,11,13,SC,14,11,4,12,12,W,13,13,2,15,11,11,4,4,13,14,1,13,14,W,11,15,3,3,3,15,15,4,4,12,15,1,1,15,11,W,13,14,SC,15,12,1,13,14,2,2,2,15,15,3,14,12,W,15,12,SC,14,13,1,13,4,12,12,3,3,15,14,SC,12,14,W,11,15,2,2,11,11"
+      "13,2,14,14,SC,13,12,2,2,2,12,15,3,13,13,1,12,15,W,11,14,4,4,12,12,14,1,1,1,11,12,3,3,12,13,W,15,14,4,4,11,11,2,13,14,W,15,12,3,13,13,SC,12,14,3,3,12,13,W,14,14,2,13,11,12,3,3,3,11,14,2,13,15,15,4,4,13,11,W,13,12,SC,13,12,1,1,14,4,11,15,3,11,12,W,15,11,4,4,4,14,13,2,2,11,12,SC,13,11,3,3,11,14,SC,15,15,14,15"
+
+
+      "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"
+    
+    
+      "15,12,4,14,15,15,2,13,11,3,3,3,15,13,SC,11,11,4,13,14,1,1,11,2,15,15,4,13,12,3,13,11,2,2,14,15,3,3,13,12,1,11,11,SC,15,13,4,12,12,1,1,1,11,15,1,14,14,4,12,15,2,14,3,12,12,2,13,15,4,14,14,2,2,2,13,14,14,3,3,11,12,1,13,15,2,12,14,4,4,4,15,11,11,3,12,14,SC,12,15,4,13,13,1,11,13,4,4,14,14"
+      "11,3,13,14,15,1,1,1,14,14,3,15,1,11,14,SC,13,2,2,15,11,1,1,15,13,4,11,11,12,2,2,2,14,12,1,13,13,3,3,14,11,11,4,15,15,14,2,15,11,4,4,12,12,SC,14,12,4,4,11,15,3,3,3,14,15,12,1,1,14,11,11,4,13,13,3,12,11,2,15,12,1,11,15,SC,12,12,4,4,12,2,14,11,3,12,4,4,4,11,13,2,2,15,14,2,13,15,15,3,3,15,12,SC,13,14,3,13,13"
+      "15,13,1,14,3,15,15,W,12,13,4,4,4,14,11,15,W,13,12,3,15,4,11,11,15,W,13,14,SC,13,11,4,14,2,12,14,1,1,1,13,12,12,3,3,15,11,SC,14,13,4,11,12,W,15,15,1,1,14,11,2,13,3,14,12,SC,13,15,4,12,13,11,W,14,15,2,2,2,13,14,3,3,12,12,2,14,13,W,14,11,4,4,14,11,SC,12,12,2,13,14,3,11,12,4,13,11,1,1,14,4,4,15,11,W,14,12,3,3,3,13,15,2,2"
+      "11,2,2,13,12,4,4,14,13,3,12,15,W,14,12,1,1,1,11,11,4,12,14,W,15,11,3,3,14,11,1,13,15,4,4,4,15,12,3,11,13,SC,14,11,4,12,12,W,13,13,2,15,11,11,4,4,13,14,1,13,14,W,11,15,3,3,3,15,15,4,4,12,15,1,1,15,11,W,13,14,SC,15,12,1,13,14,2,2,2,15,15,3,14,12,W,15,12,SC,14,13,1,13,4,12,12,3,3,15,14,SC,12,14,W,11,15,2,2,11,11"
+      "13,2,14,14,SC,13,12,2,2,2,12,15,3,13,13,1,12,15,W,11,14,4,4,12,12,14,1,1,1,11,12,3,3,12,13,W,15,14,4,4,11,11,2,13,14,W,15,12,3,13,13,SC,12,14,3,3,12,13,W,14,14,2,13,11,12,3,3,3,11,14,2,13,15,15,4,4,13,11,W,13,12,SC,13,12,1,1,14,4,11,15,3,11,12,W,15,11,4,4,4,14,13,2,2,11,12,SC,13,11,3,3,11,14,SC,15,15,14,15"
+
+    
+    ],
+    [
+      13,7,14,12,7,7,7,11,11,7,7,13,15,7,12,13,7,14,11,7,15
+      12,7,7,7,14,12,7,7,12,12,7,14,14,7,12,14,7,14,12,7,14
+      11,7,15,13,7,7,11,15,7,7,7,13,11,7,13,15,7,11,13,7,15
+      11,14,W,12,15,W,13,11,W,14,13,W,15,12,W,14,15,W,13,12,W,15,11,W,12,13,W,11,14,W
+      12,7,13,15,7,7,7,11,14,7,7,15,12,7,13,11,7,14,12,7,11
+
+      "cRWunguJSIqZGhi1z8QLMo4mUWzFETJ61rhtGamb/MpfyjU587xVBCr+nLVgQBhgi6QKCSX7oiF0Wk4HZDd0YURRTth4SaY6fX8TwQ==",
+      "tmCs00x6s4NhbeOpN3L2gmS/TB6dayixQd4QmkyWU8Upndz3UDmj4MNIYCUnFuCPJjKKqIg9FEvDytdOdMsAjPYRNUwk1b1H/EbWDw==",
+      "U3p4Eq7qhYhOl96d5Z9B0ETXjoH/trtnz/vZLo2JXqKY6M3Tnx+dBRWNtI5CJ58LY9rALO/aH2mm+jFE+gcNTUK/vu6ViDuzIV2Eaw==",
+      "OVy62rsetqluusUJ2jzA/BeZgNX2VXzyrGFNlqcVF6LFnzAisJ/yQnAJhBQnXrlT77ahdpYgugudsyllBU/Dz97o6NuNbyjL106627PuU8SbrChr7E5U4nBRWSc=",
+      "Z3x3Als4nKgG0feOSsXxCvoM2duylDc9zbO8Y9LgW6oJBf8UE7s2alB6Dyv/BjVPiP1wdyspRkNJji/HP0dRMu4rKFm9FixmS0GGrg=="
+    ]
+  ],
+  "FGStripCount": 2,
+  "FGContext": [
+    [
+      "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"
+    ],
+    [
+      "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"
+    ]
+  ]
+}
+
+{\"Type\":1,\"ID\":112,\"Version\":0,\"ErrorCode\":0,\"BGStripStartID\":0,\"FGStripStartID\":50,\"BGStripCount\":2,\"BGContext\":[[\"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\"],[\"f060092ec370bf31yzOXpzZ6vB5yqOcIEMmRyUsO6F0h/wDCVnh9GgYLGA4t3sFKKR/hafA2+RiC55i1Al/jt5v3iG+wP/Sar6pLeLdxvNQJc/3jMhqTrASVv1cwmMIde9o1zgnDVB6sSFRet+ICwoi+ii3a2ndi9AlzwTwYwyJXtPWuARjAeeELZrlRDDRSEPHC4Y0D64DjMKPKFFN8eckTcUwGgaOSbULzhxGwxPT8V3nSwQtLX8kuwAi+T0W4AnNB6+VGSqzx3u32NSKqmG602iOeuggq0fPQi32G7e0smIKJwCxtQ76cwIOyFG1NLSyM1/nsmTeC+AgsrQhAvNdYq4WcWDzXEA5vPUv90PXEyoFr9HBQSz0yxxGvBgQm5p1ek3HjVdUk+y9C\",\"a64e33c82da0d8f7AXIXFfvTpRYtVCkg1ozoVP3zHYydtCDHj3y1TSktuQ9w17RWHIo4gutOJVPUgnVsCJ4FBL0rBFf/zziZcXMZzwX7xlT2LyZzvY/5cY3QLnZT2TTPXoFY+heKOZnRiBdtKxhEQb9bZLcsOOAs472Py5hi+Rz2qSQHxu5veQIZRhJxAdjP20dV/80pbei6Je6zx1DPdX/yNia3qBKWN02J1ZUCAuNopfczWTuvbI2RaFNSYZSBPVQJ8kTRsRdmL4UdICD/LHAnjz7owaM3fJkoz9wmNsDoMtv1eEtl0NCQK7KRDJgahTNRPuCbsbSHFdcwReZOx4FCHQvuSXgT20z7hY+LRqxOCCntTHKERU8DyuknoZzgKSnbo/48q5H3VdYRB0v/qEQunh9p2+KZkoAUTZ5GI7ZKZhTLB1e5D8++BFw=\",\"262a6b5ad398010aVO2KMNh3hFjOGLdwlawJLl4FN3mWzmZDWssjH3NugFtOACIt78oCXtnCYAFOKLza4UHv/IKkkJbYKYwTRGTJf9Chxs7cBU9oT3r9u2J/QPzFREaiIlgFtDNdFmHiPTWBD8RAhIR8YtNw8WlrKYZmqdliz3n8hbtDYvdF/nE8EBCeXLukle4uccRpOMzdIjpBqwncf+ONnH/PTg/KxOK3CP+Uud3BSDDXX70s8H7Np6EIb+EMZ9k2vOE7Csp7rTVzKhuvYS6mzPeIIqpP3AM3eOSbM7mU0qCt4Zmaqaa0zyWo5tS6bzLLPQleBx5WPrWx08PbYhGezAigrNfihTdcsg4C2BSQ6QTyWg1su1W+4+zJWHfRWQFtPicIq9C8P+yj9BZoEGtsJ39JeGP4sHYa9GMAk+Nir5K7MsDIQMuy6Xo=\",\"ccc0363ce8e99460/FkVA9Va/C9lKX7kA65ku6/5zhqEidM/LQkEUcpZ5MGaExlCZn0t2H9hDQtw4tbQauu5NJQpDaoXLmrILRFSR8mcrY0ukyyQdOTIsxgsTT2VgCJPR+qf8iLRGvLwbe/3+/lf2EXFxG803Iet1lgpWLK8pXsK7nP+tHBmw7e4CxEXmWBZNr7sgd5e8DRL8NysjADeuY2qLEnvutIVxvWec5D+kxJeeM0UGsFcnLmbviflEm2hJdnw6dHG7AP3ntwx6si8yUc74hqdlq3g6eo2p5CdQ/aV+c1utIcv7bU1mQwnOqs8crIAoKKzsfA3B7fq9Wx1D7uBgllwltTE9W/HBo/vmbgrkSkshjAfl7lIcckVYCYyiFZrx6iph7t0JCeGuDbv4cw58Z4uH+5Nm9mqqP8piSdB/JMr4mEVsK65VZo=\",\"01cdb396435c2b13kHl+UWUScP0yVSda+EsVygaXSxEAGzAot9howymKPU0bUSdI9PMXMGAzGQ0ZBMN0FRBA9Xq/EYbLOs3uAeSkdG+/cvqju1jLcE2g6oQH7Zi2GtKZmZboFUjL/k40FQglyofveSnOeGNOCM/HSELJkWzr4Dp9I2alpIizkCJa+IaO58YHdBrpmOgJY9HLE/Ki4cGd11r4zgbd/aKPtahzEw4bOuEaHbABg00EIBxnfNmFwx0/0ioBWlqV9UWpob8I1M8ZmYSgZ+SYMDt+N8Iwn3v4HXzexs38DaUP5EagqwVh9CP+15icNzXmyB1sl/E83ZUG2cLuVIcxNwLI8AjsfdNqZPJLWAvtr80swQk9OSwJm98N7kwtsZZmfJ9kJFi6U1Ga/9iuwt+dV0azFugTXvnmZljWgj3/of3r23VJvHc=\"]],\"FGStripCount\":2,\"FGContext\":[[\"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\"],[\"aucm8PS1IfGwJC3H4PpzGqEG/xqo63dP6u37Kr1laR2CqZptDJdrVZrQKH2vpUVbC9eur6oN0mt2KKFrjTs45xBCxNGBl7rifg3tVHvzsBHeUC7er0jyEPj/KiHIU+Rmrz+bP7ByjDwxXzewHh++ieG9x49H3ErJYWGNG08OaVjoTzAlSNvWdz6Pk6DkbxDHpSiLtVLIlQbmSvdnj+2b8rqzuxukrpMDIqgjKiYo+ZzBJrK78wobNfUzBkVDnckXJueUmeOT5zY7VMPblXmjzhr5mprs00elYHKuJr2JkWCdN7ls97bhRRd9+EruHUWeUNb1xZz/v6ekEoA7avO8w2YhH7fNBGyNIom20YqtQkOo3gqr+p8Ld8P/Z3VNDBGMljS3cAYPmNg+juJaiLYktGVOaQXo/SOeSurPyA==\",\"krkXVvi4lCGfWEWWZ8sr+yTCXCspmUxE4BteXcByB8SPe3PA6pubX35HWU06UUXXlb8Ss3oAp5UxHk5YAjDo1XHXmTPP72kmE34xeK9JuEw1apK/b9IxdOGs4cljB9bKv9kS4876cIBl+dlxRHPtNAmEc+EUyv6Rwuian/YNNVcOYxlSM/X9A6POCD3gcLWW9FGWtilxv3NZ8CS0wU2ENGx4EORQ4iGoSpC493mByGIsnVH3wDLSwNIihyROm/51Yvr/bUPe9klML4UCs3lwzjypkuuX9HHrC6L2rAEVRrXsJklit/qO26Yiki6kjYTs5qOiRlkjpIhupBoJUFJ5WZ9mXbt8Ku5GOjsVZlLkMRJAJ+u4ZEopcRQGrKDHpj7wk7VZxKq1i0pvNN4mAhs8/lJm14YmKB4acHTvKUcStcCMoqvqeCK90gb3nwA=\",\"PqIVDks6WIDtairaP/jdGdOYpmzG3TqnJ0bZxoRdysPYOPkO+XmYqbejJw2JaZH7l4oGCkR+hP0nRlHbi3RebiDU1FhKFJHChCQaGmgbOKRblz6I3pljxwVJq4zcj55eT2TKZG647waCyuiHz4MJqsIb3uIGRA0e/tzpRzzB1fSV15nPdbxEmgUhjS28FG4uUodFfHhwkrzzDtyuWzDTyu3eKB5lbR3f/JecLMOG5sseZMLTkrzMe31C/VYXNg3XF02oJ93N//ype8sfrgcQiw63j7x6lo4cqHpb9KxDYtz8jMNVRZM4L+zBA8OsS9ZZOxSGf1fvreRqNLX7TtfAtdIsGwO+n+dfGDawJv6Umhx7EoJ4xrDl6afAGlI3B1IGkeG8fWEOC2l8PlPeFtaEHu4OubyGe5a5syy+DJdoP736hP31/9/fFogDIosg5Vde7VjF1Q8i8HET7keC\",\"8QW1rX5rs3JQVZCbhhfZYkoG6CxLYzprKrnhPi7pjoKLyvEbapunjBDbAOQI/gZopKib9cVaF9Mt8YsjKutNb7GfPD/kQY2qD99fZuzP970vyjUh0v40bdPX3M8pialekIIOLI8BFs2/cZ3/WNJ866FaTLh+8ijAl2LQ14d/xKs+/mtK9OoOZT4QqyrZHkdV14qrkSHIZwGkin7rvpU8YHeQfgjLBFoI3cxaR+BZDodaNbuE6JyLERgZYdr89upwQFWgkO1C93eZ1NAZ9TT1ZQhlUsxpaKD9AzpZZgNWlMGGfEujiGPUXSQnXlT/AX0qbJ/JuZtP/PurojB+fUJuxLAidsjybUX8fawDHMWpl68KnrWg+gPuNHmQ56DN0oWfvZdDazXCJtdhvAFlyPRD/l6bDrj3qvUJnkFC2PRyHWqfunlXJHimHe6l2Vo=\",\"hCKcmvJF4oNj62kVDaDKU1pbWVxkmd0/9axH2eqZ8dJ+oZZGlMo+ToipXnnKWH6SXtgtIV9oFlsFTX6UlHzMLVQBq03daNzhEPrSqIPfUOyYJc7gq4vtV3NjI8YjkLKDLyHJ+iIpnHnIUeV8PYr1MnxJRYZlRyucURMnBR++GrZJzqbKkfKLmIcKNUA0WPzCMftHfaVuvlABpAeF5XiOGPPvsl70nRvq7aB75TvTannLa7PIP2ZySNfI/3IQUlwFm4WeShBLD+uuGNZTycxiJFwcDkVdjrCrzT+k8fC/0Zl8XktiijZm1PU+2JXeYQ5DwaxeWjAhWbL8wiqe4NyzBC+dz0GkKZmGTUABx/GNxasumyoqYoDwxUdQ4hCz8fYH8xghbb7qDRTQNrOIqRLsoObtLI56njFiTjzcimB53FHCfN+ojNRUN33G2iM=\"]]}
+{\"Type\":3,\"ID\":141,\"Version\":0,\"ErrorCode\":0,\"PlayerBet\":2,\"AccumlateWinAmt\":0,\"AccumlateJPAmt\":0,\"ScatterPayFromBaseGame\":0,\"MaxRound\":11,\"AwardRound\":1,\"CurrentRound\":1,\"MaxSpin\":55,\"AwardSpinTimes\":5,\"Multiple\":\"0\",\"GameExtraData\":\"\"}

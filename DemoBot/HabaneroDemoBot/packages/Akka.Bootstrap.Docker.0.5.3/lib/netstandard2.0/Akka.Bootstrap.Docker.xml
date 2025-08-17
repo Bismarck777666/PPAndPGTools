@@ -1,0 +1,113 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Akka.Bootstrap.Docker</name>
+    </assembly>
+    <members>
+        <member name="T:Akka.Bootstrap.Docker.ConfigEntrySource">
+            <summary>
+            Defines a source of configuration to be evaluated and applied
+            against a HOCON key/value pair.
+            </summary>
+        </member>
+        <member name="P:Akka.Bootstrap.Docker.ConfigEntrySource.SourceName">
+            <summary>
+            Override to describe the implementation type
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Akka.Bootstrap.Docker.ConfigEntrySource.Nodes">
+            <summary>
+            The series of key nodes which make up the path
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Akka.Bootstrap.Docker.ConfigEntrySource.Key">
+            <summary>
+            The full HOCON path for the given value (Derived from `Nodes`)
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Akka.Bootstrap.Docker.ConfigEntrySource.Value">
+            <summary>
+            The value for this given HOCON node
+            </summary>
+            <value></value>
+        </member>
+        <member name="P:Akka.Bootstrap.Docker.ConfigEntrySource.Index">
+            <summary>
+            Identifies if the source is a series of values
+            </summary>
+        </member>
+        <member name="P:Akka.Bootstrap.Docker.ConfigEntrySource.Depth">
+            <summary>
+            Returns the depth of the hocon key (ie. number of nodes on the key)
+            </summary>
+        </member>
+        <member name="M:Akka.Bootstrap.Docker.ConfigEntrySource.#ctor(System.String[],System.String,System.Int32)">
+            <summary>
+            Creates a config entry source from a set of nodes, value and optional index
+            </summary>
+            <param name="nodes">Set of nodes which comprise the path</param>
+            <param name="value">Value stored in this entry</param>
+            <param name="index">Provided index to identify a set of hocon values stored 
+            against a single key</param>
+        </member>
+        <member name="T:Akka.Bootstrap.Docker.DockerBootstrap">
+            <summary>
+                Modifies our HOCON configuration based on environment variables
+                supplied by Docker.
+            </summary>
+        </member>
+        <member name="M:Akka.Bootstrap.Docker.DockerBootstrap.BootstrapFromDocker(Akka.Configuration.Config,System.Boolean)">
+            <summary>
+                Extension method intended to chain configuration derived from
+                Docker-supplied environment variables to the front of the fallback chain,
+                overriding any values that were provided in a built-in HOCON file.
+            </summary>
+            <param name="input">The current configuration object.</param>
+            <param name="assignDefaultHostName">If set to <c>true</c>, bootstrapper will use <see cref="M:System.Net.Dns.GetHostName"/> to assign a default hostname
+            in the event that the CLUSTER_IP environment variable is not specified. If <c>false</c>, then we'll leave it blank.</param>
+            <returns>An updated Config object with <see cref="!:input" /> chained behind it as a fallback. Immutable.</returns>
+            <example>
+                var config = HoconLoader.FromFile("myHocon.hocon");
+                var myActorSystem = ActorSystem.Create("mySys", config.BootstrapFromDocker());
+            </example>
+        </member>
+        <member name="T:Akka.Bootstrap.Docker.EnvironmentVariableConfigEntrySource">
+            <summary>
+            Configuration entry source from Environment Variables
+            </summary>
+        </member>
+        <member name="M:Akka.Bootstrap.Docker.EnvironmentVariableConfigEntrySource.Create(System.String,System.String)">
+            <summary>
+            Creates an instance of EnvironmentVariableConfigEntrySource
+            from a raw environment variable key/value pair
+            </summary>
+            <param name="key"></param>
+            <param name="value"></param>
+            <returns></returns>
+            <remarks>
+            Will perform analysis on the key in the following way:
+                - Instances of '__' are treated as path delimiterrs
+                - Instances of '_' are treated as substitutions of '-'
+                - Terminal nodes which appear to be integers will be taken as indexes
+                  to support multi-value keys
+            </remarks>
+        </member>
+        <member name="T:Akka.Bootstrap.Docker.EnvironmentVariableConfigLoader">
+            <summary>
+            Extension and helper methods to support loading a Config instance from 
+            the environment variables of the current process.
+            </summary>
+        </member>
+        <member name="M:Akka.Bootstrap.Docker.EnvironmentVariableConfigLoader.FromEnvironment(Akka.Configuration.Config)">
+            <summary>
+            Load AKKA configuration from the environment variables that are 
+            accessible from the current process.
+            </summary>
+            <param name="input"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

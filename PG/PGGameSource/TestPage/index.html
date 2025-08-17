@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+    <meta charset="UTF-8">
+    <title>PG Soft</title>
+    <style>
+  /* 모달 기본 스타일 */
+  /* #langModal {
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex; align-items: center; justify-content: center;
+  }
+  #langModalContent {
+    background: white; padding: 20px; border-radius: 8px; text-align: center;
+    min-width: 300px;
+  }
+  #langModal select {
+    width: 100%; padding: 8px; margin: 12px 0;
+  } */
+
+   #langModal {
+    display: block; /* 테스트용으로 기본 display를 block으로 설정 */
+    position: fixed;
+    top: 0; left: 0; right: 0; bottom: 0;
+    background-color: rgba(0,0,0,0.6);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 999;
+}
+
+#langModalContent {
+    background: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 300px;
+    text-align: center;
+    box-shadow: 0 0 20px rgba(0,0,0,0.2);
+    font-family: sans-serif;
+}
+
+.language-option {
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.language-option input[type="radio"] {
+    appearance: none;
+    width: 18px;
+    height: 18px;
+    border: 2px solid #555;
+    border-radius: 50%;
+    margin-right: 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.language-option input[type="radio"]:checked::before {
+    content: "";
+    position: absolute;
+    top: 3px;
+    left: 3px;
+    width: 10px;
+    height: 10px;
+    background: #007bff;
+    border-radius: 50%;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background: #007bff;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+    background: #0056b3;
+}
+</style>
+</head>
+<body>
+    <div id="langModal" style="display: none;">
+    <div id="langModalContent">
+        <h3>언어를 선택하세요</h3>
+        <form id="languageForm">
+            <label class="language-option"><input type="radio" name="language" value="ko" checked> Korean</label>
+            <label class="language-option"><input type="radio" name="language" value="en"> English</label>
+            <label class="language-option"><input type="radio" name="language" value="zh"> Chinese</label>
+            <label class="language-option"><input type="radio" name="language" value="ja"> Japanese</label>
+            <label class="language-option"><input type="radio" name="language" value="vi"> Vietnamese</label>
+            <label class="language-option"><input type="radio" name="language" value="th"> Thai</label>
+            <label class="language-option"><input type="radio" name="language" value="tr"> Turkish</label>
+            <label class="language-option"><input type="radio" name="language" value="id"> Indonesian</label>
+            <label class="language-option"><input type="radio" name="language" value="pt"> Portuguese</label>
+            <label class="language-option"><input type="radio" name="language" value="es"> Spanish</label>
+        </form>
+        <button onclick="openGame();">게임 실행</button>
+    </div>
+</div>
+
+    <h1>Working with SONG</h1>
+
+    <button id="load" onclick="loadPGSoft('87')">Treasure Of Aztec</button>
+    <button id="load" onclick="loadPGSoft('89')">Lucky Neko</button>
+    <button id="load" onclick="loadPGSoft('74')">Mahjong Ways 2</button>
+    <button id="load" onclick="loadPGSoft('65')">Mahjong Ways</button>
+    <button id="load" onclick="loadPGSoft('106')">Ways Of The Qilin</button>
+    <button id="load" onclick="loadPGSoft('135')">Wild Bounty Showdown</button>
+    <button id="load" onclick="loadPGSoft('104')">Wild Bandito</button>
+    <button id="load" onclick="loadPGSoft('98')">Fortune Ox</button>
+    <button id="load" onclick="loadPGSoft('75')">Ganesha Fortune</button>
+    <button id="load" onclick="loadPGSoft('1340277')">Asgardian Rising</button>
+    <button id="load" onclick="loadPGSoft('71')">Caishen Wins</button>
+    <button id="load" onclick="loadPGSoft('128')">Legend Of Perseus</button>
+    <button id="load" onclick="loadPGSoft('117')">Cocktail Nights</button>
+    <button id="load" onclick="loadPGSoft('1372643')">Dinner Delights</button>
+    <button id="load" onclick="loadPGSoft('1402846')">Midas Fortune</button>
+    <button id="load" onclick="loadPGSoft('126')">Fortune Tiger</button>
+    <button id="load" onclick="loadPGSoft('92')">Thai River Wonders</button>
+    <button id="load" onclick="loadPGSoft('110')">Jurassic Kingdom</button>
+    <button id="load" onclick="loadPGSoft('1312883')">Prosperity Fortune Tree</button>
+    <button id="load" onclick="loadPGSoft('73')">Egypt's Book of Mystery</button>
+    <button id="load" onclick="loadPGSoft('84')">Queen Of Bounty</button>
+    <button id="load" onclick="loadPGSoft('54')">Captain Bounty</button>
+    <button id="load" onclick="loadPGSoft('57')">Dragon Hatch</button>
+    <button id="load" onclick="loadPGSoft('79')">Dreams Of Macau</button>
+    <button id="load" onclick="loadPGSoft('60')">Leprechaun Riches</button>
+    <button id="load" onclick="loadPGSoft('53')">The Great Icescape</button>
+    <button id="load" onclick="loadPGSoft('127')">Speed Winner</button>
+    <button id="load" onclick="loadPGSoft('130')">Lucky Piggy</button>
+    <button id="load" onclick="loadPGSoft('120')">The Queen's Banquet</button>
+    <button id="load" onclick="loadPGSoft('132')">Wild Coaster</button>
+    <button id="load" onclick="loadPGSoft('125')">Butterfly Blossom</button>
+    <button id="load" onclick="loadPGSoft('103')">Crypto Gold</button>
+    <button id="load" onclick="loadPGSoft('48')">Double Fortune</button>
+    <button id="load" onclick="loadPGSoft('68')">Fortune Mouse</button>
+    <button id="load" onclick="loadPGSoft('112')">Oriental Prosperity</button>
+    <button id="load" onclick="loadPGSoft('82')">Phoenix Rises</button>
+    <button id="load" onclick="loadPGSoft('101')">Rise Of Apollo</button>
+    <button id="load" onclick="loadPGSoft('123')">Rooster Rumble</button>
+    <button id="load" onclick="loadPGSoft('67')">Shaolin Soccer</button>
+    <button id="load" onclick="loadPGSoft('83')">Wild Fireworks</button>
+    <button id="load" onclick="loadPGSoft('119')">Spirited Wonders</button>
+    <button id="load" onclick="loadPGSoft('95')">Majestic Treasures</button>
+    <button id="load" onclick="loadPGSoft('122')">Garuda Gems</button>
+    <button id="load" onclick="loadPGSoft('115')">Supermarket Spree</button>
+    <button id="load" onclick="loadPGSoft('64')">Muay Thai Champion</button>
+    <button id="load" onclick="loadPGSoft('1543462')">Fortune Rabbit</button>
+    <button id="load" onclick="loadPGSoft('124')">Battleground Royale</button>
+    <button id="load" onclick="loadPGSoft('90')">Secret Of Cleopatra</button>
+    <button id="load" onclick="loadPGSoft('1368367')">Alchemy Gold</button>
+    <button id="load" onclick="loadPGSoft('100')">Candy Bonanza</button>
+    <button id="load" onclick="loadPGSoft('1338274')">Totem Wonders</button>
+    <button id="load" onclick="loadPGSoft('44')">Emperors Favour</button>
+    <button id="load" onclick="loadPGSoft('42')">Ganesha Gold</button>
+    <button id="load" onclick="loadPGSoft('105')">Heist Stakes</button>
+    <button id="load" onclick="loadPGSoft('86')">Galactic Gems</button>
+    <button id="load" onclick="loadPGSoft('88')">Jewels Of Prosperity</button>
+    <button id="load" onclick="loadPGSoft('93')">Opera Dynasty</button>
+    <button id="load" onclick="loadPGSoft('80')">Circus Delight</button>
+    <button id="load" onclick="loadPGSoft('91')">Guardians Of Ice And Fire</button>
+    <button id="load" onclick="loadPGSoft('63')">Dragon Tiger Luck</button>
+    <button id="load" onclick="loadPGSoft('70')">Candy Burst</button>
+    <button id="load" onclick="loadPGSoft('85')">Genie's 3 Wishes</button>
+    <button id="load" onclick="loadPGSoft('62')">Gem Saviour Conquest</button>
+    <button id="load" onclick="loadPGSoft('121')">Destiny Of Sun And Moon</button>
+    <button id="load" onclick="loadPGSoft('102')">Mermaid Riches</button>
+    <button id="load" onclick="loadPGSoft('24')">Win Win Won</button>
+    <button id="load" onclick="loadPGSoft('3')">Fortune Gods</button>
+    <button id="load" onclick="loadPGSoft('29')">Dragon Legend</button>
+    <button id="load" onclick="loadPGSoft('107')">Legendary Monkey King</button>
+    <button id="load" onclick="loadPGSoft('50')">Journey To The Wealth</button>
+    <button id="load" onclick="loadPGSoft('69')">Bikini Paradise</button>
+    <button id="load" onclick="loadPGSoft('113')">Raider Janes Crypt Of Fortune</button>
+    <button id="load" onclick="loadPGSoft('129')">Win Win Fish Prawn Crab</button>
+    <button id="load" onclick="loadPGSoft('40')">Jungle Delight</button>
+    <button id="load" onclick="loadPGSoft('108')">Buffalo Win</button>
+    <button id="load" onclick="loadPGSoft('39')">Piggy Gold</button>
+    <button id="load" onclick="loadPGSoft('25')">Plushie Frenzy</button>
+    <button id="load" onclick="loadPGSoft('94')">Bali Vacation</button>
+    <button id="load" onclick="loadPGSoft('1381200')">Hawaiian Tiki</button>
+    <button id="load" onclick="loadPGSoft('61')">Flirting Scholar</button>
+    <button id="load" onclick="loadPGSoft('59')">Ninja Vs Samurai</button>
+    <button id="load" onclick="loadPGSoft('1')">Honey Trap Of Diao Chan</button>
+    <button id="load" onclick="loadPGSoft('6')">Medusa 2</button>
+    <button id="load" onclick="loadPGSoft('34')">Legend Of Hou Yi</button>
+    <button id="load" onclick="loadPGSoft('118')">Mask Carnival</button>
+    <button id="load" onclick="loadPGSoft('114')">Emoji Riches</button>
+    <button id="load" onclick="loadPGSoft('97')">Jack Frosts Winter</button>
+    <button id="load" onclick="loadPGSoft('35')">Mr. Hallow-Win</button>
+    <button id="load" onclick="loadPGSoft('36')">Prosperity Lion</button>
+    <button id="load" onclick="loadPGSoft('20')">Reel Love</button>
+    <button id="load" onclick="loadPGSoft('1418544')">Bakery Bonanza</button>
+    <button id="load" onclick="loadPGSoft('37')">Santa's Gift Rush</button>
+    <button id="load" onclick="loadPGSoft('33')">Hip Hop Panda</button>
+    <button id="load" onclick="loadPGSoft('7')">Medusa</button>
+    <button id="load" onclick="loadPGSoft('58')">Vampire's Charm</button>
+    <button id="load" onclick="loadPGSoft('38')">Gem Saviour Sword</button>
+    <button id="load" onclick="loadPGSoft('1420892')">Rave Party Fever</button>
+    <button id="load" onclick="loadPGSoft('1448762')">Songkran Splash</button>
+    <button id="load" onclick="loadPGSoft('1513328')">Super Golf Drive</button>
+    <button id="load" onclick="loadPGSoft('1432733')">Mystical Spirits</button>
+    <button id="load" onclick="loadPGSoft('1397455')">Fruity Candy</button>
+    <button id="load" onclick="loadPGSoft('1601012')">Lucky Clover Lady</button>
+    <button id="load" onclick="loadPGSoft('1473388')">Cruise Royale</button>
+    <button id="load" onclick="loadPGSoft('1594259')">Safari Wilds</button>
+    <button id="load" onclick="loadPGSoft('1572362')">Gladiators Glory</button>
+    <button id="load" onclick="loadPGSoft('1529867')">Ninja Raccoon Frenzy</button>
+    <button id="load" onclick="loadPGSoft('1489936')">Ultimate Striker</button>
+    <button id="load" onclick="loadPGSoft('1568554')">Wild Heist Cashout</button>
+    <button id="load" onclick="loadPGSoft('1555350')">Forge Of Wealth</button>
+    <button id="load" onclick="loadPGSoft('1580541')">Mafia Mayhem</button>
+    <button id="load" onclick="loadPGSoft('1655268')">Tsar Treasures</button>
+    <button id="load" onclick="loadPGSoft('1615454')">Werewolf's Hunt</button>
+    <button id="load" onclick="loadPGSoft('1451122')">Dragon Hatch 2</button>
+    <button id="load" onclick="loadPGSoft('1695365')">Fortune Dragon</button>
+    <button id="load" onclick="loadPGSoft('1671262')">Gemstones Gold</button>
+    <button id="load" onclick="loadPGSoft('1682240')">Cash Mania</button>
+    <button id="load" onclick="loadPGSoft('1508783')">Wild Ape #3258</button>
+    <button id="load" onclick="loadPGSoft('1492288')">Pinata Wins</button>
+    <button id="load" onclick="loadPGSoft('1717688')">Mystic Potion</button>
+    <button id="load" onclick="loadPGSoft('1623475')">Anubis Wrath</button>
+    <button id="load" onclick="loadPGSoft('1635221')">Zombie OutBreak</button>
+    <button id="load" onclick="loadPGSoft('1648578')">Shark Hunter</button>
+    <button id="load" onclick="loadPGSoft('1760238')">Yakuza Honor</button>
+    <button id="load" onclick="loadPGSoft('1747549')">Wings Of Iguazu</button>
+    <button id="load" onclick="loadPGSoft('1727711')">Three Crazy Piggies</button>
+    <button id="load" onclick="loadPGSoft('1815268')">Oishi Delights</button>
+    <button id="load" onclick="loadPGSoft('1755623')">Museum Mystery</button>
+    <button id="load" onclick="loadPGSoft('1786529')">Rio Fantasia</button>
+    <button id="load" onclick="loadPGSoft('1666445')">Chocolate Deluxe</button>
+    <button id="load" onclick="loadPGSoft('1702123')">Geisha's Revenge</button>
+    <button id="load" onclick="loadPGSoft('1879752')">Fortune Snake</button>
+    <button id="load" onclick="loadPGSoft('1850016')">Incan Wonders</button>
+    <button id="load" onclick="loadPGSoft('1799745')">Mr. Treasure's Fortune</button>
+    <button id="load" onclick="loadPGSoft('1804577')">Graffiti Rush</button>
+    <button id="load" onclick="loadPGSoft('1827457')">Doomsday Rampage</button>
+    <button id="load" onclick="loadPGSoft('1881268')">Knockout Riches</button>
+    <button id="load" onclick="loadPGSoft('1834850')">Jack the Giant Hunter</button>
+
+    <script>
+            var game_id = '';
+            async function loadPGSoft(gameid){
+                game_id = gameid;
+                document.getElementById("langModal").style.display = 'block';
+            }
+            
+            function openCenteredPopup(url, title="_blank", width = 800, height = 600) {
+                // 현재 브라우저의 화면 크기 기준으로 가운데 좌표 계산
+                const dualScreenLeft = window.screenLeft ?? window.screenX;
+                const dualScreenTop = window.screenTop ?? window.screenY;
+
+                const screenWidth = window.innerWidth ?? document.documentElement.clientWidth ?? screen.width;
+                const screenHeight = window.innerHeight ?? document.documentElement.clientHeight ?? screen.height;
+
+                const left = dualScreenLeft + (screenWidth - width) / 2;
+                const top = 180 + dualScreenTop + (screenHeight - height) / 2;
+
+                const newWindow = window.open(
+                    url,
+                    title,
+                    `scrollbars=yes,resizable=yes,width=${width},height=${height},top=${top},left=${left}`
+                );
+
+                //if (window.focus) {
+                //    newWindow.focus();
+                //}
+            }
+
+            async function openGame() {
+                document.getElementById("langModal").style.display = 'none';
+                const params = new URLSearchParams(window.location.search);
+                const userID = params.get('user');
+                const token = '55e83f3a6b4b4c53bc8b2780104b0198'; // 🔐 실제 토큰으로 교체
+                const url = 'http://localhost:9888/userAuth'; // 🔗 실제 API 주소
+
+                const agentName = 'testagent01';
+                // var userID = 'devuser001';
+                const selected = document.querySelector('input[name="language"]:checked');
+                if (!selected) {
+                    alert("언어를 선택해주세요.");
+                    return;
+                }
+                const lang = selected.value;
+                const postData = {
+                    agentID: agentName,
+                    userID: userID,
+                    lang: lang,
+                    gameid: Number(game_id),
+                    isaffiliate: false,
+                    lobbyUrl: "https://public.pgtest.com/lobby"
+                };
+
+                try {
+                    const response = await fetch(url, {
+                    method: 'POST',
+                    headers: {
+                        'Authorization': `Bearer ${token}`,
+                        'Content-Type': 'application/json'
+                    },
+                    body: JSON.stringify(postData)
+                    });
+
+                    if (!response.ok) {
+                        alert("요청 오류발생");
+                        return;
+                    }
+
+                    const data = await response.json();
+                    if (data.code != 0) {
+                        alert("요청 틀려:"+data.message);
+                        return;
+                    }
+                    else{
+						//location.href = data.url;
+                        //window.open(data.url, '_blank');
+                        openCenteredPopup(data.url);
+                        // const width = 800;
+                        // const height = 600;
+
+                        // // 현재 브라우저 창 기준으로 중앙 정렬 계산
+                        // const left = (window.screen.width / 2) - (width / 2);
+                        // const top = (window.screen.height / 2) - (height / 2);
+
+                        // // 창 열기
+                        // const popup = window.open(
+                        // data.url,
+                        // '_blank',
+                        // `width=${width},height=${height},left=${left},top=${top},resizable=yes,scrollbars=yes`
+                        // );
+                    }
+                    
+
+                } catch (error) {
+                    console.error("요청 실패:", error);
+                    alert("요청 또는 응답 처리 중 오류 발생");
+                }
+            }
+    </script>
+</body>
+</html>

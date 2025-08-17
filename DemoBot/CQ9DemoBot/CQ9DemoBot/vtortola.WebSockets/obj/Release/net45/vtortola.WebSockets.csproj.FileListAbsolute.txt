@@ -1,0 +1,10 @@
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Release\net45\vtortola.WebSockets.dll
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Release\net45\vtortola.WebSockets.pdb
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Release\net45\System.Runtime.InteropServices.RuntimeInformation.dll
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\bin\Release\net45\System.Threading.Tasks.Dataflow.dll
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Release\net45\vtortola.WebSockets.AssemblyInfoInputs.cache
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Release\net45\vtortola.WebSockets.AssemblyInfo.cs
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Release\net45\vtortola.WebSockets.csproj.CoreCompileInputs.cache
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Release\net45\vtortola.WebSockets.csproj.CopyComplete
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Release\net45\vtortola.WebSockets.dll
+F:\HanGame\Server\Server_SVN\PokerServer\vtortola.WebSockets\obj\Release\net45\vtortola.WebSockets.pdb

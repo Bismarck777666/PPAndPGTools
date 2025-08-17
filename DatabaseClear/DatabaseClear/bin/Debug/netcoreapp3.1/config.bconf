@@ -1,0 +1,14 @@
+{
+	database : {
+		ip			: "185.254.241.18",
+		port		: 1433,
+		user		: "sa",
+		pass		: "0rtm5NxY96pE1s5V",
+		dbname		: "gitigaming_inchon"
+	},
+	agentnames:["Administrator"],
+	usernames :[],
+	apiurl	  : "http://api.inchonslot.com",
+	gameurl	  : "http://inchonslot.com",
+	gamesymbol: "vs25pandagold"
+}

@@ -1,0 +1,54 @@
+﻿
+@{
+    ViewBag.Title = "OpenGame";
+}
+
+<section class="content">
+    <input type="hidden" id="session" value="@ViewBag.session" />
+    <input type="hidden" id="baseurl" value="@ViewBag.baseurl" />
+    <input type="hidden" id="apiurl" value="@ViewBag.apiurl" />
+    <input type="hidden" id="symbol" value="@ViewBag.symbol" />
+    <input type="hidden" id="envID" value="@ViewBag.envID" />
+    <input type="hidden" id="roundID" value="@ViewBag.roundID" />
+    <input type="hidden" id="lang" value="@ViewBag.lang" />
+    <input type="hidden" id="currency" value="@ViewBag.currency" />
+    <input type="hidden" id="error" value="@ViewBag.error" />
+
+</section>
+<script>
+    $(document).ready(function () {
+        var error = $('#error').val();
+        if (error != "")
+        {
+            alert(error);
+            return;
+        }
+        var session  = $('#session').val();
+        var apiurl   = $('#apiurl').val();
+        var symbol   = $('#symbol').val();
+        var envID    = $('#envID').val();
+        var roundID  = $('#roundID').val();
+        var lang     = $('#lang').val();
+        var currency = $('#currency').val();
+
+        if (symbol == "vs20cashmachine" || symbol == "vs20forge" || symbol == "vswaysstrlght" || symbol == "vs20hstgldngt" ||
+            symbol == "vs20jewelparty" || symbol == "vs50jucier" || symbol == "vs20splmystery" || symbol == "vs20wildparty" ||
+            symbol == "vs20stickywild" || symbol == "vs15godsofwar" || symbol == "vs40rainbowr" || symbol == "vs20gravity" ||
+            symbol == "vs20maskgame" || symbol == "vswaysraghex" || symbol == "vs20starlightx" || symbol == "vs20sugarcoins" ||
+            symbol == "vs20mysteryst" || symbol == "vs40wanderw" || symbol == "vswaystimber" || symbol == "vswayswildgang" ||
+            symbol == "vs20sugrux" || symbol == "vs20cjcluster" || symbol == "vs20olympx" || symbol == "vs20bigdawgs" ||
+            symbol == "vs20loksriches" || symbol == "vs20treesot" || symbol == "vswaysalterego" || symbol == "vs10strawberry" ||
+            symbol == "vs20multiup" || symbol == "vs20clustext" || symbol == "vs20stckwldsc" || symbol == "vs20sugarrushx" ||
+            symbol == "vs20portals" || symbol == "vs20doghouse2" || symbol == "vs20caramsort" || symbol == "vs20stickypos" ||
+            symbol == "vs20bison" || symbol == "vs20candybltz2" || symbol == "vs20heartcleo" || symbol == "vswayshexhaus" ||
+            symbol == "vs20shootstars" || symbol == "vs25wildies" || symbol == "vs20medusast" || symbol == "vswaysspltsym" ||
+            symbol == "vswaysjapan" || symbol == "vs20fruitswx") {
+            document.location.href = "/PPGame/replayGameNew.html?session=" + session + "&apiurl=" + apiurl + "&symbol=" + symbol + "&envID=" + envID + "&roundID=" + roundID + "&lang=" + lang + "&currency=" + currency;
+        }
+        else {
+            document.location.href = "/PPGame/replayGame.html?session=" + session + "&apiurl=" + apiurl + "&symbol=" + symbol + "&envID=" + envID + "&roundID=" + roundID + "&lang=" + lang + "&currency=" + currency;
+        }
+    })
+</script>
+
+

@@ -1,0 +1,142 @@
+﻿
+@{
+    ViewBag.Title = "OpenGame";
+}
+
+<section class="content">
+    <input type="hidden" id="error"   value="@ViewBag.error" />
+    <div style="display:none">
+        <form action="/PPGame/openGame.asp" method="post" id="redirect-form" name="redirect-form">
+            <input type="hidden" name="session"         value="@ViewBag.session" />
+            <input type="hidden" name="gametitle"       value="@ViewBag.gametitle" />
+            <input type="hidden" name="apiurl"          value="@ViewBag.apiurl" />
+            <input type="hidden" name="symbol"          value="@ViewBag.symbol" />
+            <input type="hidden" name="supportreplay"   value="@ViewBag.supportreplay" />
+            <input type="hidden" name="replayurl"       value="@ViewBag.replayurl" />
+            <input type="hidden" name="sessionkey2"     value="@ViewBag.sessionkey2" />
+            <input type="hidden" name="lang"            value="@ViewBag.lang" />
+            <input type="hidden" name="currency"        value="@ViewBag.currency" />
+            <input type="hidden" name="lobbyurl"        value="@ViewBag.lobbyurl" />      
+            <input type="hidden" name="RSAPublicKey"    value="@ViewBag.RSAPublicKey" />
+            <input type="hidden" name="RSASessionKey"   value="@ViewBag.RSASessionKey" />
+        </form>
+    </div>
+</section>
+<script>
+    $(document).ready(function () {
+        var error = $('#error').val();
+        if (error != "")
+        {
+            alert(error);
+            return;
+        }
+
+        var symbol = "@ViewBag.symbol";
+        if (symbol == "vs20midas" || symbol == "vs40pirgold" || symbol == "vs25peking" || symbol == "vs20tweethouse" ||
+            symbol == "vs20pbonanza" || symbol == "vs25hotfiesta" || symbol == "vs20amuleteg" || symbol == "vs25copsrobbers" ||
+            symbol == "vs20emptybank" || symbol == "vs20cleocatra" || symbol == "vswayszombcarn" || symbol == "vs243koipond" ||
+            symbol == "vs20trsbox" || symbol == "vs20sugarrush" || symbol == "vs20starlight" || symbol == "vs20fruitsw" ||
+            symbol == "vs20sbxmas" || symbol == "vs20bonzgold" || symbol == "vs20swordofares" || symbol == "vs20colcashzone" ||
+            symbol == "vs20leprechaun" || symbol == "vs20farmfest" || symbol == "vswayswwhex" || symbol == "vs25rlbank" ||
+            symbol == "vs20mtreasure" || symbol == "vs20theights" || symbol == "vs20schristmas" || symbol == "vs20lcount" ||
+            symbol == "vs40samurai3" || symbol == "vs20aztecgates" || symbol == "vs20gatotgates" || symbol == "vs20dugems" ||
+            symbol == "vs10tut" || symbol == "vs20asgard" || symbol == "vs20porbs" || symbol == "vswaysluckyfish" ||
+            symbol == "vswaysfrywld" || symbol == "vswaysyumyum" || symbol == "vs25spgldways" || symbol == "vs20ltng" ||
+            symbol == "vs10coffee" || symbol == "vs20candvil" || symbol == "vs20mochimon" || symbol == "vs20gatotfury" ||
+            symbol == "vs20goldfever" || symbol == "vs20santawonder" || symbol == "vs20fparty2" || symbol == "vs20gobnudge" ||
+            symbol == "vs10nudgeit" || symbol == "vs20kraken" || symbol == "vs20bchprty" || symbol == "vs1600drago" ||
+            symbol == "vs20bermuda" || symbol == "vs20chickdrop" || symbol == "vs10bookoftut" || symbol == "vs20octobeer" ||
+            symbol == "vs4096magician" || symbol == "vs10bookfallen" || symbol == "vs5joker" || symbol == "vs1dragon8" ||
+            symbol == "vs20mparty" || symbol == "vswaysbook" || symbol == "vs7776aztec" || symbol == "vs5strh" ||
+            symbol == "vs20trswild2" || symbol == "vs10crownfire" || symbol == "vs20wolfie" || symbol == "vs5firehot" ||
+            symbol == "vs20fh" || symbol == "vs40firehot" || symbol == "vs100firehot" || symbol == "vs5sh" ||
+            symbol == "vs20sh" || symbol == "vs40sh" || symbol == "vs100sh" || symbol == "vs9aztecgemsdx" ||
+            symbol == "vs20underground" || symbol == "vs25bomb" || symbol == "vs10firestrike" || symbol == "vs10firestrike2" ||
+            symbol == "vs243ckemp" || symbol == "vs243caishien" || symbol == "vs10egrich" || symbol == "vs20stickysymbol" ||
+            symbol == "vs40cleoeye" || symbol == "vs20drtgold" || symbol == "vs20mustanggld2" || symbol == "vs25scarabqueen" ||
+            symbol == "vs20phoenixf" || symbol == "vs25btygold" || symbol == "vs50mightra" || symbol == "vs7fire88" ||
+            symbol == "vs243fortseren" || symbol == "vs25tigeryear" || symbol == "vs1masterjoker" || symbol == "vs576treasures" ||
+            symbol == "vs25aztecking" || symbol == "vs25bullfiesta" || symbol == "vs243discolady" || symbol == "vs10fruity2" ||
+            symbol == "vs25chilli" || symbol == "vs10bookazteck" || symbol == "vs576hokkwolf" || symbol == "vs1fortunetree" ||
+            symbol == "vs10bblpop" || symbol == "vs25pyramid" || symbol == "vs25goldpig" || symbol == "vs243fortune" ||
+            symbol == "vs9piggybank" || symbol == "vs5super7" || symbol == "vs1tigers" || symbol == "vs10wildtut" ||
+            symbol == "vswayswest" || symbol == "vs25tigerwar" || symbol == "vs1024dtiger" || symbol == "vs1024mahjpanda" ||
+            symbol == "vs1money" || symbol == "vs20superx" || symbol == "vs243empcaishen" || symbol == "vs25wildspells" ||
+            symbol == "vs20smugcove" || symbol == "vs88hockattack" || symbol == "vs20daydead" || symbol == "vswaysbankbonz" ||
+            symbol == "vs20magicpot" || symbol == "vs40voodoo" || symbol == "vs10mayangods" || symbol == "vs25walker" ||
+            symbol == "vs1fufufu" || symbol == "vs1ball" || symbol == "vs40frrainbow" || symbol == "vswayshive" ||
+            symbol == "vs8magicjourn" || symbol == "vs20aladdinsorc" || symbol == "vs5spjoker" || symbol == "vs9hotroll" ||
+            symbol == "vs7776secrets" || symbol == "vs20wildpix" || symbol == "vs25gladiator" || symbol == "vs18mashang" ||
+            symbol == "vs50safariking" || symbol == "vs5trdragons" || symbol == "vs9chen" || symbol == "vs10madame" ||
+            symbol == "vs10egypt" || symbol == "vs9madmonkey" || symbol == "vs25goldrush" || symbol == "vs20santa" ||
+            symbol == "vs7pigs" || symbol == "vs25vegas" || symbol == "vs50aladdin" || symbol == "vs50hercules" ||
+            symbol == "vs50chinesecharms" || symbol == "vs25dwarves_new" || symbol == "vs25safari" || symbol == "vs7monkeys" ||
+            symbol == "vs13g" || symbol == "vs20pistols" || symbol == "vs25sea" || symbol == "vs25davinci" || symbol == "vs10goldfish" ||
+            symbol == "vs40madwheel" || symbol == "vs20honey" || symbol == "vs10vampwolf" || symbol == "vs50pixie" ||
+            symbol == "vs25dragonkingdom" || symbol == "vs25journey" || symbol == "vs40streetracer" || symbol == "vs25samurai" ||
+            symbol == "vs20godiva" || symbol == "vs50kingkong" || symbol == "vs15fairytale" || symbol == "vs20doghousemh" ||
+            symbol == "vs20sknights" || symbol == "vs20framazon" || symbol == "vs20leprexmas" || symbol == "vs20bl" ||
+            symbol == "vs5drmystery" || symbol == "vs20kraken2" || symbol == "vswaysredqueen" || symbol == "vs20hotzone" ||
+            symbol == "vs10gizagods" || symbol == "vs10jnmntzma" || symbol == "vs20excalibur" || symbol == "vs25spotz" ||
+            symbol == "vswayseternity" || symbol == "vs9outlaw" || symbol == "vs20beefed" || symbol == "vswaysultrcoin" ||
+            symbol == "vs4096robber" || symbol == "vs243nudge4gold" || symbol == "vs20piggybank" || symbol == "vs10trail" ||
+            symbol == "vs20candyblitz" || symbol == "vs20earthquake" || symbol == "vswaysftropics" || symbol == "vs40mstrwild" ||
+            symbol == "vs25pantherqueen" || symbol == "vs1024atlantis" || symbol == "vs9hockey" || symbol == "vs9catz" ||
+            symbol == "vs243crystalcave" || symbol == "vs20hockey" || symbol == "vs13ladyofmoon" || symbol == "vs5jokerdice" ||
+            symbol == "vs20bnnzdice" || symbol == "vs20egypt" || symbol == "vs20dhdice" || symbol == "vs25dwarves" ||
+            symbol == "vs20rome" || symbol == "vs5trjokers" || symbol == "vs4096jurassic" || symbol == "vs25kingdomsnojp" ||
+            symbol == "vs50amt" || symbol == "vs10bookviking" || symbol == "vs20fruitparty" || symbol == "vs20eightdragons" ||
+            symbol == "vs15diamond" || symbol == "vs25pandagold" || symbol == "vs25newyear" || symbol == "vs5aztecgems" ||
+            symbol == "vs25asgard" || symbol == "vs20vegasmagic" || symbol == "vs10egyptcls" || symbol == "vs25mustang" ||
+            symbol == "vs20hercpeg" || symbol == "vs25romeoandjuliet" || symbol == "vs30catz" || symbol == "vs40beowulf" ||
+            symbol == "vs25wolfgold" || symbol == "vs20rhino" || symbol == "vs243lions" || symbol == "vs20egypttrs" ||
+            symbol == "vs20doghouse" || symbol == "vs40pirate" || symbol == "vs243lionsgold" || symbol == "vs243mwarrior" ||
+            symbol == "vs4096bufking" || symbol == "vs25mmouse" || symbol == "vs243dancingpar" || symbol == "vs40wildwest" ||
+            symbol == "vs10threestar" || symbol == "vs20rhinoluxe" || symbol == "vs1024lionsd" || symbol == "vs10cowgold" ||
+            symbol == "vs40spartaking" || symbol == "vs25gldox" || symbol == "vs25jokerking" || symbol == "vs20olympgate" ||
+            symbol == "vs50juicyfr" || symbol == "vs20wildboost" || symbol == "vs25pandatemple" || symbol == "vs25rio" ||
+            symbol == "vs10powerlines" || symbol == "vs20mvwild" || symbol == "vs15fghtmultlv" || symbol == "vs20forgewilds" ||
+            symbol == "vs20elevclust" || symbol == "vs20sweetarg" || symbol == "vs20mesmult" ||
+
+            symbol == "vs20cashmachine" || symbol == "vs20forge" || symbol == "vswaysstrlght" || symbol == "vs20hstgldngt" ||
+            symbol == "vs20jewelparty" || symbol == "vs50jucier" || symbol == "vs20splmystery" || symbol == "vs20wildparty" ||
+            symbol == "vs20stickywild" || symbol == "vs15godsofwar" || symbol == "vs40rainbowr" || symbol == "vs20gravity" ||
+            symbol == "vs20maskgame" || symbol == "vswaysraghex" || symbol == "vs20starlightx" || symbol == "vs20sugarcoins" ||
+            symbol == "vs20mysteryst" || symbol == "vs40wanderw" || symbol == "vswaystimber" || symbol == "vswayswildgang" ||
+            symbol == "vs20sugrux" || symbol == "vs20cjcluster" || symbol == "vs20olympx" || symbol == "vs20bigdawgs" ||
+            symbol == "vs20loksriches" || symbol == "vs20treesot" || symbol == "vswaysalterego" || symbol == "vs10strawberry" ||
+            symbol == "vs20multiup" || symbol == "vs20clustext" || symbol == "vs20stckwldsc" || symbol == "vs20sugarrushx" ||
+            symbol == "vs20portals" || symbol == "vs20doghouse2" || symbol == "vs20caramsort" || symbol == "vs20stickypos" ||
+            symbol == "vs20bison" || symbol == "vs20candybltz2" || symbol == "vs20heartcleo" ||
+            symbol == "vswayshexhaus" || symbol == "vs20shootstars" || symbol == "vs25wildies" || symbol == "vs20medusast" ||
+            symbol == "vswaysspltsym" || symbol == "vswaysjapan" || symbol == "vs20fruitswx" || symbol == "vs20clustcol" ||
+            symbol == "vs20crankit" || symbol == "vs5jjwild" || symbol == "vs20jhunter" || symbol == "vswayscashconv" ||
+            symbol == "vs20sulcon" || symbol == "vs20dede" || symbol == "vs25badge" || symbol == "vs20fourmc" || symbol == "vs20clreacts" ||
+            symbol == "vs5himalaw" || symbol == "vs10jokerhot" || symbol == "vs25ultwolgol" || symbol == "vs25checaishen" || symbol == "vs20dhcluster2" ||
+            symbol == "vs5magicdoor" || symbol == "vs50fatfrogs" || symbol == "vs20olympxmas" || symbol == "vs20rainbowrsh" ||
+            symbol == "vs20plsmcannon" || symbol == "vs20irishcrown" || symbol == "vswayspearls" || symbol == "vswaysbrickhos" || symbol == "vswaysbufstamp" ||
+            symbol == "vs10fireice" || symbol == "vswayssavlgnd" || symbol == "vs10fortnpig" || symbol == "vs1024mahjwins" || symbol == "vswaysmahwblck" || symbol == "vswaysmahwgong" ||
+            symbol == "vs10swbass" || symbol == "vs10booklight" || symbol == "vswaysasiatrzn" || symbol == "vs25luckwildpb" || symbol == "vswayswwjoker" || symbol == "vs20lightblitz" || symbol == "vs20dhsuper" ||
+            symbol == "vs5jokerjc" || symbol == "vs9ridelightng" || symbol == "vs20olympgold" || symbol == "vs20rizkbnz" || symbol == "vs20perusw" || symbol == "vs4096bufkingh" ||
+            symbol == "vs20fpartydice" || symbol == "vs5tucanito" || symbol == "vs10cndstbnnz" || symbol == "vs20hadex" || symbol == "vs20mmuertx" || symbol == "vs20scbparty" ||
+            symbol == "vs25sleepdrag" || symbol == "vs10gbseries" || symbol == "vs20olgamesx" || symbol == "vs20swdicex" || symbol == "vswaysmwss" || symbol == "vs20hotsake" ||
+            symbol == "vs15eyeofspart" || symbol == "vs10diamondrgh" || symbol == "vs20gemfirefor" || symbol == "vs20gtsofhades" || symbol == "vs20alieninv" ||
+            symbol == "vswaysmjwl" || symbol == "vs20swbonsup" || symbol == "vs9gemtrio" || symbol == "vswaysargonts"
+
+        ) {
+            $('#redirect-form').attr('action', '/PPGame/openGameNew.asp');
+        }
+        else if (symbol == "vs5luckytig" || symbol == "vs10fortnhs" || symbol == "vs10forwildly" || symbol == "vs5luckytigly" || symbol == "vs5luckydogly" || symbol == "vs5jellyc" ||
+            symbol == "vs5luckymly" || symbol == "vs10emotiwins" || symbol == "vs5wfrog" || symbol == "vs1dragon888" || symbol == "vs5luckyt1kly" || symbol == "vs5luckyphnly" ||
+            symbol == "vs25pfarmfp" || symbol == "vswaysaztecgm" || symbol == "vswaysolwfp" || symbol == "vs1mjokfp" 
+        )
+        {
+            $('#redirect-form').attr('action', '/PPGame/openGameNew2.asp');
+        }
+
+        
+        $("#redirect-form").submit();
+    })
+</script>
+
+

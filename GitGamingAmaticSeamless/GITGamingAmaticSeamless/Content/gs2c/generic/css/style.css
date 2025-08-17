@@ -1,0 +1,457 @@
+
+@CHARSET "UTF-8";
+@import url("../../common/css/general.css");
+
+/* body */
+body.outer .pageContent {background-image: url("../images/backgrounds/outer.jpg");}
+body.outer.standard .pageContent {background-image: url("../images/backgrounds/outer-standard.jpg");}
+body.inner .pageContent {background-image: url("../images/backgrounds/inner-standard.jpg");}
+body.inner.small .pageContent {background-image: url("../images/backgrounds/inner-small.jpg");}
+body.inner.wide .pageContent {background-image: url("../images/backgrounds/inner-wide.jpg");}
+body.outer.inner .pageContent {background-image: url("../images/backgrounds/outer-inner.jpg");}
+/* /body */
+
+/* titles */
+div.pageTitle {position: relative; z-index: 100;}
+.outer div.pageTitle {height: 74px; margin: 27px 7px -31px;}
+.outer.standard div.pageTitle {margin: 0 0 -16px;}
+.outer #registrationArea div.pageTitle {height: 60px; margin: 30px 7px 0;}
+.outer.inner div.pageTitle,
+.inner div.pageTitle {height: 80px; margin: 0 0 -20px;}
+.inner .wideArea div.pageTitle {height: 46px; margin-bottom: 7px; background-position: 28px 50%;}
+/* /titles */
+
+/* Form Elements */
+.input {
+    border-color: #FFF;
+    background-color: #000;
+    color: #FDCC0A;
+    border-width: 1px;
+}
+
+select, .select {
+    background-color: #333333;
+    color: #FDCC0A;
+    border-width: 1px;
+}
+
+/* Classes */
+
+.hr {
+	background-image: url(../images/cashier-hr.jpg);
+	margin: 5px auto;
+}
+
+ul.images li {list-style: url("../images/bull.gif");}
+
+.warning * {color: #B9121B !important;}
+
+/* Buttons */
+
+.inner .buttons td {padding: 0 8px !important;}
+.outer .buttons td {padding: 0 4px !important;}
+
+.buttons a {
+    width: 87px;
+    height: 20px;
+}
+
+a.btnBackToLogin {
+    width: 147px;
+}
+
+a.btnChangePassword {
+    width: 175px;
+    height: 22px;
+}
+
+a.btnFunMoney {
+    width: 150px;
+}
+
+a.btnLogin {
+    width: 89px;
+    height: 22px;
+}
+
+a.btnRealMoney {
+    width: 181px;
+    height: 21px;
+}
+
+a.btnRegistration {
+    width: 117px;
+    height: 23px;
+}
+
+/* Login */
+
+#loginArea {
+    top: 175px;
+    width: 350px;
+    height: 330px;
+    color: #C9A311;
+    background-image: url("../images/backgrounds/login.png");
+}
+#loginArea .image {
+	background-image: url("../images/backgrounds/fun-real.png");
+	height: 47px;
+}
+#loginArea .icon {
+    margin-top: 0;
+}
+
+/* Standard Outer Pages */
+
+.outer .standardArea {
+    width: 336px;
+    height: 211px;
+	top: 234px;
+	text-align: center;
+}
+
+.outer .scrollBox {
+	scrollbar-base-color: #766745;
+	scrollbar-track-color: #4a4129;
+	scrollbar-arrow-color: #473e2b;
+	padding: 0 10px;
+}
+
+/* Registration Error */
+
+#registrationAreaError .icon {margin-top: -8px;}
+
+#registrationAreaError .message {
+	color: #C8A223;
+	height: 61px;
+	margin: 8px 8px 0;
+	padding: 0 10px;
+}
+
+#registrationAreaError .buttons {margin-top: 12px;}
+
+/* Password Recovery */
+
+#recoverArea table {margin-top: 10px;}
+
+#recoverArea td {height: 25px;}
+
+#recoverArea .title {
+    color: #FDCC0A;
+    padding-right: 5px;
+}
+
+#recoverArea .input {
+	height: 14px;
+    background-color: #FFF;
+    color: #000;
+    border-color: #000;
+    width: 125px;
+}
+
+#recoverArea .errorBlock {
+    width: 349px;
+    color: #FF0000;
+    top: 252px;
+}
+
+#recoverArea .scrollBox {
+	height: 115px;
+	margin: 0 8px 0;
+}
+
+#recoverArea .note {color: #FFC;}
+
+#recoverArea .buttons {
+    margin-top: 10px;
+    width: auto !important; 
+}
+
+/* T&C */
+
+.outer.inner .standardArea .scrollBox {
+    scrollbar-base-color: #766745;
+    scrollbar-track-color: #4a4129;
+    scrollbar-arrow-color: #473e2b;
+}
+
+/* Inner Pages */
+
+.inner .text,
+.inner a,
+.inner #approved,
+.inner #declined,
+.inner #tr2,
+.inner .successBlock
+{
+    color: #FFC;
+}
+
+.inner .successBlock {color: #FFC !important;}
+
+.inner .message,
+.inner .message a,
+.inner .title,
+.inner #waiting,
+.smallText,
+.smallText * 
+{
+    color: #FDCC0A;
+}
+
+.inner .scrollBox,
+.inner .methods,
+.inner .scroll,
+.inner .cancelWithdrawContainer
+{
+	scrollbar-base-color: #111;
+	scrollbar-track-color: #000;
+	scrollbar-arrow-color: #fdcc0a;
+}
+
+.inner .buttons {margin-top: 10px !important;}
+
+.inner .moreDetails, 
+.inner .moreDetails a 
+{
+	color: #fdcc0a !important;
+}
+
+.inner .errorBlock,
+.inner #errorMessageHolder,
+.inner #errorHolder,
+.inner #errors
+{
+	color: #B9121B;
+	padding: 0 10px;
+}
+
+/* Standard Inner Area */
+.outer.inner .standardArea,
+.inner .standardArea {
+	width: 558px;
+	top: 37px;
+}
+.inner .standardArea .scrollBox {height: 479px;}
+
+.inner .standardArea .scrollBoxShort {height: 454px;}
+
+.inner .standardArea .scrollBoxShort .scroll {height: 454px !important;} 
+
+/* Standard Small Area */
+
+.inner .smallArea {
+	width: 558px;
+	top: 152px;
+}
+
+.inner .smallArea .scrollBox {height: 239px;}
+
+/* Menu Panel */
+
+#menuPanel {
+    height: 21px;
+    background-color: #78662B;
+    padding-left: 16px;
+    margin-bottom: 30px;
+}
+
+#menuPanel table {
+    border-collapse: collapse;
+    position: absolute;
+    left: 0;
+}
+
+#menuPanel table td {
+    border: solid #000;
+    border-width: 0px 1px;
+}
+
+#menuPanel table td a {
+    height: 29px;
+    color: #FDCC0A;
+    text-align: center;
+    text-decoration: none;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 2px;
+    display: block;
+}
+
+#menuPanel table td a:hover {
+    color: #FDCC0A;
+    text-decoration: underline;
+}
+
+#menuPanel table td.selected {
+    background-color: #FDCC0A;
+    border-bottom-color: #FDCC0A;
+}
+
+#menuPanel table td.selected a {
+    color: #000;
+    text-decoration: none;
+}
+
+#menuPanel table td.selected a:hover {
+    color: #000;
+    text-decoration: none;
+}
+
+/* Search Panel */
+
+#searchPanel {
+    height: 26px;
+    background-color: #78662B;
+    padding: 0 16px;
+    margin-bottom: 16px;
+}
+
+#searchPanel .menu {
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px;
+    border-left-width: 1px;
+    float: left;
+}
+
+#searchPanel .menu a,
+#searchPanel .menu span
+{
+    height: 22px;
+    color: #FDCC0A;
+    font-weight: bold;
+    text-decoration: underline;
+    padding-top: 4px;
+    padding-left: 16px;
+    padding-right: 16px;
+    border-style: solid;
+    border-color: #000;
+    border-width: 0px;
+    border-right-width: 1px;
+    display: block;
+    float: left;
+}
+
+#searchPanel .menu span {
+    width: 220px;
+    color: #000;
+    background-color: #FDCC0A;
+    text-decoration: none;
+    overflow: hidden;
+}
+
+#searchPanel table {
+    height: 26px;
+    float: right;
+}
+
+#searchPanel table td {
+    color: #FDCC0A;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+/* Statistic */
+
+#statisticArea {
+	top: 45px;
+	width: 758px;
+    height: 554px;
+	left: 1px;
+}
+
+#statisticArea .center {position: static;}
+
+#statisticArea table#optionsForm thead td {
+    background-color: #FDCC0A;
+    color: #000;
+    border-color: #201A0C;
+}
+
+#statisticArea .noRecords {
+    background-color: #FDCC0A !important;
+    color: #000;
+}
+
+#statisticArea table.list {
+    width: 100%;
+    margin: auto;
+}
+
+#statisticArea table.list thead td {
+    background-color: #FDCC0A;
+    color: #000;
+}
+
+#statisticArea table.list thead .arrowUp {
+    background-image: url(../images/arrows/up.jpg);
+}
+
+#statisticArea table.list thead .arrowDown {
+    background-image: url(../images/arrows/down.jpg);
+}
+
+#statisticArea table.list td {
+    border-color: #000;
+}
+
+#statisticArea table.report td {
+    border-color: #000;
+}
+
+#statisticArea table.report .title {
+    background-color: #FDCC0A !important;
+}
+
+#statisticArea .highlight,
+#statisticArea .highlight td
+{
+    background-color: #F2E9A2 !important;
+}
+
+#statisticArea .scrollBox {
+    scrollbar-base-color: #000;
+    scrollbar-arrow-color: #FDCC0A;
+}
+
+#statisticArea #paging {
+    color: #FDCC0A;
+}
+
+#statisticArea #paging a {
+    color: #FDCC0A;
+}
+
+#statisticArea #paging a:hover {
+    background-color: #FDCC0A;
+    color: #000;
+}
+
+#statisticArea #paging .selected,
+#statisticArea #paging .selected:hover
+{
+    color: #FFF !important;
+}
+
+#statisticArea .display {bottom: 10px;}
+
+#statisticArea .dotted {background: url(../images/backgrounds/dotted.png) 0 0 repeat !important;}
+
+/* Game History Details */
+
+html.frame,
+body.innerBody
+{
+   	scrollbar-base-color: #000;
+    scrollbar-arrow-color: #FDCC0A;
+    background: url(../images/backgrounds/dotted.png) 0 0 repeat !important;
+}
+
+/* Burst Pay */
+
+#statisticArea.burstPay .pageTitle {
+	top: -52px;
+	left: 50%;
+	margin-left: -278px;
+}

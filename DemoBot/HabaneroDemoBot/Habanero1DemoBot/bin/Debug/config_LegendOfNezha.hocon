@@ -1,0 +1,19 @@
+﻿{
+    proxyList       = ["188.214.235.8:50100","188.214.235.9:50100"]
+    proxyUserID     = "valiksoin"
+    proxyPassword   = "KiRnY7DQk4"
+    gameName        = "LegendOfNezha"
+    gameSymbol      = "SGLegendOfNezha"
+    brandgameid     = "0a6b92a3-da3b-4bc3-bae0-74be03b829b5"
+    clientVersion   = "1.1.15119.516"
+    lineCount       = 28
+    betLevel        = 1
+    stake           = 0.01
+    coin            = 28
+    realBet         = 0.28
+    gameURL         = "https://app-test.insvr.com/games/?brandid=a9d542ac-c9bb-e311-93f6-80c16e0883f4&mode=fun&locale=en&ifrm=1&lobbyurl=pm-closeGame"
+    minOdd          = 0.0
+    freeOpts        = []
+    gameType        = 0,#0일반,1옵션
+    purType         = 0,#0일반,1구매
+}

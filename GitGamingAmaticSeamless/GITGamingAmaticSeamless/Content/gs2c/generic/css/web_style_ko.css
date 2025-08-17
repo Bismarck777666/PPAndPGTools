@@ -1,0 +1,11 @@
+@CHARSET "UTF-8";
+
+@import url("../../common/css/general.css");
+
+@import url("style.css");
+
+@import url("style_en.css");
+
+@import url("../../common/css/web_style.css");
+
+@import url("web_style.css");

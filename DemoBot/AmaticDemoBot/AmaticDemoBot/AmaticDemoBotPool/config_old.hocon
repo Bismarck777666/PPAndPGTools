@@ -1,0 +1,25 @@
+﻿amaticbotpool {
+    httpProxyList	= ["83.147.12.42:50100"]
+    socks5ProxyList	= ["83.147.12.42:50101"]
+    proxyUserID     = "valiksoin"
+    proxyPassword   = "KiRnY7DQk4"
+    gameName        = "Fantastico"
+    gameCategory    = 0
+    gameID          = "fantastico7"
+    gameConfig      = 14720
+    initString      = "A/u25,,undefined,Fantastico,1_1_20,,,2|14|3|en-US"
+    playmini        = 2
+    playline        = [10]
+    linetype        = 0 # (0: 10)
+    realBet         = 20
+    reelCnt         = 5,
+    freeReelCnt     = 5,
+    gameURL         = "https://free-slots.games/games/amatic/"
+    WssURL          = "wss://free-slots.games:9505"
+    minOdd          = 0.0
+    maxOdd          = 3000.0 
+    freeOpts        = [] 
+    purType         = -1
+    onlyFree        = 0
+    hashKey         = =hsa61hrf23k8rpb1ec4nblhpd7
+}

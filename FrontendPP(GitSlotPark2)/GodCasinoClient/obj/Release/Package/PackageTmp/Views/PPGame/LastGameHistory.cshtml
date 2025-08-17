@@ -1,0 +1,30 @@
+﻿
+@{
+    ViewBag.Title = "LastGameHistory";
+}
+
+<section class="content">
+    <input type="hidden" id="session" value="@ViewBag.session" />
+    <input type="hidden" id="apiurl" value="@ViewBag.apiurl" />
+    <input type="hidden" id="symbol" value="@ViewBag.symbol" />
+    <input type="hidden" id="lang"   value="@ViewBag.lang" />
+    <input type="hidden" id="error"  value="@ViewBag.error" />
+</section>
+<script>
+    $(document).ready(function () {
+        var error = $('#error').val();
+        if (error != "")
+        {
+            alert(error);
+            return;
+        }
+
+        var session = $('#session').val();
+        var apiurl  = $('#apiurl').val();
+        var symbol  = $('#symbol').val();
+        var lang    = $('#lang').val();
+        document.location.href = "/PPGame/lastGameHistory.html?session=" + session + "&symbol=" + symbol + "&apiurl=" + apiurl + "&lang=" + lang;
+    })
+</script>
+
+

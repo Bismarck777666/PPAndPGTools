@@ -1,0 +1,47 @@
+/*--Brand pic--*/
+.casinoPic {
+    width: 147px;
+    height: 538px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding-top: 200px;
+    text-shadow: 3px 11px 11px rgba(0, 0, 0, 1);
+}
+
+.casinoPic .iconWrap {
+    height: 110px;
+}
+
+.casinoPic .iconreg {
+    background: url("../../images/icons/signupIcons.png") 0 0 no-repeat;
+    margin: 0 auto 3px;
+}
+
+.casinoPic .trust {
+    background-position: 0 0;
+    height: 35px;
+    width: 38px;
+}
+
+.casinoPic .protect {
+    background-position: -1px -36px;
+    height: 40px;
+    width: 40px;
+}
+
+.casinoPic .bonus {
+    background-position: 0 -76px;
+    height: 36px;
+    width: 42px;
+}
+
+.casinoLoginPic {
+    width: 118px;
+    height: 370px;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+

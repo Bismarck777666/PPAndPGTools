@@ -1,0 +1,936 @@
+[2025-07-28 11:43:10.0113] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/4_3.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: BM-SpLyo95ZLzhoXHr2hJU-jQj8O3JpTV1XDkGc9ba81FiLsBYex8A==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:08 GMT
+  ETag: "b2e573d51dd695ecba9a67a6ec1a6e56"
+  Server: AmazonS3
+  Via: 1.1 2abd42a5440238034539228ee64b9adc.cloudfront.net (CloudFront)
+  Content-Length: 20664
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:34.5006] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/frame/l1_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: j68yCJO9NXP2gnTQaeGmKdSRb7hM0l7iRZCsOBFYy29IeTupuHs_GQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:32 GMT
+  ETag: "26bbfaf89c6afa9e67c08e2fb80ba654"
+  Server: AmazonS3
+  Via: 1.1 61bbb65ddfb7a23272f71c61d393f8ee.cloudfront.net (CloudFront)
+  Content-Length: 35841
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:34.8322] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/bgFs@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: QNQ6Tz-C7GPwh2BxI07GuNVzA1NAm6jx1ayu2lpyDxTqBGRb5Aca7w==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:32 GMT
+  ETag: "7e1b71b564f6b651480ece07e2e40883"
+  Server: AmazonS3
+  Via: 1.1 6d6c936c7593d0a2d5f410555483ffa0.cloudfront.net (CloudFront)
+  Content-Length: 458333
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:35.1675] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/bg@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: Da9V35mDbuux_MLRtqvNbBSfO4uKS7E2cdi8Vz8sxPLebcl3twmArw==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:32 GMT
+  ETag: "c8bb7b3b49f7fcf9a70d7922821a753b"
+  Server: AmazonS3
+  Via: 1.1 20079c2d495cc9848700dcb580b19332.cloudfront.net (CloudFront)
+  Content-Length: 531507
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:38.8881] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/tmb@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: dW6htIoCtMYb4De_IPwcozQA7HGjaOG3VjPK4cyVB4Cv8hk_-O76lQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "9bdbb38dd199578c2eddf3f81e499dae"
+  Server: AmazonS3
+  Via: 1.1 e882d138875209e9bfd183c71dc12234.cloudfront.net (CloudFront)
+  Content-Length: 89
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:39.0559] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/13_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 2AGRIQ8ldK2d8FXXIefI_Fsj1dNwC8JEm4JwWPuGka5g9KZ_cW6jfQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "34ec34f6c7cee21206d958d3326ae884"
+  Server: AmazonS3
+  Via: 1.1 d1eeb185861731e77bfcceda9556d144.cloudfront.net (CloudFront)
+  Content-Length: 29185
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:39.1447] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/9_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: U-l4M3I3chNHuQFYVHKmiqbLUfbJ58HBlWCEZq8y7bw3xLDhkMnoOg==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "c5196bbe09a775184f737e914593d2d5"
+  Server: AmazonS3
+  Via: 1.1 72901e1a1a6af8228b948e1ec3586ace.cloudfront.net (CloudFront)
+  Content-Length: 45483
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:39.1769] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/4_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: p2sWykT7_VnJXzcynKBdf9a-BItjzRGqy7-LcQPGQeGgzU7oCoX4Gg==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "7fbf03a0bd4d74073efcd037e0c888c8"
+  Server: AmazonS3
+  Via: 1.1 734785119886d5baab23289f81884790.cloudfront.net (CloudFront)
+  Content-Length: 53397
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:39.1769] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/5_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: -BoFAd4ay5cSsek11ecWLkW6XiNcc86XkEeSM2Tm7NntKjAEI3gkbA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "b456731e8c724ad06ae4aa662d0d131a"
+  Server: AmazonS3
+  Via: 1.1 31af63d94a35c7f951da97c47fa229aa.cloudfront.net (CloudFront)
+  Content-Length: 53467
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:39.5729] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/1_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: LAo2tZLY9cG7qTCrEu-NiYV7BGNBd8AuGG1StVAA5JEDMWOIENAZDQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "25cdadc59aa64d83374f3e70c91bb228"
+  Server: AmazonS3
+  Via: 1.1 0e5b4e70ed9a0ae5ed4d6c1eae368c7c.cloudfront.net (CloudFront)
+  Content-Length: 69194
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:39.8732] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/9_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: AMl11LzQ7WNwiy1TyWyZyuYYljYTfOdRH_4aag_OeLB5CL9BrVY2eA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:37 GMT
+  ETag: "021b83750cf5a1bf20bb99c41ae6e411"
+  Server: AmazonS3
+  Via: 1.1 1d436979dbc6be1a36db9f38bc4fa80e.cloudfront.net (CloudFront)
+  Content-Length: 33437
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:40.2935] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/10_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: KzOpfC1-ErWdcX7lUDr8DV0kOZUBMyaet-HcBwkz1QlZ_vBdgYXATQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:38 GMT
+  ETag: "e3d616e275cc936776b2ee72477e6cc3"
+  Server: AmazonS3
+  Via: 1.1 2abd42a5440238034539228ee64b9adc.cloudfront.net (CloudFront)
+  Content-Length: 36776
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:40.3025] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/10_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: Rw_9AayXCKo1IacDxzc0yk5nekDqBAdBf-iu9w9ggu4E6_ndWum9Rw==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:38 GMT
+  ETag: "bbb7ac1251e09d98e17095b41aa248fb"
+  Server: AmazonS3
+  Via: 1.1 636189476c3cc1fef2a81208622a3b7a.cloudfront.net (CloudFront)
+  Content-Length: 48874
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:40.3554] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/6_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 3HRzdLdxk56DMDZJ87pOtqSem6MnpSGjz6CjY3s4Go1XSMfE9HXmAA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:38 GMT
+  ETag: "3b06f76ed6f9647fa1b493f397c592cf"
+  Server: AmazonS3
+  Via: 1.1 10ddc9a187df686a95382358dc4e78d4.cloudfront.net (CloudFront)
+  Content-Length: 34395
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:40.4294] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/11_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: r6fUYbrFlnyPAYqZkCwVetxYa5MXiCvaYrGdrMnPhSsFTXSJ5RtL3g==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:38 GMT
+  ETag: "024d23ec0857903eae342d776e9b5f90"
+  Server: AmazonS3
+  Via: 1.1 0f03c98743d9ffe79330c1f694241fc2.cloudfront.net (CloudFront)
+  Content-Length: 43827
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:40.4574] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/7_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: iDfzJYi32Gc0B8okzdpZbDMRpHV6TczQewhdB_U0ZLeWu8fAVR4KYQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:38 GMT
+  ETag: "e309e03a3a8473355ba599127517bec5"
+  Server: AmazonS3
+  Via: 1.1 cd4dfe3c4e4ae7c889b30370e31a809e.cloudfront.net (CloudFront)
+  Content-Length: 30171
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:41.3201] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/3_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: vkf9hAYqJ1sInhFIouoQ-ST19os2IqpYo4f5lhH2g_di5WpafEJQOg==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:39 GMT
+  ETag: "d0fdf4e088f25ea5917855f1f00a7f5e"
+  Server: AmazonS3
+  Via: 1.1 1d436979dbc6be1a36db9f38bc4fa80e.cloudfront.net (CloudFront)
+  Content-Length: 55831
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:41.6080] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/11_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: mZdNSyV07N49Hcl6dYuLMTNhpkCRnxJiHltlmjT-5ZaQt6k_0qv3lw==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:39 GMT
+  ETag: "5abef0601d8056c4db270f6d441f08fa"
+  Server: AmazonS3
+  Via: 1.1 700328e82da7493854b8cff8011c0eea.cloudfront.net (CloudFront)
+  Content-Length: 34009
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:41.6110] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/13_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: igHIRoftmT6IG2341pg66-Zci0EjsVQ_NwY5NMWs3iaRTepq7_P9HQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:39 GMT
+  ETag: "9ef8caffa0dbd5549b9e310ccc8a8dcf"
+  Server: AmazonS3
+  Via: 1.1 e0a64c98ae6881b0a4407c0d5378d388.cloudfront.net (CloudFront)
+  Content-Length: 33793
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:41.6872] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/12_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 9Mf_O0jW-dOQFpuYeT-SMepu-fZ92mYxY4bQYEO9ocFhDSz6u7G7OQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:39 GMT
+  ETag: "38d2e4e28ba4a0597cfd42b8f83e8253"
+  Server: AmazonS3
+  Via: 1.1 7403235773a9b23f307196c589d62dac.cloudfront.net (CloudFront)
+  Content-Length: 32136
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:41.8001] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/frame/l1_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: dIFJ6mcKYg5996VY7m8eHf6PisCUSmFZEF6t1A4wkXdWhkTpr5pTjA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:39 GMT
+  ETag: "6fcfc61446e27f5652e4e64ff88b66a9"
+  Server: AmazonS3
+  Via: 1.1 29373b9bd21dbfdb73f410724bfb6328.cloudfront.net (CloudFront)
+  Content-Length: 47515
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:52 GMT
+} 
+[2025-07-28 11:43:41.8001] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/7_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: Gp1tSFLuAGBv6Obnc5OWoOz5A21_Gd5dGKFmEn54mgItp1GNYLmC4Q==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:39 GMT
+  ETag: "27de00057c0d9515dde8cf6d4555c6b7"
+  Server: AmazonS3
+  Via: 1.1 e57379aeeaf825df3f0a6972a5cb719c.cloudfront.net (CloudFront)
+  Content-Length: 34957
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:42.2202] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/8_2@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: -kmzqh2SbMUBENLx9m4Z1yiqylllKTZQ2Ft4qfjGGpiW276TAY49QA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:40 GMT
+  ETag: "b2ae061eaae276d8f0abf20cca14e8f5"
+  Server: AmazonS3
+  Via: 1.1 7403235773a9b23f307196c589d62dac.cloudfront.net (CloudFront)
+  Content-Length: 32507
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:42.5696] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/8_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: zAFGevTmDiyqnpTOhYq0nHoXludMuuAsBZmr8-fsP3-YUtFX-vIxBQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:40 GMT
+  ETag: "6a5d68d66470852876bcee762e84d1ad"
+  Server: AmazonS3
+  Via: 1.1 cb7980ab2017aee51ecce59a2678b358.cloudfront.net (CloudFront)
+  Content-Length: 37712
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:42.6425] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/6_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 5NjUrJ7_I-tc_FOJrJlgrno-f3EgWOxFOD0v7Mmjx-wSKX3ImPxREQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:40 GMT
+  ETag: "f73b1ebd0d83fb58f09cc89ac0f3c893"
+  Server: AmazonS3
+  Via: 1.1 6b552294ba6a60cc56d1bc328f57165e.cloudfront.net (CloudFront)
+  Content-Length: 40284
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:43:42.7773] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysaztecgm/spin/4_3@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 47xRa6-IX9amvUNDnW9luP2buGa-EuSoE_KDu4xXc7fwlELCzzJ_XQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:43:40 GMT
+  ETag: "929e7e621f397f6d909b569b1727c879"
+  Server: AmazonS3
+  Via: 1.1 20079c2d495cc9848700dcb580b19332.cloudfront.net (CloudFront)
+  Content-Length: 73957
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:38:53 GMT
+} 
+[2025-07-28 11:47:45.4866] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vs20alieninv/reelsBg/blue.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: ij6WA3K_D-cu4ych4FhuFAL69oSC5hw5Y1OWGbKv8_TKQCTX2_d54w==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:47:43 GMT
+  ETag: "844c22c3deea398d99d2825ca299e9ce"
+  Server: AmazonS3
+  Via: 1.1 1d436979dbc6be1a36db9f38bc4fa80e.cloudfront.net (CloudFront)
+  Content-Length: 16360
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:33:22 GMT
+} 
+[2025-07-28 11:48:38.6350] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vs20alieninv/spin/2_active@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 7S5WLRp69Nw5n8C-QHGq7QU6V9RVLwmbo-pVvrObP0npz7Q4w5CqeQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:48:36 GMT
+  ETag: "f2a2bda832856db7c9df848c65cc919b"
+  Server: AmazonS3
+  Via: 1.1 e0a64c98ae6881b0a4407c0d5378d388.cloudfront.net (CloudFront)
+  Content-Length: 23997
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:33:22 GMT
+} 
+[2025-07-28 11:48:38.8017] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vs20alieninv/reelsBg/blue@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: RG1_D5HCAW8--2_YxmiPprJcfRBv0pdguG-g6ft3PvUSD2I_qc7GWQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:48:36 GMT
+  ETag: "d11f8750cdfaecfb81bcd8fccdbe7586"
+  Server: AmazonS3
+  Via: 1.1 2abd42a5440238034539228ee64b9adc.cloudfront.net (CloudFront)
+  Content-Length: 52559
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:33:22 GMT
+} 
+[2025-07-28 11:48:45.8384] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vs20alieninv/reelsBg/purple@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: uXWecVGdmSRVtd0gDT-xN4X7_FP2lV2TdeKYfzt62E9hMf0ArMNnJQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:48:43 GMT
+  ETag: "d2b6f079dfe17ae2d0a0de268f5107f1"
+  Server: AmazonS3
+  Via: 1.1 72901e1a1a6af8228b948e1ec3586ace.cloudfront.net (CloudFront)
+  Content-Length: 55775
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:33:22 GMT
+} 
+[2025-07-28 11:48:46.3891] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vs20alieninv/bgFs@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: xRd8cf6M9B_36FvYxF35EiREvTB7Po6x9sqES7xhfa3_lnD5cnjX3Q==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:48:43 GMT
+  ETag: "804d3ed38e800696420c2fdd7e7924f3"
+  Server: AmazonS3
+  Via: 1.1 26668d8e031da1815e3b231b420050f0.cloudfront.net (CloudFront)
+  Content-Length: 239529
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:33:22 GMT
+} 
+[2025-07-28 11:52:53.4640] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/cellBgFs.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 3-sJiLDuT_3KclYZMZy6Jw89ebPylRD_3zySGWG2CQ3JPDB2Q1krSA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:52:51 GMT
+  ETag: "94fa67741ea7776f4b0724302b0d2975"
+  Server: AmazonS3
+  Via: 1.1 20079c2d495cc9848700dcb580b19332.cloudfront.net (CloudFront)
+  Content-Length: 2289
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.1155] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/spin/tmb@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: Z8d7ql0d9HgU3l4_5ghBlsnxwexbkwjnbmDFtEA4X5kfl7vSSghTMA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "d6b99fb7cca78ce9e832864ad169e0e7"
+  Server: AmazonS3
+  Via: 1.1 cb7980ab2017aee51ecce59a2678b358.cloudfront.net (CloudFront)
+  Content-Length: 467
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.1265] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/cellBg@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: y5Bl1SGuhyypYhmM_vC1PNUbqeXkBAa0NolTGRLRbni2taGw3H8FTw==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "4b893b43c6a55522438e2ab86a58a41e"
+  Server: AmazonS3
+  Via: 1.1 61bbb65ddfb7a23272f71c61d393f8ee.cloudfront.net (CloudFront)
+  Content-Length: 1015
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.2320] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/spin/10@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: wZVDzBXBJ3BjBsM8n31-7m93D0DcAILMHcpkXTYcGGDpk5utfET0UA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "7f9aa490660d7cdf7d98646763f9fcf1"
+  Server: AmazonS3
+  Via: 1.1 c205f74aa99b4a794fa57396e24414b6.cloudfront.net (CloudFront)
+  Content-Length: 4689
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.2320] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/spin/5@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: FEX6ac9HTTlqnbEiQW9auxRtEzmyIlXON8WSl323Ilz9OskuRGcJMg==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "9ec68ef93ac2ef002ab508118392d9fc"
+  Server: AmazonS3
+  Via: 1.1 7aebe5536aa81207909dbe4ca368b9be.cloudfront.net (CloudFront)
+  Content-Length: 10075
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.2535] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/cellBgG@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: EcwmBZWvhzlniMk6Vp_YlI_BISStWYWhfxWyyWPrIPTnnZxagyE1xw==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "5a983a6145989c92be6c3aa54abdd6fb"
+  Server: AmazonS3
+  Via: 1.1 595b5bc75f9607fd025370f043f817c2.cloudfront.net (CloudFront)
+  Content-Length: 16056
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.7301] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/bg@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: Iw4Td73igAKCrFSV08CcYiHZ6e9Vg9AWETIHMwMI1GuUXQa29iJjAQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "7b913636363afb2d3ca45bef07194c1c"
+  Server: AmazonS3
+  Via: 1.1 10ddc9a187df686a95382358dc4e78d4.cloudfront.net (CloudFront)
+  Content-Length: 150956
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 11:54:46.9631] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysolwfp/cellBgFs@2x.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: x-vpYmD6l3Z0WJlUrysNaZ1RHZQVvH1cumwPmyC2S3seYPfau6pDzA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 08:54:44 GMT
+  ETag: "7d425c529b7492c2d86f4a0eb07378a8"
+  Server: AmazonS3
+  Via: 1.1 c205f74aa99b4a794fa57396e24414b6.cloudfront.net (CloudFront)
+  Content-Length: 6730
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:42 GMT
+} 
+[2025-07-28 13:01:35.1159] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/510.07bb2331.min.css Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: _UCAZb8NYDuCvtKkzToAdn6T6jBXVWFNptiOW8XBjD1HrYeesN7UIw==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:33 GMT
+  ETag: "e8c681bf6e9d9974f7b15b4c6831ba3e"
+  Server: AmazonS3
+  Via: 1.1 cd4dfe3c4e4ae7c889b30370e31a809e.cloudfront.net (CloudFront)
+  Content-Length: 8393
+  Content-Type: text/css
+  Last-Modified: Thu, 17 Jul 2025 06:26:30 GMT
+} 
+[2025-07-28 13:01:35.2679] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/510.07bb2331.min.js Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: LRbWd1R0Yxw22-U1Uml2RRYjpuVMp7OeGKLsselRgbHPk7F0DhJUbg==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:33 GMT
+  ETag: "192ea3df5b4c317a53a8b12c09cc40d9"
+  Server: AmazonS3
+  Via: 1.1 e57379aeeaf825df3f0a6972a5cb719c.cloudfront.net (CloudFront)
+  Content-Length: 40452
+  Content-Type: application/javascript
+  Last-Modified: Thu, 17 Jul 2025 06:26:30 GMT
+} 
+[2025-07-28 13:01:36.2676] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/top/mummy.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: hfR1l1OylRZNfeE3j_M17GEE8vF-b2W5q9K2APPOSg2tHczYiGeiGQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:34 GMT
+  ETag: "75299140a8386d34b5e71762d445a918"
+  Server: AmazonS3
+  Via: 1.1 6b552294ba6a60cc56d1bc328f57165e.cloudfront.net (CloudFront)
+  Content-Length: 13879
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:36.2676] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/top/labelTe.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: aBLOZjouPEWX9yC5lXuGaIlAWV2U_70VVeLFCOrp0yTpy_amMf87fA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:34 GMT
+  ETag: "ec7e4a4fd081034d385cbfc9b451ae02"
+  Server: AmazonS3
+  Via: 1.1 10ddc9a187df686a95382358dc4e78d4.cloudfront.net (CloudFront)
+  Content-Length: 11834
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:36.3109] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/spin/1.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 0m3E_MaHSyC9xVFvGKtLWDXBPrS2CVX-TvkxgDzsiywclxSkM_d60Q==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:34 GMT
+  ETag: "06f3c845129e7dbf57ea62ec2e3e66f5"
+  Server: AmazonS3
+  Via: 1.1 0e5b4e70ed9a0ae5ed4d6c1eae368c7c.cloudfront.net (CloudFront)
+  Content-Length: 11268
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:36.3109] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/top/labelTu.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 9T5f0ZqFnlCw7EomJby4mDj3MmTdalKb46FIGwrjMuhCiRQAmyhJXg==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:34 GMT
+  ETag: "e5a53454e3b0e1082f5878e59b4251bf"
+  Server: AmazonS3
+  Via: 1.1 e57379aeeaf825df3f0a6972a5cb719c.cloudfront.net (CloudFront)
+  Content-Length: 11732
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:36.3389] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/spin/2.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: kCSPk65TnGEMshZMyEy5hsPa17twZ2p3BO-fgSSmg5nm8IRHdWMSCA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:34 GMT
+  ETag: "16d99eb42c14975f537b1a9d189c36b8"
+  Server: AmazonS3
+  Via: 1.1 c205f74aa99b4a794fa57396e24414b6.cloudfront.net (CloudFront)
+  Content-Length: 7143
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:36.6499] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/bg.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: y_PsbYQE5LPfz02afZdyjoO-BQfa2HkqKwnkMWv6jNwqCv5NNyNruA==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:34 GMT
+  ETag: "bfb356f92deb64dc8eb28dbd2b77c0fa"
+  Server: AmazonS3
+  Via: 1.1 8b15d366b8a05fea04eb2afabb997d46.cloudfront.net (CloudFront)
+  Content-Length: 108842
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:37.1269] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/bonus/upgBg.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: OIQcIxlSBEyUszZIkUhxZVJ7Qo86E0cVitkC5Td8SYsKsHgTdJi9gQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:35 GMT
+  ETag: "4c87103f322df136f0a2b2dcdf8f8209"
+  Server: AmazonS3
+  Via: 1.1 6d6c936c7593d0a2d5f410555483ffa0.cloudfront.net (CloudFront)
+  Content-Length: 24265
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:37.1269] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/bonus/wheelPointer.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: RwvgPwAynXH05I85u9YelcBWzCH66Lhtiz9OJxkssgZXbdRgkX7B8g==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:35 GMT
+  ETag: "5922ba5e67701f175ccbf8317a152aaf"
+  Server: AmazonS3
+  Via: 1.1 61bbb65ddfb7a23272f71c61d393f8ee.cloudfront.net (CloudFront)
+  Content-Length: 3285
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:37.2349] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/bonus/respinsLeft.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: Ui92Lw3OeeV3e6TjLHrMtuR034kfjQdXnOvuIGSCbKy-0AEAyF1Pug==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:35 GMT
+  ETag: "fd91537d7c63ddf0842daff43278dcb2"
+  Server: AmazonS3
+  Via: 1.1 2abd42a5440238034539228ee64b9adc.cloudfront.net (CloudFront)
+  Content-Length: 6517
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:37.2349] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/top/labelTr.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: 6r0dc3HoBzPWdWHiF2ZNoPYQf5K4WIEqjDsNcTLY6Ilf48E4eTyEPQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:35 GMT
+  ETag: "0e69cf29c8105dd4c9862c9e6bdddb64"
+  Server: AmazonS3
+  Via: 1.1 734785119886d5baab23289f81884790.cloudfront.net (CloudFront)
+  Content-Length: 12134
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 
+[2025-07-28 13:01:37.4911] [INFO] [PGClientDown.Controllers.CommonController] incoming url : common/game-history-client/images/vswaysmjwl/bonus/wheelRs.png Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  x-amz-server-side-encryption: AES256
+  X-Cache: Miss from cloudfront
+  X-Amz-Cf-Pop: MXP63-P4
+  X-Amz-Cf-Id: CB0O_v-yZ_Gmt1Bc3SDo47UlXacdwPtLxtUnd_SRPLUCiBtjVTmqjQ==
+  Vary: Origin
+  Accept-Ranges: bytes
+  Cache-Control: public, must-revalidate, proxy-revalidate, max-age=600
+  Date: Mon, 28 Jul 2025 10:01:35 GMT
+  ETag: "887f1bf36be04e3acc2bbac464e4e3bb"
+  Server: AmazonS3
+  Via: 1.1 6b552294ba6a60cc56d1bc328f57165e.cloudfront.net (CloudFront)
+  Content-Length: 131692
+  Content-Type: image/png
+  Last-Modified: Fri, 25 Jul 2025 15:39:35 GMT
+} 

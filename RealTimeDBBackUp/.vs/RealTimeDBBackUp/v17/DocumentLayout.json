@@ -1,0 +1,69 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{69AB71A5-70ED-4D22-962C-27C614ED3356}|RealTimeDBBackUp\\RealTimeDBBackUp.csproj|e:\\work\\slot\\ppserver\\realtimedbbackup\\realtimedbbackup\\database\\dbwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69AB71A5-70ED-4D22-962C-27C614ED3356}|RealTimeDBBackUp\\RealTimeDBBackUp.csproj|solutionrelative:realtimedbbackup\\database\\dbwriteworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69AB71A5-70ED-4D22-962C-27C614ED3356}|RealTimeDBBackUp\\RealTimeDBBackUp.csproj|E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\realtimedbbackup\\database\\dbproxymonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{69AB71A5-70ED-4D22-962C-27C614ED3356}|RealTimeDBBackUp\\RealTimeDBBackUp.csproj|solutionrelative:realtimedbbackup\\database\\dbproxymonitor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{69AB71A5-70ED-4D22-962C-27C614ED3356}|RealTimeDBBackUp\\RealTimeDBBackUp.csproj|E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\realtimedbbackup\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{69AB71A5-70ED-4D22-962C-27C614ED3356}|RealTimeDBBackUp\\RealTimeDBBackUp.csproj|solutionrelative:realtimedbbackup\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBProxyMonitor.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\RealTimeDBBackUp\\Database\\DBProxyMonitor.cs",
+              "RelativeDocumentMoniker": "RealTimeDBBackUp\\Database\\DBProxyMonitor.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\RealTimeDBBackUp\\Database\\DBProxyMonitor.cs",
+              "RelativeToolTip": "RealTimeDBBackUp\\Database\\DBProxyMonitor.cs",
+              "ViewState": "AgIAADUBAAAAAAAAAAAUwEkBAABeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:34:18.401Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DBWriteWorker.cs",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\RealTimeDBBackUp\\Database\\DBWriteWorker.cs",
+              "RelativeDocumentMoniker": "RealTimeDBBackUp\\Database\\DBWriteWorker.cs",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\RealTimeDBBackUp\\Database\\DBWriteWorker.cs",
+              "RelativeToolTip": "RealTimeDBBackUp\\Database\\DBWriteWorker.cs",
+              "ViewState": "AgIAAIwAAAAAAAAAAAAkwKUAAABLAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T13:28:33.255Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "config.hocon",
+              "DocumentMoniker": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\RealTimeDBBackUp\\config.hocon",
+              "RelativeDocumentMoniker": "RealTimeDBBackUp\\config.hocon",
+              "ToolTip": "E:\\work\\Slot\\PPServer\\RealTimeDBBackUp\\RealTimeDBBackUp\\config.hocon",
+              "RelativeToolTip": "RealTimeDBBackUp\\config.hocon",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2024-08-08T13:28:58.898Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

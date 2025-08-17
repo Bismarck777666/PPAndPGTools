@@ -1,0 +1,40 @@
+﻿
+@{
+    ViewBag.Title = "OpenGame";
+}
+
+<section class="content">
+    <input type="hidden" id="error" value="@ViewBag.error" />
+</section>
+<script>
+    $(document).ready(function () {
+        var error = $('#error').val();
+        if (error != "")
+        {
+            alert(error);
+            return;
+        }
+
+        let lowersymbol = '@ViewBag.symbol'.toLocaleLowerCase();
+        var gameOpenUrl = "/AmaticGame/amarent/" + lowersymbol + ".html?";
+        gameOpenUrl += "hash=@ViewBag.session";
+        gameOpenUrl += "&curr=@ViewBag.currencytext";
+        gameOpenUrl += "&setVar22=@ViewBag.currencysymbol";
+        gameOpenUrl += "&lang=@ViewBag.lang";
+        gameOpenUrl += "&exit=@ViewBag.lobbyurl";
+        gameOpenUrl += "&setVar6=ws://@ViewBag.socketurl";
+        gameOpenUrl += "&setVar23=@ViewBag.currencyrate";
+        if(lowersymbol == "rouletteroyal")
+	{
+		gameOpenUrl += "&uselang=en,en,de,es,ru,tr,cz,gr,ee";
+	}
+	else{
+		gameOpenUrl += "&uselang=en,de,es,fr,pt,ru,ka,ro,tr,et,el,bg,hu,cs,hr,it,sv,mk,pl,nl,uk";
+	}
+        gameOpenUrl += "&setVar11=false&setVar21=true&setVar24=true&setVar1007=true&sessionValue14=false&sessionValue15=false";
+
+        location.href = gameOpenUrl;
+    });
+</script>
+
+
