@@ -1,0 +1,14 @@
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\bin\Debug\PPLangDown.exe.config
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\bin\Debug\PPLangDown.exe
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\bin\Debug\PPLangDown.pdb
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.csproj.AssemblyReference.cache
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.exe
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.pdb
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\bin\Debug\PPLangDown.exe.config
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\bin\Debug\PPLangDown.exe
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\bin\Debug\PPLangDown.pdb
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.csproj.AssemblyReference.cache
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.csproj.CoreCompileInputs.cache
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.exe
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPLangDown\obj\Debug\PPLangDown.pdb

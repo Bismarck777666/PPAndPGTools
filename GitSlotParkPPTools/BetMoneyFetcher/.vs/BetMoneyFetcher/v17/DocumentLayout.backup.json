@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\GitSlotParkTools\\BetMoneyFetcher\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5136D-D5DA-42AC-9071-C7A34F7FDC65}|BetMoneyFetcher.csproj|E:\\work\\GitSlotParkTools\\BetMoneyFetcher\\fetchworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5136D-D5DA-42AC-9071-C7A34F7FDC65}|BetMoneyFetcher.csproj|solutionrelative:fetchworker.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4BD5136D-D5DA-42AC-9071-C7A34F7FDC65}|BetMoneyFetcher.csproj|e:\\work\\gitslotparktools\\betmoneyfetcher\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4BD5136D-D5DA-42AC-9071-C7A34F7FDC65}|BetMoneyFetcher.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\work\\GitSlotParkTools\\BetMoneyFetcher\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\work\\GitSlotParkTools\\BetMoneyFetcher\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAADgv1YAAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T08:06:58.355Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FetchWorker.cs",
+              "DocumentMoniker": "E:\\work\\GitSlotParkTools\\BetMoneyFetcher\\FetchWorker.cs",
+              "RelativeDocumentMoniker": "FetchWorker.cs",
+              "ToolTip": "E:\\work\\GitSlotParkTools\\BetMoneyFetcher\\FetchWorker.cs",
+              "RelativeToolTip": "FetchWorker.cs",
+              "ViewState": "AgIAAPEAAAAAAAAAAADgv/oAAAAtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-07-10T08:04:50.17Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

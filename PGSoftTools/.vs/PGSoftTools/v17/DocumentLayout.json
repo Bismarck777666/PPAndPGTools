@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\PGSoftTools\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PGSpinDBBuilder\\PGSpinDBBuilder.csproj|e:\\work\\pgsofttools\\pgspindbbuilder\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PGSpinDBBuilder\\PGSpinDBBuilder.csproj|solutionrelative:pgspindbbuilder\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PGSpinDBBuilder\\PGSpinDBBuilder.csproj|e:\\work\\pgsofttools\\pgspindbbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}|PGSpinDBBuilder\\PGSpinDBBuilder.csproj|solutionrelative:pgspindbbuilder\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\work\\PGSoftTools\\PGSpinDBBuilder\\Program.cs",
+              "RelativeDocumentMoniker": "PGSpinDBBuilder\\Program.cs",
+              "ToolTip": "E:\\work\\PGSoftTools\\PGSpinDBBuilder\\Program.cs",
+              "RelativeToolTip": "PGSpinDBBuilder\\Program.cs",
+              "ViewState": "AgIAAE8AAAAAAAAAAAAQwG4AAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-08-07T07:54:27.297Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "config.hocon",
+              "DocumentMoniker": "E:\\work\\PGSoftTools\\PGSpinDBBuilder\\config.hocon",
+              "RelativeDocumentMoniker": "PGSpinDBBuilder\\config.hocon",
+              "ToolTip": "E:\\work\\PGSoftTools\\PGSpinDBBuilder\\config.hocon",
+              "RelativeToolTip": "PGSpinDBBuilder\\config.hocon",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-08-07T07:54:12.458Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

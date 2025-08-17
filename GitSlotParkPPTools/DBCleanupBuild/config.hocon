@@ -1,0 +1,16 @@
+﻿ {
+	ip				= "127.0.0.1"
+	port				= 1433
+	user				= "sa"
+	pass				= "akduifwkro1988$$$"
+	dbname				= "gitslotpark_seamless"
+    	gamelogmaxdays      		= 7
+    	transactionmaxdays  		= 7
+    	maxusercount        		= 100
+	recentmaxdays			= 20
+	topmaxdays			= 20
+	starttime			= "03:00:00"
+	endtime				= "07:00:00"
+
+}
+

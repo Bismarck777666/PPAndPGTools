@@ -1,0 +1,205 @@
+[2025-06-26 22:52:37.3354] [INFO] [PGClientDown.Controllers.CommonController] incoming url : index.html 
+[2025-06-26 22:52:42.1568] [WARN] [PGClientDown.Controllers.CommonController] file exist : index.html 
+[2025-06-26 22:52:55.7265] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:52:55.7265] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins 
+[2025-06-26 22:52:57.8231] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:52:58.6696] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:52:56 GMT
+  Set-Cookie: TS01a01296=0107cd5b197958e76a883483ef4109437ec433adbdeab687d1bd8e5acd46e28e267da15b0009c066669a9a7e67a0081c370c2c2e18; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:52:58.6696] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:52:54 GMT
+  Set-Cookie: TS01a01296=0107cd5b19e72e077c7da70adbdb11d8d1b56d50dae019c697d2cc1dd49340e550f1bc6d75678935434ba5a3b1701bcee052cfbd7b; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:52:59.3632] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Accept-Ranges: bytes
+  Date: Thu, 26 Jun 2025 19:52:55 GMT
+  ETag: "046dd7531addb1:0"
+  Set-Cookie: TS01a01296=0107cd5b1904b3dc1810eb738988f0e7e6b9066c3f85c2e806a999ff284e97fc01e84f996c90bd8b6f52e304e825f40fa4743e4efb; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 89501
+  Content-Type: application/javascript
+  Last-Modified: Mon, 14 Apr 2025 11:36:28 GMT
+} 
+[2025-06-26 22:52:59.3821] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:52:59.8559] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Accept-Ranges: bytes
+  Date: Thu, 26 Jun 2025 19:52:57 GMT
+  ETag: "046dd7531addb1:0"
+  Set-Cookie: TS01a01296=0107cd5b19d39306aced8022d2aa27de5f5ef840af25c105256b92537bc1b676945dcbf2909fce198f0b62261bb2dde8740a42ed37; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 144
+  Content-Type: audio/mpeg
+  Last-Modified: Mon, 14 Apr 2025 11:36:28 GMT
+} 
+[2025-06-26 22:53:00.0612] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:53:00.0612] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:53:02.0401] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:53:02.0510] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json 
+[2025-06-26 22:53:02.5028] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:52:58 GMT
+  Set-Cookie: TS01a01296=0107cd5b19903ae5173eeb104ca6caeb6b4c6120c69cea90301161fce43e8adc561b45f7210e598478ff0f7429b1df7a90843d095b; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 1245
+  Content-Type: text/html
+} 
+[2025-06-26 22:53:02.6211] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:52:58 GMT
+  Set-Cookie: TS01a01296=0107cd5b194b0faffe1638cbbc6de53c275ae6b5f6684d91d5e67a6e1bd04e530dfc0b12554052074bfc122e91f1fab93ae41a347c; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:53:14.2880] [INFO] [PGClientDown.Controllers.CommonController] incoming url : index.html 
+[2025-06-26 22:53:14.2880] [WARN] [PGClientDown.Controllers.CommonController] file exist : index.html 
+[2025-06-26 22:53:14.3687] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:53:14.3687] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:53:14.3687] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:53:14.3687] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins 
+[2025-06-26 22:53:14.3687] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json 
+[2025-06-26 22:53:14.8724] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:53:12 GMT
+  Set-Cookie: TS01a01296=0107cd5b19c186913f082ba8c8a911ca150673abff9f65724bb5d4f15943e5e1f46da6d928351505e598ba9a243c8c851e00fb26b6; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 1245
+  Content-Type: text/html
+} 
+[2025-06-26 22:53:14.9841] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:53:12 GMT
+  Set-Cookie: TS01a01296=0107cd5b1995626127980ffeb8ec1e74a18a687f7e2574ed5310a97e9be87b69c3a4c3f67ffd931a9e17bda9987804ddb0a588dbb7; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:53:15.0032] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:53:12 GMT
+  Set-Cookie: TS01a01296=0107cd5b1912106f714f7906a085f8eba8ca4b29db7b15ac58e3c604fa88d1844461ee1ab3fdb9b7b0e140718d15e7328fce9679e9; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:53:15.0032] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:53:15.0032] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:53:52.8227] [INFO] [PGClientDown.Controllers.CommonController] incoming url : index.html 
+[2025-06-26 22:53:52.8227] [WARN] [PGClientDown.Controllers.CommonController] file exist : index.html 
+[2025-06-26 22:53:59.0239] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:54:05.7451] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:54:05.7451] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:54:07.4834] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins 
+[2025-06-26 22:54:11.0311] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json 
+[2025-06-26 22:54:47.7197] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:54:44 GMT
+  Set-Cookie: TS01a01296=0107cd5b198b4e8988777d695543c4a3d7b62be9134de960a8d4e51b1ea8fae4b170a7a0f7a8f656434737ecf518d478fd720098f7; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 1245
+  Content-Type: text/html
+} 
+[2025-06-26 22:54:49.4696] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:54:45 GMT
+  Set-Cookie: TS01a01296=0107cd5b195a2cd9050ccdab14c09f55a868a053aa8b48f8eb2e6b3e1b9c64e9367b611bd82f183f31a4cc888f4ddaaeaf7a20d408; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:54:54.8854] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:54:44 GMT
+  Set-Cookie: TS01a01296=0107cd5b191b02b18bc83c5cfe12594b984953355d83138211afcf4ecc47c2a803f2f767282e8d8f560337c5c898a777bb3c9da54d; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:55:01.7448] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:55:01.7448] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:57:29.5817] [INFO] [PGClientDown.Controllers.CommonController] incoming url : index.html 
+[2025-06-26 22:57:29.6126] [WARN] [PGClientDown.Controllers.CommonController] file exist : index.html 
+[2025-06-26 22:57:29.6336] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:57:29.6336] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:57:29.6336] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:57:29.6336] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins 
+[2025-06-26 22:57:30.5191] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:27 GMT
+  Set-Cookie: TS01a01296=0107cd5b1984dbd83cf53a4e59af98245e40d7641259949595fedf64a8e1f28d48f547a8b929fc21ebfa06526bbd388ec2f39d4705; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:30.6117] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:26 GMT
+  Set-Cookie: TS01a01296=0107cd5b192986e40b0f1968195cfe9eb8789eb0deaf2ba12e47892f006532bf120afb6a1c47733908ae489f258d78d9f4753be1c1; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:30.6257] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:57:30.6257] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:57:31.0675] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:57:31.0675] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json 
+[2025-06-26 22:57:31.7607] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:29 GMT
+  Set-Cookie: TS01a01296=0107cd5b196323bd25fda8b5b1ee27801a77cbe6b95b4f5eb2a8a0c1fe1a5f7cc973a6246295878e983aab3db59ac53479ebcbfdf2; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 1245
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:31.8687] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:27 GMT
+  Set-Cookie: TS01a01296=0107cd5b19a20e7547ae3bcf22ca3b06359106ee998985f8e5e84015f793f4c9971854b174a420a9af8553d36518dc04caad078f9a; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:48.1619] [INFO] [PGClientDown.Controllers.CommonController] incoming url : index.html 
+[2025-06-26 22:57:48.1619] [WARN] [PGClientDown.Controllers.CommonController] file exist : index.html 
+[2025-06-26 22:57:48.2586] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch 
+[2025-06-26 22:57:48.2586] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json 
+[2025-06-26 22:57:48.2586] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:57:48.2815] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Scripts/jquery-3.6.0.min.js 
+[2025-06-26 22:57:48.2586] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins 
+[2025-06-26 22:57:48.7862] [INFO] [PGClientDown.Controllers.CommonController] incoming url : .well-known/appspecific/com.chrome.devtools.json Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:45 GMT
+  Set-Cookie: TS01a01296=0107cd5b190705b5942ef8595526caf4239e616c8859951dff634307a5c570e0220195f7bb41a66dce064a7e3e0cb21a924c93bbf6; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 1245
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:49.4137] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/style/gamelaunch Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:46 GMT
+  Set-Cookie: TS01a01296=0107cd5b19310dc48b0caa56bd1995423097a18bbfa3c9e068bfeb780c821b32fba4b9c11d3f02bfeb662798115d73c77e7abe20f5; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:49.5440] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/bundles/scripts/freespins Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Strict-Transport-Security: max-age=16070400; includeSubDomains
+  Date: Thu, 26 Jun 2025 19:57:46 GMT
+  Set-Cookie: TS01a01296=0107cd5b199e693058d5456c355c08d5c3786e02475f612c25b47b66488bb6a1d56dd1aa295d2e18995b06bf0f184f017cad1fbac9; Path=/; Domain=.nrgs-b2b.greentube.com; Secure; HTTPOnly
+  Content-Length: 7082
+  Content-Type: text/html
+} 
+[2025-06-26 22:57:49.5579] [INFO] [PGClientDown.Controllers.CommonController] incoming url : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 
+[2025-06-26 22:57:49.5579] [WARN] [PGClientDown.Controllers.CommonController] file exist : Nrgs/B2B/Web/CasinoLuganoCHF/V5/Assets/gi_silence.mp3 

@@ -1,0 +1,70 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{68210B48-6599-4AEA-B41A-24149103F404}|DBCleanupTool.csproj|E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68210B48-6599-4AEA-B41A-24149103F404}|DBCleanupTool.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68210B48-6599-4AEA-B41A-24149103F404}|DBCleanupTool.csproj|e:\\work\\gitslotparktools\\dbcleanup\\dbcleanuptool\\dbcleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{68210B48-6599-4AEA-B41A-24149103F404}|DBCleanupTool.csproj|solutionrelative:dbcleaner.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{68210B48-6599-4AEA-B41A-24149103F404}|DBCleanupTool.csproj|E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}",
+      "RelativeMoniker": "D:0:0:{68210B48-6599-4AEA-B41A-24149103F404}|DBCleanupTool.csproj|solutionrelative:config.hocon||{8B382828-6202-11D1-8870-0000F87579D2}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 2,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "config.hocon",
+              "DocumentMoniker": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\config.hocon",
+              "RelativeDocumentMoniker": "config.hocon",
+              "ToolTip": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\config.hocon",
+              "RelativeToolTip": "config.hocon",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001001|",
+              "WhenOpened": "2025-02-11T08:30:27.886Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DBCleaner.cs",
+              "DocumentMoniker": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\DBCleaner.cs",
+              "RelativeDocumentMoniker": "DBCleaner.cs",
+              "ToolTip": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\DBCleaner.cs",
+              "RelativeToolTip": "DBCleaner.cs",
+              "ViewState": "AgIAAEUBAAAAAAAAAAAjwFoBAABNAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-10T19:34:27.301Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "E:\\work\\GitSlotParkTools\\DBCleanup\\DBCleanupTool\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABMAAAAAAAAAAAAewCMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-14T09:38:16.47Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

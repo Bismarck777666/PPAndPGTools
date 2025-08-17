@@ -1,0 +1,161 @@
+[2025-06-20 10:32:06.8382] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native 
+[2025-06-20 10:32:07.6613] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  Access-Control-Allow-Headers: User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+  Access-Control-Allow-Methods: GET,OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length,Content-Range
+  X-Bdcdn-Cache-Status: TCP_MISS,TCP_MISS
+  X-Exception-Info: O2|404
+  X-Request-Id: a90cd584aab884def3400255805b560a
+  X-Request-Ip: 213.87.140.237
+  X-Response-Cache: miss
+  X-Response-Cinfo: 213.87.140.237
+  X-Tt-Trace-Tag: id=5
+  Strict-Transport-Security: max-age=5184000; includeSubDomains
+  alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  Date: Fri, 20 Jun 2025 07:32:06 GMT
+  Server: Byte-nginx
+  Via: 1.1 google,cache02.oversea-NL-AMS2,cache02.oversea-RU-MOW2
+  Content-Length: 548
+  Content-Type: text/html; charset=UTF-8
+} 
+[2025-06-20 10:33:04.7038] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7 
+[2025-06-20 10:33:05.5196] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7 Response : StatusCode: 404, ReasonPhrase: 'Not Found', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  Access-Control-Allow-Headers: User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+  Access-Control-Allow-Methods: GET,OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length,Content-Range
+  X-Bdcdn-Cache-Status: TCP_MISS,TCP_MISS
+  X-Exception-Info: O2|404
+  X-Request-Id: 2e5dbc07274f091dbdbfe5d7dfdf1b94
+  X-Request-Ip: 213.87.140.237
+  X-Response-Cache: miss
+  X-Response-Cinfo: 213.87.140.237
+  X-Tt-Trace-Tag: id=5
+  Strict-Transport-Security: max-age=5184000; includeSubDomains
+  alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  Date: Fri, 20 Jun 2025 07:33:04 GMT
+  Server: Byte-nginx
+  Via: 1.1 google,cache09.oversea-NL-AMS2,cache04.oversea-RU-MOW2
+  Content-Length: 548
+  Content-Type: text/html; charset=UTF-8
+} 
+[2025-06-20 10:36:10.9914] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp 
+[2025-06-20 10:36:12.1282] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  Access-Control-Allow-Headers: User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+  Access-Control-Allow-Methods: GET,OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length,Content-Range
+  Age: 46149
+  X-Bdcdn-Cache-Status: TCP_HIT
+  X-Request-Id: 7bddaf9033fb118c7a09b11397cbf3cc
+  X-Request-Ip: 65.21.236.53
+  X-Response-Cache: edge_hit
+  X-Response-Cinfo: 65.21.236.53
+  X-Tt-Trace-Tag: id=5
+  Strict-Transport-Security: max-age=5184000; includeSubDomains
+  alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  Accept-Ranges: bytes
+  Cache-Control: max-age=31536000
+  Date: Fri, 20 Jun 2025 07:36:11 GMT
+  ETag: "684bb477-b294"
+  Server: Byte-nginx
+  Via: mixed02.oversea-FI-HEL1
+  Content-Length: 45716
+  Content-Type: image/webp
+  Expires: Fri, 19 Jun 2026 18:47:02 GMT
+  Last-Modified: Fri, 13 Jun 2025 05:17:43 GMT
+} 
+[2025-06-20 10:36:16.6860] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp 
+[2025-06-20 10:36:17.2946] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  Access-Control-Allow-Headers: User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+  Access-Control-Allow-Methods: GET,OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length,Content-Range
+  Age: 46154
+  X-Bdcdn-Cache-Status: TCP_HIT
+  X-Request-Id: 319d5baa64742709098ce0bb5fed5bc0
+  X-Request-Ip: 65.21.236.53
+  X-Response-Cache: edge_hit
+  X-Response-Cinfo: 65.21.236.53
+  X-Tt-Trace-Tag: id=5
+  Strict-Transport-Security: max-age=5184000; includeSubDomains
+  alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  Accept-Ranges: bytes
+  Cache-Control: max-age=31536000
+  Date: Fri, 20 Jun 2025 07:36:16 GMT
+  ETag: "684bb477-b294"
+  Server: Byte-nginx
+  Via: mixed02.oversea-FI-HEL1
+  Content-Length: 45716
+  Content-Type: image/webp
+  Expires: Fri, 19 Jun 2026 18:47:02 GMT
+  Last-Modified: Fri, 13 Jun 2025 05:17:43 GMT
+} 
+[2025-06-20 10:40:45.8851] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp 
+[2025-06-20 10:40:47.1254] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  Access-Control-Allow-Headers: User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+  Access-Control-Allow-Methods: GET,OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length,Content-Range
+  Age: 46424
+  X-Bdcdn-Cache-Status: TCP_HIT
+  X-Request-Id: 5d774dea6ce46314709ca4b29e6fbc15
+  X-Request-Ip: 65.21.236.53
+  X-Response-Cache: edge_hit
+  X-Response-Cinfo: 65.21.236.53
+  X-Tt-Trace-Tag: id=5
+  Strict-Transport-Security: max-age=5184000; includeSubDomains
+  alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  Accept-Ranges: bytes
+  Cache-Control: max-age=31536000
+  Date: Fri, 20 Jun 2025 07:40:46 GMT
+  ETag: "684bb477-b294"
+  Server: Byte-nginx
+  Via: mixed02.oversea-FI-HEL1
+  Content-Length: 45716
+  Content-Type: image/webp
+  Expires: Fri, 19 Jun 2026 18:47:02 GMT
+  Last-Modified: Fri, 13 Jun 2025 05:17:43 GMT
+} 
+[2025-06-20 10:41:12.5704] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp 
+[2025-06-20 10:41:31.6510] [WARN] [PGClientDown.Controllers.CommonController] file exist : 1881268/assets/resources/native/80/802fac33-7d1e-4795-a093-8b322125e9f7.eea0f.webp 
+[2025-06-20 10:41:49.1802] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/import/09/09053e05b.2a67f.json 
+[2025-06-20 10:41:49.7453] [INFO] [PGClientDown.Controllers.CommonController] incoming url : 1881268/assets/resources/import/09/09053e05b.2a67f.json Response : StatusCode: 200, ReasonPhrase: 'OK', Version: 1.1, Content: System.Net.Http.StreamContent, Headers:
+{
+  Connection: keep-alive
+  Access-Control-Allow-Headers: User-Agent,If-Modified-Since,Cache-Control,Content-Type,Range
+  Access-Control-Allow-Methods: GET,OPTIONS
+  Access-Control-Allow-Origin: *
+  Access-Control-Expose-Headers: Content-Length,Content-Range
+  Age: 2
+  Vary: Accept-Encoding
+  X-Bdcdn-Cache-Status: TCP_MISS,TCP_MISS
+  X-Request-Id: 86b68e3bea65670f331251b245216e30
+  X-Request-Ip: 65.21.236.53
+  X-Response-Cache: miss
+  X-Response-Cinfo: 65.21.236.53
+  X-Tt-Trace-Tag: id=5
+  Strict-Transport-Security: max-age=5184000; includeSubDomains
+  alt-svc: h3=":443"; ma=2592000,h3-29=":443"; ma=2592000,h3-Q050=":443"; ma=2592000,h3-Q046=":443"; ma=2592000,h3-Q043=":443"; ma=2592000,quic=":443"; ma=2592000; v="46,43"
+  Accept-Ranges: bytes
+  Cache-Control: max-age=31536000
+  Date: Fri, 20 Jun 2025 07:41:49 GMT
+  ETag: "684bb472-283"
+  Server: Byte-nginx
+  Via: 1.1 google,cache02.oversea-NL-AMS2,mixed02.oversea-FI-HEL1
+  Content-Length: 643
+  Content-Type: application/json
+  Expires: Sat, 20 Jun 2026 07:41:48 GMT
+  Last-Modified: Fri, 13 Jun 2025 05:17:38 GMT
+} 

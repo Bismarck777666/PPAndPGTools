@@ -1,0 +1,360 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Hocon.Configuration</name>
+    </assembly>
+    <members>
+        <member name="T:Hocon.CDataConfigurationElement">
+            <summary>
+                This class represents the base implementation for retrieving text from
+                an XML CDATA node within a configuration file.
+                <code>
+            <![CDATA[
+            <?xml version="1.0" encoding="utf-8" ?>
+            <configuration>
+              <configSections>
+                <section name="akka" type="Akka.Configuration.Hocon.HoconConfigurationSection, Akka.Hocon" />
+              </configSections>
+              <akka>
+                <hocon>
+                  &lt;![CDATA[
+                  ...
+                  ]]&gt;
+                </hocon>
+              </akka>
+            </configuration>
+            ]]>
+            </code>
+            </summary>
+        </member>
+        <member name="M:Hocon.CDataConfigurationElement.DeserializeElement(System.Xml.XmlReader,System.Boolean)">
+            <summary>
+                Deserializes the text located in a CDATA node of the configuration file.
+            </summary>
+            <param name="reader">The <see cref="T:System.Xml.XmlReader" /> that reads from the configuration file.</param>
+            <param name="serializeCollectionKey">true to serialize only the collection key properties; otherwise, false.</param>
+        </member>
+        <member name="T:Hocon.Config">
+            <summary>
+                This class represents the main configuration object used by a project
+                when configuring objects within the system. To put it simply, it's
+                the internal representation of a HOCON (Human-Optimized Config Object Notation)
+                configuration string.
+            </summary>
+        </member>
+        <member name="M:Hocon.Config.#ctor(Hocon.HoconValue)">
+            <inheritdoc />
+            <summary>
+                Initializes a new instance of the <see cref="T:Hocon.Config" /> class.
+            </summary>
+        </member>
+        <member name="M:Hocon.Config.#ctor(Hocon.HoconValue,Hocon.Config)">
+            <inheritdoc cref="M:Hocon.Config.#ctor(Hocon.HoconValue)" />
+        </member>
+        <member name="M:Hocon.Config.#ctor(Hocon.HoconRoot)">
+            <inheritdoc cref="M:Hocon.Config.#ctor(Hocon.HoconValue)" />
+            <param name="root">The root node to base this configuration.</param>
+            <exception cref="T:System.ArgumentNullException">"The root value cannot be null."</exception>
+        </member>
+        <member name="M:Hocon.Config.#ctor(Hocon.HoconRoot,Hocon.Config)">
+            <inheritdoc cref="M:Hocon.Config.#ctor(Hocon.HoconValue)" />
+            <param name="root">The configuration to use as the primary source.</param>
+            <param name="fallback">The configuration to use as a secondary source.</param>
+            <exception cref="T:System.ArgumentNullException">The source configuration cannot be null.</exception>
+        </member>
+        <member name="P:Hocon.Config.Empty">
+            <summary>
+                Identical to <see cref="P:Hocon.HoconConfigurationFactory.Empty" />.
+            </summary>
+            <remarks>
+                Added for brevity and API backwards-compatibility with Akka.Hocon.
+            </remarks>
+        </member>
+        <member name="P:Hocon.Config.IsEmpty">
+            <summary>
+                Determines if this root node contains any values
+            </summary>
+        </member>
+        <member name="M:Hocon.Config.ToString(System.Boolean)">
+            <summary>
+                Returns string representation of <see cref="T:Hocon.Config" />, allowing to include fallback values
+            </summary>
+            <param name="useFallbackValues">If set to <c>true</c>, fallback values are included in the output</param>
+        </member>
+        <member name="M:Hocon.Config.GetConfig(System.String)">
+            <summary>
+                Retrieves a new configuration from the current configuration
+                with the root node being the supplied path.
+            </summary>
+            <param name="path">The path that contains the configuration to retrieve.</param>
+            <returns>A new configuration with the root node being the supplied path.</returns>
+        </member>
+        <member name="M:Hocon.Config.WithFallback(Hocon.Config)">
+            <summary>
+                Configure the current configuration with a secondary source.
+                If the inserted configuration is already present in the fallback chain, 
+                it will be moved to the end of the chain instead.
+            </summary>
+            <param name="fallback">The configuration to use as a secondary source.</param>
+            <returns>The current configuration configured with the specified fallback.</returns>
+            <exception cref="T:System.ArgumentException">Config can not have itself as fallback.</exception>
+        </member>
+        <member name="M:Hocon.Config.op_Addition(Hocon.Config,System.String)">
+            <summary>
+                Adds the supplied configuration string as a fallback to the supplied configuration.
+            </summary>
+            <param name="config">The configuration used as the source.</param>
+            <param name="fallback">The string used as the fallback configuration.</param>
+            <returns>The supplied configuration configured with the supplied fallback.</returns>
+        </member>
+        <member name="M:Hocon.Config.op_Addition(System.String,Hocon.Config)">
+            <summary>
+                Adds the supplied configuration as a fallback to the supplied configuration string.
+            </summary>
+            <param name="configHocon">The configuration string used as the source.</param>
+            <param name="fallbackConfig">The configuration used as the fallback.</param>
+            <returns>A configuration configured with the supplied fallback.</returns>
+        </member>
+        <member name="M:Hocon.Config.op_Implicit(System.String)~Hocon.Config">
+            <summary>
+                Performs an implicit conversion from <see cref="T:System.String" /> to <see cref="T:Hocon.Config" />.
+            </summary>
+            <param name="str">The string that contains a configuration.</param>
+            <returns>A configuration based on the supplied string.</returns>
+        </member>
+        <member name="M:Hocon.Config.AsEnumerable">
+            <inheritdoc />
+        </member>
+        <member name="M:Hocon.Config.GetObjectData(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <inheritdoc />
+        </member>
+        <member name="T:Hocon.ConfigExtensions">
+            <summary>
+                This class contains convenience methods for working with <see cref="T:Hocon.Config" />.
+            </summary>
+        </member>
+        <member name="M:Hocon.ConfigExtensions.SafeWithFallback(Hocon.Config,Hocon.Config)">
+            <summary>
+                Retrieves the current configuration or the fallback
+                configuration if the current one is null.
+            </summary>
+            <param name="config">The configuration used as the source.</param>
+            <param name="fallback">The configuration to use as a secondary source.</param>
+            <returns>The current configuration or the fallback configuration if the current one is null.</returns>
+        </member>
+        <member name="M:Hocon.ConfigExtensions.IsNullOrEmpty(Hocon.Config)">
+            <summary>
+                Determines if the supplied configuration has any usable content period.
+            </summary>
+            <param name="config">The configuration used as the source.</param>
+            <returns><c>true></c> if the <see cref="T:Hocon.Config" /> is null or <see cref="P:Hocon.Config.IsEmpty" />; otherwise <c>false</c>.</returns>
+        </member>
+        <member name="T:Hocon.ConfigurationException">
+            <summary>
+                The exception that is thrown when a configuration is invalid.
+            </summary>
+        </member>
+        <member name="M:Hocon.ConfigurationException.#ctor(System.String)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Hocon.ConfigurationException" /> class.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+        </member>
+        <member name="M:Hocon.ConfigurationException.#ctor(System.String,System.Exception)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Hocon.ConfigurationException" /> class.
+            </summary>
+            <param name="message">The message that describes the error.</param>
+            <param name="exception">The exception that is the cause of the current exception.</param>
+        </member>
+        <member name="M:Hocon.ConfigurationException.#ctor(System.Runtime.Serialization.SerializationInfo,System.Runtime.Serialization.StreamingContext)">
+            <summary>
+                Initializes a new instance of the <see cref="T:Hocon.ConfigurationException" /> class.
+            </summary>
+            <param name="info">The object that holds the serialized object data.</param>
+            <param name="context">The contextual information about the source or destination.</param>
+        </member>
+        <member name="T:Hocon.DebuggingExtensions">
+            <summary>
+            Debugging extensions for <see cref="T:Hocon.Config"/> objects.
+            </summary>
+        </member>
+        <member name="M:Hocon.DebuggingExtensions.DumpConfig(Hocon.Config,System.Boolean)">
+            <summary>
+            Dumps all of the fallbacks in the order in which they would be resolved.
+            </summary>
+            <param name="c">The top-level config.</param>
+            <returns>A stringified list of fallbacks</returns>
+        </member>
+        <member name="T:Hocon.HoconConfigurationElement">
+            <summary>
+                This class represents a custom HOCON (Human-Optimized Config Object Notation)
+                node within a configuration file.
+                <code>
+            <![CDATA[
+            <?xml version="1.0" encoding="utf-8" ?>
+            <configuration>
+              <configSections>
+                <section name="hocon" type="Hocon.HoconConfigurationSection, Hocon.Configuration" />
+              </configSections>
+              <hocon>
+              ...
+              </hocon>
+            </configuration>
+            ]]>
+            </code>
+            </summary>
+        </member>
+        <member name="P:Hocon.HoconConfigurationElement.Content">
+            <summary>
+                Gets or sets the HOCON configuration string contained in the hocon node.
+            </summary>
+        </member>
+        <member name="T:Hocon.HoconConfigurationFactory">
+            <summary>
+                This class contains methods used to retrieve configuration information
+                from a variety of sources including user-supplied strings, configuration
+                files and assembly resources.
+            </summary>
+        </member>
+        <member name="P:Hocon.HoconConfigurationFactory.Empty">
+            <summary>
+                Generates an empty configuration.
+            </summary>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.ParseString(System.String,Hocon.HoconIncludeCallbackAsync)">
+            <summary>
+                Generates a configuration defined in the supplied
+                HOCON (Human-Optimized Config Object Notation) string.
+            </summary>
+            <param name="hocon">A string that contains configuration options to use.</param>
+            <param name="includeCallback">callback used to resolve includes</param>
+            <returns>The configuration defined in the supplied HOCON string.</returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.ParseString(System.String)">
+            <summary>
+                Generates a configuration defined in the supplied
+                HOCON (Human-Optimized Config Object Notation) string.
+            </summary>
+            <param name="hocon">A string that contains configuration options to use.</param>
+            <returns>The configuration defined in the supplied HOCON string.</returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.Load">
+            <summary>
+                Loads a configuration named "akka" defined in the current application's
+                configuration file, e.g. app.config or web.config.
+            </summary>
+            <returns>
+                The configuration defined in the configuration file. If the section
+                "akka" is not found, this returns an empty Config.
+            </returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.Load(System.String)">
+            <summary>
+                Loads a configuration with the given `sectionName` defined in the current application's
+                configuration file, e.g. app.config or web.config.
+            </summary>
+            <param name="sectionName">The name of the section to load.</param>
+            <returns>
+                The configuration defined in the configuration file. If the section
+                is not found, this returns an empty Config.
+            </returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.FromFile(System.String)">
+            <summary>
+                Parses a HOCON file from the filesystem.
+                If no file extension is provided, the function will try to load
+                the file in these default extensions .conf, .hocon, .properties
+            </summary>
+            <param name="filePath">The path to the file.</param>
+            <returns>A parsed HOCON configuration object.</returns>
+            <throws>ConfigurationException, when the supplied filePath can't be found.</throws>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.Default">
+            <summary>
+                Retrieves the default configuration that Akka.NET uses
+                when no configuration has been defined.
+            </summary>
+            <returns>The configuration that contains default values for all options.</returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.FromResource(System.String)">
+            <summary>
+                Retrieves a configuration defined in a resource of the
+                current executing assembly.
+            </summary>
+            <param name="resourceName">The name of the resource that contains the configuration.</param>
+            <returns>The configuration defined in the current executing assembly.</returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.FromResource(System.String,System.Object)">
+            <summary>
+                Retrieves a configuration defined in a resource of the
+                assembly containing the supplied instance object.
+            </summary>
+            <param name="resourceName">The name of the resource that contains the configuration.</param>
+            <param name="instanceInAssembly">An instance object located in the assembly to search.</param>
+            <returns>The configuration defined in the assembly that contains the instanced object.</returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.FromResource``1(System.String)">
+            <summary>
+                Retrieves a configuration defined in a resource of the assembly
+                containing the supplied type <typeparamref name="TAssembly" />.
+            </summary>
+            <typeparam name="TAssembly">A type located in the assembly to search.</typeparam>
+            <param name="resourceName">The name of the resource that contains the configuration.</param>
+            <returns>The configuration defined in the assembly that contains the type <typeparamref name="TAssembly" />.</returns>
+        </member>
+        <member name="M:Hocon.HoconConfigurationFactory.FromResource(System.String,System.Reflection.Assembly)">
+            <summary>
+                Retrieves a configuration defined in a resource of the supplied assembly.
+            </summary>
+            <param name="resourceName">The name of the resource that contains the configuration.</param>
+            <param name="assembly">The assembly that contains the given resource.</param>
+            <returns>The configuration defined in the assembly that contains the given resource.</returns>
+        </member>
+        <member name="T:Hocon.HoconConfigurationSection">
+            <summary>
+                This class represents a custom HOCON node within a configuration file.
+                <code>
+            <![CDATA[
+            <?xml version="1.0" encoding="utf-8" ?>
+            <configuration>
+              <configSections>
+                <section name="hocon" type="Hocon.HoconConfigurationSection, Hocon.Configuration" />
+              </configSections>
+              <hocon>
+              ...
+              </hocon>
+            </configuration>
+            ]]>
+            </code>
+            </summary>
+        </member>
+        <member name="P:Hocon.HoconConfigurationSection.Config">
+            <summary>
+                Retrieves a <see cref="P:Hocon.HoconConfigurationSection.Config" /> from the contents of the
+                custom akka node within a configuration file.
+            </summary>
+        </member>
+        <member name="P:Hocon.HoconConfigurationSection.Hocon">
+            <summary>
+                Retrieves the HOCON (Human-Optimized Config Object Notation)
+                configuration string from the custom HOCON node.
+                <code>
+            <![CDATA[
+            <?xml version="1.0" encoding="utf-8" ?>
+            <configuration>
+              <configSections>
+                <section name="hocon" type="Hocon.HoconConfigurationSection, Hocon.Configuration" />
+              </configSections>
+              <hocon>
+                 <hocon>
+                 ...
+                 </hocon>
+              </hocon>
+            </configuration>
+            ]]>
+            </code>
+            </summary>
+        </member>
+    </members>
+</doc>

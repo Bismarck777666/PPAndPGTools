@@ -1,0 +1,9 @@
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\bin\Debug\DBCleanupTool.exe
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\bin\Debug\DBCleanupTool.pdb
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\bin\Debug\Hocon.dll
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\obj\Debug\DBCleanupTool.csproj.AssemblyReference.cache
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\obj\Debug\DBCleanupTool.csproj.CoreCompileInputs.cache
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\obj\Debug\DBCleanu.47E8FE83.Up2Date
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\obj\Debug\DBCleanupTool.exe
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\obj\Debug\DBCleanupTool.pdb
+E:\work\GitSlotParkTools\DBCleanup\DBCleanupTool\bin\Debug\config.hocon

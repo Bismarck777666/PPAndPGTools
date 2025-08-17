@@ -1,0 +1,230 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{09080DB3-FDC2-4A2B-BB82-FA394EA1E7A0}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>PragmaticDemoBot</RootNamespace>
+    <AssemblyName>PragmaticDemoBot</AssemblyName>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>TRACE;DEBUG</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
+    <Reference Include="Hocon, Version=2.0.4.0, Culture=neutral, processorArchitecture=MSIL">
+      <HintPath>..\packages\Hocon.2.0.4\lib\net461\Hocon.dll</HintPath>
+    </Reference>
+    <Reference Include="Newtonsoft.Json, Version=13.0.0.0, Culture=neutral, PublicKeyToken=30ad4fe6b2a6aeed, processorArchitecture=MSIL">
+      <HintPath>..\packages\Newtonsoft.Json.13.0.1\lib\net45\Newtonsoft.Json.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.SQLite, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\lib\net46\System.Data.SQLite.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.EF6, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.EF6.1.0.115.5\lib\net46\System.Data.SQLite.EF6.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data.SQLite.Linq, Version=1.0.115.5, Culture=neutral, PublicKeyToken=db937bc2d44ff139, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Data.SQLite.Linq.1.0.115.5\lib\net46\System.Data.SQLite.Linq.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http, Version=4.1.1.1, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Net.Http.4.3.2\lib\net46\System.Net.Http.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Algorithms, Version=4.1.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Algorithms.4.3.0\lib\net461\System.Security.Cryptography.Algorithms.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Encoding, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Encoding.4.3.0\lib\net46\System.Security.Cryptography.Encoding.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.Primitives, Version=4.0.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.Primitives.4.3.0\lib\net46\System.Security.Cryptography.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Security.Cryptography.X509Certificates, Version=4.1.1.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Security.Cryptography.X509Certificates.4.3.0\lib\net461\System.Security.Cryptography.X509Certificates.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="GameFetchers\AsgardFetcher.cs" />
+    <Compile Include="GameFetchers\AztecKingMegaFetcher.cs" />
+    <Compile Include="GameFetchers\BigJuanFetcher.cs" />
+    <Compile Include="GameFetchers\BroncoSpiritFetcher.cs" />
+    <Compile Include="GameFetchers\BuffaloKingMegaFetcher.cs" />
+    <Compile Include="GameFetchers\CashElevatorFetcher.cs" />
+    <Compile Include="GameFetchers\CleocatraFetcher.cs" />
+    <Compile Include="GameFetchers\DragonHoldAndSpinFetcher.cs" />
+    <Compile Include="GameFetchers\EightDragonsFetcher.cs" />
+    <Compile Include="GameFetchers\EmptyTheBankFetcher.cs" />
+    <Compile Include="NewFetchers\BigBassAmazonXtremeFetcher.cs" />
+    <Compile Include="NewFetchers\BigBassDayAtTheRacesFetcher.cs" />
+    <Compile Include="NewFetchers\BusyBeesFetcher.cs" />
+    <Compile Include="NewFetchers\ChaseForGloryFetcher.cs" />
+    <Compile Include="NewFetchers\BewareTheDeepMegawaysFetcher.cs" />
+    <Compile Include="NewFetchers\FloatingDragonNewYearFestivalUltraMegawaysHoldAndSpinFetcher.cs" />
+    <Compile Include="NewFetchers\FiveFrozenCharmsMegawaysFetcher.cs" />
+    <Compile Include="NewFetchers\WildDepthsFetcher.cs" />
+    <Compile Include="NewFetchers\DragonKingdomEyesOfFireFetcher.cs" />
+    <Compile Include="NewFetchers\EmeraldKingClassicFetcher.cs" />
+    <Compile Include="NewFetchers\CashChipsFetcher.cs" />
+    <Compile Include="NewFetchers\DwarvenGoldFetcher.cs" />
+    <Compile Include="NewFetchers\AladdinsTreasureFetcher.cs" />
+    <Compile Include="NewFetchers\SweetBonanzaDiceFetcher.cs" />
+    <Compile Include="NewFetchers\ThreeKingdomsBattleOfRedCliffsFetcher.cs" />
+    <Compile Include="NewFetchers\LadyOfTheMoonFetcher.cs" />
+    <Compile Include="NewFetchers\RomeoAndJulietFetcher.cs" />
+    <Compile Include="NewFetchers\QueenOfAtlantisFetcher.cs" />
+    <Compile Include="NewFetchers\GreatRhinoMegaFetcher.cs" />
+    <Compile Include="NewFetchers\FiveLionsMegaFetcher.cs" />
+    <Compile Include="NewFetchers\RocketBlastMegawaysFetcher.cs" />
+    <Compile Include="NewFetchers\PowerOfMerlinMegawaysFetcher.cs" />
+    <Compile Include="NewFetchers\RobberStrikeFetcher.cs" />
+    <Compile Include="NewFetchers\ThreeBuzzingWildsFetcher.cs" />
+    <Compile Include="NewFetchers\ZeusVsHadesGodsOfWarFetcher.cs" />
+    <Compile Include="NewFetchers\GoldenBeautyFetcher.cs" />
+    <Compile Include="NewFetchers\KingdomOfTheDeadFetcher.cs" />
+    <Compile Include="NewFetchers\LeprechaunCarolFetcher.cs" />
+    <Compile Include="NewFetchers\ReleaseTheKraken2Fetcher.cs" />
+    <Compile Include="NewFetchers\TheGreatChickenEscapeFetcher.cs" />
+    <Compile Include="NewFetchers\EmeraldKingFetcher.cs" />
+    <Compile Include="NewFetchers\EmperorCaishenFetcher.cs" />
+    <Compile Include="NewFetchers\ClassicGameFetcher.cs" />
+    <Compile Include="NewFetchers\Devils13Fetcher.cs" />
+    <Compile Include="NewFetchers\DaVinciTreasureFetcher.cs" />
+    <Compile Include="NewFetchers\LadyGodivaFetcher.cs" />
+    <Compile Include="NewFetchers\StreetRacerFetcher.cs" />
+    <Compile Include="NewFetchers\PixieWingsFetcher.cs" />
+    <Compile Include="NewFetchers\VampiresVSWolvesFetcher.cs" />
+    <Compile Include="NewFetchers\HoneyHoneyHoneyFetcher.cs" />
+    <Compile Include="NewFetchers\TheWildMachineFetcher.cs" />
+    <Compile Include="NewFetchers\FishinReelsFetcher.cs" />
+    <Compile Include="NewFetchers\GreatReefFetcher.cs" />
+    <Compile Include="NewFetchers\SevenPiggiesFetcher.cs" />
+    <Compile Include="NewFetchers\EuroNoWinRespinFetcher.cs" />
+    <Compile Include="NewFetchers\VoodooMagicFetcher.cs" />
+    <Compile Include="NewFetchers\WildSpellsFetcher.cs" />
+    <Compile Include="NewFetchers\SuperXFetcher.cs" />
+    <Compile Include="NewFetchers\EyeOfCleopatraFetcher.cs" />
+    <Compile Include="GameFetchers\FruitPartyFetcher.cs" />
+    <Compile Include="GameFetchers\HandOfMidasFetcher.cs" />
+    <Compile Include="GameFetchers\HokkaidoWolfFetcher.cs" />
+    <Compile Include="GameFetchers\KoiPondFetcher.cs" />
+    <Compile Include="GameFetchers\MustangGoldFetcher.cs" />
+    <Compile Include="GameFetchers\PeKingLuckFetcher.cs" />
+    <Compile Include="GameFetchers\PirateGoldDeluxFetcher.cs" />
+    <Compile Include="GameFetchers\PowerOfThorMegaFetcher.cs" />
+    <Compile Include="GameFetchers\PyramidBonanzaFetcher.cs" />
+    <Compile Include="GameFetchers\QueenieFetcher.cs" />
+    <Compile Include="GameFetchers\RockVegasFetcher.cs" />
+    <Compile Include="GameFetchers\TalesOfEgyptFetcher.cs" />
+    <Compile Include="GameFetchers\TheAmazingMoneyMachineFetcher.cs" />
+    <Compile Include="GameFetchers\TheTweetyHouseFetcher.cs" />
+    <Compile Include="GameFetchers\TheUltimate5Fetcher.cs" />
+    <Compile Include="GameFetchers\TreasureWildFetcher.cs" />
+    <Compile Include="GameFetchers\ZombieCarnivalFetcher.cs" />
+    <Compile Include="ISpinDataFetcher.cs" />
+    <Compile Include="GameSpinDataFetcher.cs" />
+    <Compile Include="NewFetchers\AsiaGameFetcher.cs" />
+    <Compile Include="NewFetchers\AztecBlazeFetcher.cs" />
+    <Compile Include="NewFetchers\AztecGemsDeluxeFetcher.cs" />
+    <Compile Include="NewFetchers\BarnFestivalFetcher.cs" />
+    <Compile Include="NewFetchers\BigBassSplashFetcher.cs" />
+    <Compile Include="NewFetchers\BonanzaGoldFetcher.cs" />
+    <Compile Include="NewFetchers\BookOfTheFallenFetcher.cs" />
+    <Compile Include="NewFetchers\BookOfTutRespinFetcher.cs" />
+    <Compile Include="NewFetchers\ChristmasCarolMegaFetcher.cs" />
+    <Compile Include="NewFetchers\DownTheRailsFetcher.cs" />
+    <Compile Include="NewFetchers\DragoJewelsOfFortuneFetcher.cs" />
+    <Compile Include="NewFetchers\EuroGameFetcher.cs" />
+    <Compile Include="NewFetchers\ExtraJuicyMegaFetcher.cs" />
+    <Compile Include="NewFetchers\Fire88Fetcher.cs" />
+    <Compile Include="NewFetchers\FiveRabbitsMegaFetcher.cs" />
+    <Compile Include="NewFetchers\FloatingDragonMegaFetcher.cs" />
+    <Compile Include="NewFetchers\FuryOfOdinMegaFetcher.cs" />
+    <Compile Include="NewFetchers\HotPepperFetcher.cs" />
+    <Compile Include="NewFetchers\LeprechaunSongFetcher.cs" />
+    <Compile Include="NewFetchers\LittleGemFetcher.cs" />
+    <Compile Include="NewFetchers\LuckyFishingFetcher.cs" />
+    <Compile Include="NewFetchers\MagicianSecretsFetcher.cs" />
+    <Compile Include="NewFetchers\WildWildRichesMegaFetcher.cs" />
+    <Compile Include="NewFetchers\MammothGoldMegaFetcher.cs" />
+    <Compile Include="NewFetchers\PinupGirlsFetcher.cs" />
+    <Compile Include="NewFetchers\PizzaPizzaPizzaFetcher.cs" />
+    <Compile Include="NewFetchers\QueenOfGodsFetcher.cs" />
+    <Compile Include="NewFetchers\NorthGuardiansFetcher.cs" />
+    <Compile Include="NewFetchers\ReleaseTheKrakenFetcher.cs" />
+    <Compile Include="NewFetchers\RiseOfSamuraiMegaFetcher.cs" />
+    <Compile Include="NewFetchers\SantaGreatGiftsFetcher.cs" />
+    <Compile Include="NewFetchers\SpinAndScoreMegaFetcher.cs" />
+    <Compile Include="NewFetchers\SpiritOfAdventureFetcher.cs" />
+    <Compile Include="NewFetchers\StarlightPrincessFetcher.cs" />
+    <Compile Include="NewFetchers\SugarRushFetcher.cs" />
+    <Compile Include="NewFetchers\SweetBonanzaFetcher.cs" />
+    <Compile Include="NewFetchers\SweetBonanzaXmasFetcher.cs" />
+    <Compile Include="NewFetchers\SwordOfAresFetcher.cs" />
+    <Compile Include="NewFetchers\TemujinTreasuresFetcher.cs" />
+    <Compile Include="NewFetchers\WildWestGoldMegaFetcher.cs" />
+    <Compile Include="NewFetchers\WildWildBananasFetcher.cs" />
+    <Compile Include="NewFetchers\YumYumPowerWaysFetcher.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="SpinDataQueue.cs" />
+    <Compile Include="SqliteWriter.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="config.hocon">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+    <None Include="packages.config" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
+    <Error Condition="!Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets'))" />
+  </Target>
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
+  <Import Project="..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets" Condition="Exists('..\packages\Stub.System.Data.SQLite.Core.NetFramework.1.0.115.5\build\net46\Stub.System.Data.SQLite.Core.NetFramework.targets')" />
+  <ProjectExtensions />
+</Project>

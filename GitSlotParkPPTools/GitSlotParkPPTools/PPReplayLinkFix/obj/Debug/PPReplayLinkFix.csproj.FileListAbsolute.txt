@@ -1,0 +1,14 @@
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\bin\Debug\PPReplayLinkFix.exe.config
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\bin\Debug\PPReplayLinkFix.exe
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\bin\Debug\PPReplayLinkFix.pdb
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.csproj.AssemblyReference.cache
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.csproj.CoreCompileInputs.cache
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.exe
+E:\work\work_by_category\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.pdb
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\bin\Debug\PPReplayLinkFix.exe.config
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\bin\Debug\PPReplayLinkFix.exe
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\bin\Debug\PPReplayLinkFix.pdb
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.csproj.AssemblyReference.cache
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.csproj.CoreCompileInputs.cache
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.exe
+E:\work\GitSlotParkTools\GitSlotParkPPTools\PPReplayLinkFix\obj\Debug\PPReplayLinkFix.pdb

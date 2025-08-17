@@ -1,0 +1,17 @@
+﻿ {
+	ip				= "127.0.0.1"
+	port				= 1433
+	user				= "sa"
+	pass				= "kir_star1996"
+	dbname				= "gitslotpark_seamless"
+    gamelogmaxdays      = 7
+    transactionmaxdays  = 7
+    maxusercount        = 500
+	recentmaxdays		= 20
+	topmaxdays			= 20
+	pgbetmaxdays		= 90
+	starttime			= "03:00:00"
+	endtime				= "17:00:00"
+
+}
+
